@@ -357,7 +357,7 @@ a.parent-link:hover:after {
 
 #menuToggle li {
   display: flex;
-  min-width: 320px;
+  min-width: 280px;
   height: 50px;
   justify-content: center;
   align-items: center;
@@ -523,7 +523,7 @@ a.parent-link:hover:after {
   z-index: 1;
   top: 118px;
   width: 100%;
-  min-width: 320px;
+  min-width: 280px;
   max-width: 1980px;
   height: 204px;
   transition: 0.2s margin-top;
