@@ -1,3 +1,18 @@
+let contactWidgetContainer = document.querySelector('.contact-widget-container');
+let contactWidgetBtn = document.querySelector('.contact-widget-btn');
+
+contactWidgetBtn.addEventListener('click', () => {
+  contactWidgetContainer.classList.toggle('visibility');
+  contactWidgetBtn.classList.toggle('x');
+})
+
+window.addEventListener('click', function (e) {
+    if (!contactWidgetBtn.contains(e.target)) {
+    contactWidgetContainer.classList.remove('visibility');
+    contactWidgetBtn.classList.remove('x');
+  }
+})
+
 for (const dropdown of document.querySelectorAll('.dropdown-list')) {
   dropdown.addEventListener('click', function () {
     this.querySelector('.dropdown-select').classList.toggle('opened');
@@ -19,3 +34,18 @@ window.addEventListener('click', function (e) {
     }
   }
 });
+
+let searchBtn = document.querySelector('.btn-search');
+let searchModal = document.querySelector('.search');
+
+
+window.addEventListener('click', function (e) {
+  if (!searchBtn.contains(e.target) && !searchModal.contains(e.target)) {
+    searchModal.classList.remove('flex');
+  }
+})
+
+searchBtn.addEventListener('click', () => {
+  searchModal.classList.toggle('flex');
+})
+
