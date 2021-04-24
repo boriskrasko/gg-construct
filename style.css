@@ -73,7 +73,7 @@ nav ul li a:before {
 .options {
   position: absolute;
   z-index: 2;
-  top: 140%;
+  top: 144%;
   right: 0;
   left: 0;
   display: block;
@@ -629,4 +629,3 @@ a.parent-link:hover:after {
     display: block;
   }
 }
-
