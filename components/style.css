@@ -758,10 +758,6 @@ footer nav.footnav {
   visibility: visible;
 }
 
-.flex {
-  display: flex;
-}
-
 .x {
   background-image: url(images/icons/cancel.svg)!important;
 }
