@@ -158,7 +158,7 @@
   </nav>
 
   <!-- Topnav menu -->
-  <nav class="topnav" style="margin-top: 100px; margin-bottom: 400px;">
+  <nav class="topnav" style="margin-top: 100px; margin-bottom: 240px;">
     <ul>
       <li class="topnav-item">
         <a class="parent-link" href="">Parent link</a>
@@ -210,6 +210,73 @@
       </li>
     </ul>
   </nav>
+
+  <div id="menuToggle">
+    <input type="checkbox">
+    <span></span>
+    <span></span>
+    <span></span>
+    <ul class="mobile-dropdown-column">
+      <li><a href="">Mobile link</a></li>
+      <li><a href="">Mobile link</a></li>
+      <li><a href="">Mobile link</a></li>
+      <li><a href="">Mobile link</a></li>
+    </ul>
+  </div>
+
+  <a class="btn-default">Call us</a> <br><br>
+  <button class="btn-search">
+    <img src="images/icons/search.svg" alt="search button">
+  </button>
+
+  <!-- Search -->
+
+  <div class="search menuItem searchNew">
+    <div class="search-modal">
+      <div class="search_container">
+        <div class="search_intro-placeholder">
+          <div class="search_intro">
+            What are you looking for?
+          </div>
+        </div>
+        <form id="formMenuSearch" name="query" action="" method="GET">
+          <div class="search_input">
+            <div class="search-wrapper">
+              <input type="search" class="search-box" placeholder="Plaster" autofocus>
+            </div>
+            <div class="search_submit">
+              <button class="btn-default" type="submit">
+              <img src="images/icons/loupe.svg" alt="search">
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="search_placeholder-suggestions">
+        <div class="search_wrapper-suggestions">
+          <span></span>
+          <ul class="search_list-suggestions">
+            <li>
+              <a class="search_link" href="">Plaster</a>
+              <span>|</span>
+            </li>
+            <li>
+              <a class="search_link" href="">Ground</a>
+              <span>|</span>
+            </li>
+            <li>
+              <a class="search_link" href="">Walls</a>
+              <span>|</span>
+            </li>
+            <li>
+              <a class="search_link" href="">Paint</a>
+              <span>|</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="main.js"></script>
 </body>
