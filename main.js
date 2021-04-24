@@ -19,3 +19,17 @@ window.addEventListener('click', function (e) {
     }
   }
 });
+
+let searchBtn = document.querySelector('.btn-search');
+let searchModal = document.querySelector('.search');
+
+
+window.addEventListener('click', function (e) {
+  if (!searchBtn.contains(e.target) && !searchModal.contains(e.target)) {
+    searchModal.classList.remove('flex');
+  }
+})
+
+searchBtn.addEventListener('click', () => {
+  searchModal.classList.toggle('flex');
+})
