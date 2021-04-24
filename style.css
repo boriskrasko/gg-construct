@@ -380,7 +380,7 @@ a.parent-link:hover:after {
   z-index: 2;
   top: -50px;
   /*top: 14px;*/
-  right: 140px;
+  right: 130px;
   display: block;
   width: 40px;
   height: 32px;
@@ -394,7 +394,7 @@ a.parent-link:hover:after {
   position: relative;
   z-index: 1;
   top: -64px;
-  right: 180px;
+  right: 170px;
   display: block;
   width: 33px;
   height: 4px;
@@ -930,5 +930,9 @@ footer nav.footnav {
   }
   #menuToggle {
     display: block;
+  }
+  .topbar,
+  .navbar {
+    padding: 10px 5px;
   }
 }
