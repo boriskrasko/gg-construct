@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GG-CONSTRUCT</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-     <link rel="stylesheet" href="themify-icons/themify-icons.css">
-    <!--[if lt IE 8]><!-->
-    <link rel="stylesheet" href="ie7/ie7.css">
-    <!--<![endif]-->
-  </head>
-  <body>
-    <footer>
-       <nav class="footnav">
+Vue.component('footnav', {
+  template: `
+  <nav class="footnav">
         <div class="footnav-column">
           <h4 class="column-title">Column 1</h4>
           <hr class="title-underline">
@@ -178,7 +166,12 @@
           </ul>
         </div>
       </nav>
-      <div class="basement">
+  `
+});
+
+Vue.component('basement', {
+  template: `
+  <div class="basement">
         <div class="copyright">
           <span class="copyright-title">GG-CONSTRUCT 2021 ©</span>
           <ul class="items-list-inline">
@@ -212,7 +205,12 @@
           </ul>
         </div>
       </div>
-      <div class="contact-widget">
+  `
+});
+
+Vue.component('contact-widget', {
+  template: `
+  <div class="contact-widget">
         <div class="contact-widget-container">
           <ul class="items-of-contact">
             <li class="item-phone">
@@ -237,7 +235,10 @@
         </div>
         <button class="contact-widget-btn"></button>
       </div>
-    </footer>
-    <script src="main.js"></script>
-  </body>
-</html>
+  `
+});
+
+var app = new   Vue({
+el: '#footer'
+})
+
