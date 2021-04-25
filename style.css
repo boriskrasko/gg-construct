@@ -4,6 +4,7 @@
 :root {
   --blue: #3273f5;
   --light-blue: #3273f522;
+  --dark-blue: #0063e5;
   --beige: rgb(238, 236, 226);
 
 }
@@ -31,6 +32,8 @@ a {
 button{
   outline: none;
   border: none;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 ul {
@@ -1054,6 +1057,7 @@ footer nav.footnav {
 
 .card:hover {
   transform: scale(1.1);
+  box-shadow: none;
 }
 
 .card-top, .card-bottom {
@@ -1127,12 +1131,10 @@ footer nav.footnav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /*border: 1px solid gray;*/
 }
 
 .article-content {
   min-height: 40px;
-  /*border: 1px solid gray;*/
 }
 
 .article-heading {
@@ -1141,7 +1143,6 @@ footer nav.footnav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*border: 1px solid gray;*/
 }
 
 .cards {
@@ -1150,6 +1151,114 @@ footer nav.footnav {
   align-items: center;
   flex-wrap: wrap;
   padding: 20px;
+}
+
+/*Boxes*/
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+  min-width: 300px;
+  max-width: 400px;
+  height: 274px;
+  margin: 20px;
+  transition: .4s transform, .6s background;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.box:hover {
+  transform: scale(1.1);
+  background: rgb(238, 236, 226);
+}
+
+.box-heading {
+  display: flex;
+  height: 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-title {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.box-content {
+  display: flex;
+  width: 100%;
+  height: 60%;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-content ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-content li {
+  display: flex;
+  width: 90%;
+  height: 32%;
+  border-bottom: 1px dotted #bbb;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-footer {
+  display: flex;
+  width: 100%;
+  height: 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-footer button {
+  display: flex;
+  width: 90%;
+  height: 60%;
+  color: #fff;
+  border-radius: 8px;
+  background: var(--blue);
+  justify-content: center;
+  align-items: center;
+}
+
+.box-footer button:hover {
+  background: var(--dark-blue);
+}
+
+.box-active {
+  transform: scale(1.05);
+  color: #fff;
+  background: var(--blue);
+}
+
+.box-active:hover {
+  background: var(--blue);
+}
+
+.box-active li {
+  border-bottom: 1px dotted #fff;
+}
+
+.box-active button {
+  background: #26b;
 }
 
 @media screen and (max-width: 760px) {
