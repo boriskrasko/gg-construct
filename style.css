@@ -461,10 +461,10 @@ a.parent-link:hover:after {
 
 .btn-default {
   display: inline-flex;
-  padding: 5px 8px;
+  padding: 7px 8px;
   transition: 0.2s box-shadow;
   color: #fff;
-  border-radius: 8px;
+  border-radius: 6px;
   background: var(--blue);
   box-shadow: 0 0 50px 1px #aaa;
   justify-content: center;
@@ -1416,28 +1416,6 @@ body:not(.device-touch) .button.button-reveal span {
   background: var(--blue);
 }
 
-@media screen and (max-width: 760px) {
-  footer nav .footnav-column {
-    width: 100%;
-  }
-  .basement {
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .copyright,
-  .socials {
-    margin-top: 20px;
-    justify-content: center;
-    align-items: center;
-  }
-  .search {
-    padding: 10px;
-  }
-  .parallax-content {
-    width: 90%;
-  }
-}
-
 /*No home*/
 
 .titlebar {
@@ -1624,6 +1602,104 @@ form {
 form button {
   margin: 20px;
   width: 80px;
+}
+
+.teasers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.teaser-small {
+  width: 22%;
+  min-width: 300px;
+  height: 480px;
+  margin: 1rem;
+  background-color: #F2F0E8;
+  border-radius: 8px;
+  border: 2px solid #fafafa;
+  overflow: hidden;
+}
+
+.teaser-small:hover {
+  border: 2px solid var(--light-blue);
+}
+
+.teaser-small_content {
+  padding: 10px 20px;
+}
+
+.teaser-small_content p {
+  padding: 5px;
+  font-size: 14px;
+}
+
+.teaser-small_title {
+  display: flex;
+  align-items: flex-start;
+}
+
+.teaser-small_image {
+  overflow: hidden;
+}
+
+.teaser-small_image img {
+  transition: 2s transform;
+}
+
+.teaser-small_image img:hover {
+  transform: scale(1.2);
+}
+
+.teaser-small_title .title {
+  font-size: 24px;
+}
+
+.teaser-small .btn-default {
+  background: transparent;
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  box-shadow: 0 0 10px 1px #bbb;
+}
+
+.teaser-small .btn-default:hover {
+  background: var(--blue);
+  color: #fff;
+  border: 1px solid var(--light-blue);
+  box-shadow: 0 0 1px 1px #bbb;
+}
+
+@media screen and (max-width: 760px) {
+  footer nav .footnav-column {
+    width: 100%;
+  }
+  .basement {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .copyright,
+  .socials {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .search {
+    padding: 10px;
+  }
+  .parallax-content {
+    width: 90%;
+  }
+
+  .teasers {
+    justify-content: center;
+  }
+  .teaser-small {
+    width: 90%;
+    height: 400px;
+  }
+  .teaser-small_image {
+    height: 50%;
+  }
 }
 
 @media screen and (max-width: 1024px) {
