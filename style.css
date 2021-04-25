@@ -627,7 +627,7 @@ a.parent-link:hover:after {
 /*Foonav*/
 
 footer {
-  border-top: 1px solid var(--blue);
+  border-top: 3px solid var(--blue);
 }
 
 footer nav.footnav {
@@ -1404,17 +1404,12 @@ body:not(.device-touch) .button.button-reveal span {
   display: flex;
   justify-content: center;
   align-items: center;
-      -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
-    color: #4D4D4D;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
-    margin-top: 15px;
-    text-align: center;
+  color: #4D4D4D;
+  box-sizing: border-box;
+  font: inherit;
+  vertical-align: baseline;
+  margin-top: 15px;
+  text-align: center;
 }
 
 .circle:hover {
@@ -1442,6 +1437,183 @@ body:not(.device-touch) .button.button-reveal span {
     width: 90%;
   }
 }
+
+/*No home*/
+
+.titlebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  background: var(--beige);
+  min-height: 100px;
+  padding: 10px 20px;
+}
+
+.titlebar-path {
+  font-size: 12px;
+  color: var(--blue);
+}
+
+.titlebar-path a {
+  margin: 0 .4rem;
+  color: #444;
+}
+
+.titlebar-path a:hover {
+  text-decoration: underline
+}
+
+.titlebar-path a:first-child {
+  margin: 0 .4rem 0 0
+}
+
+.titlebar-title {
+  color: #777;
+  font-family: Raleway,sans-serif;
+  hyphens: none;
+  word-break: break-word;
+  font-weight: 700;
+  display: inline;
+  font-size: 21px;
+  line-height: normal;
+}
+
+.m-article_content {
+  min-height: initial;
+  padding-left: 120px;
+  padding-right: 120px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width:359px) {
+  .m-article_content {
+    padding-left: 15px;
+    padding-right: 15px
+  }
+}
+
+@media (min-width:360px) and (max-width:767px) {
+  .m-article_content {
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
+  }
+  .m-article {
+  width: 100%;
+}
+}
+
+.m-article_content h2 {
+  margin-bottom: 1.5rem
+}
+
+.m-article {
+  margin-top: 2rem;
+}
+
+.paragraph.contact h3 {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 700
+}
+
+.paragraph.contact h3 .icon img {
+  width: 24px;
+  margin-right: 10px;
+  margin-top: -4px
+}
+
+.paragraph.contact ul {
+  margin-bottom: 15px;
+  list-style-image: url(images/icons/arrow-blue.svg);
+  margin: 10px 0 10px 25px;
+}
+
+.paragraph {
+  line-height: 32px;
+  line-height: 2rem;
+  margin-bottom: 2rem
+}
+
+.paragraph .title,
+.sidenav-title {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.underline {
+  margin: 0;
+}
+
+.paragraph:last-child {
+  margin-bottom: 0
+}
+
+.paragraph li {
+  font-size: 16px;
+  padding: 2px 10px;
+}
+
+.paragraph a {
+  color: var(--blue);
+}
+
+.paragraph p {
+  margin-bottom: 18px;
+  line-height: 32px;
+  line-height: 2rem;
+  font-size: 16px
+}
+
+.sidenav-file-listt li a::before {
+  height: 0
+}
+
+.sidenav-file-list li {
+  border-bottom: 1px dotted #DAD7C5
+}
+
+.sidenav-file-list {
+  line-height: 32px;
+  line-height: 2rem;
+  margin-top: 12%;
+  margin-bottom: 1rem;
+  padding: 0 0 1rem
+}
+
+.sidenav-file-list li {
+  padding-top: .25rem;
+  padding-bottom: .25rem
+}
+
+.sidenav-file-list li a {
+  display: block;
+  padding: .25rem 1rem;
+  border-radius: 5px;
+  color: var(--blue);
+}
+
+.sidenav-file-list li a:hover {
+  color: #444;
+}
+
+.sidenav-title img {
+  margin-left: 20px;
+  width: 32px;
+}
+
+.sidenav-title {
+  display: flex;
+  align-items: center;
+}
+
+.active {
+  background: var(--light-blue);
+}
+
 
 @media screen and (max-width: 1024px) {
   nav.topnav ul {
