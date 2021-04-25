@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GG-CONSTRUCT | Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="themify-icons/themify-icons.css">
+    <!--[if lt IE 8]><!-->
+    <link rel="stylesheet" href="ie7/ie7.css">
+    <!--<![endif]-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  </head>
+  <body>
+    <header id="header">
+      <topbar></topbar>
+      <navbar></navbar>
+      <toggle-menu></toggle-menu>
+      <search></search>
+    </header>
+    <main>
+       <div class="titlebar">
+        <span class="titlebar-path">
+        <a href="index.html">Home</a> ›
+        <a href="contact.html">Contact</a> ›
+        <a href="">Contactformulier</a> ›
+        </span>
+        <div class="titlebar-title">
+          <h1>Contactformulier</h1>
+        </div>
+      </div>
+      <div class="m-article_content">
+        <section class="m-article">
+          <div class="paragraph contact">
+            <form>
+              Name
+              <input type="text" name="name">
+              Phone
+              <input type="phone" name="phone">
+              E-mail
+              <input type="mail" name="mail">
+              Message
+              <textarea placeholder="Your text" rows="10" cols="40"></textarea>
+              <button class="btn-default">Send</button>
+            </form>
+          </div>
+        </section>
+        <div class="m-article sidenav">
+          <h3 class="title"><a class="sidenav-title" href="">Contacteer ons <i class="icon"><img src="images/icons/send.svg"></i></a></h3>
+          <hr class="underline bg-blue">
+          <ul class="sidenav-file-list">
+            <li><a class="active" href="">Contactformulier</a></li>
+            <li><a href="contact.html">Bel ons</a></li>
+            <li><a href="">Option</a></li>
+            <li><a href="">Contactpunten</a></li>
+          </ul>
+        </div>
+      </div>
+        
+    </main>
+    <footer id="footer">
+      <footnav></footnav>
+      <basement></basement>
+      <contact-widget></contact-widget>
+    </footer>
+    <script src="header.js"></script>
+    <script src="footer.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

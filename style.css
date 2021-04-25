@@ -1614,6 +1614,17 @@ body:not(.device-touch) .button.button-reveal span {
   background: var(--light-blue);
 }
 
+/*Form*/
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form button {
+  margin: 20px;
+  width: 80px;
+}
 
 @media screen and (max-width: 1024px) {
   nav.topnav ul {
