@@ -58,51 +58,51 @@ Vue.component('navbar', {
       <nav class="topnav">
         <ul>
           <li class="topnav-item">
-            <a class="parent-link" href="">Parent link</a>
+            <a class="parent-link" href="nohome.html">Parent link</a>
             <ul class="topnav-dropdown-column">
-              <li><a href="">Long child link for testing</a></li>
-              <li><a href="">Child link</a></li>
-              <li><a href="">Child link</a></li>
-              <li><a href="">Child link</a></li>
-              <li><a href="">Child link</a></li>
-              <li><a href="">Child link</a></li>
-              <li><a class="more" href="">More...</a></li>
+              <li><a href="nohome.html">Long child link for testing</a></li>
+              <li><a href="nohome.html">Child link</a></li>
+              <li><a href="nohome.html">Child link</a></li>
+              <li><a href="nohome.html">Child link</a></li>
+              <li><a href="nohome.html">Child link</a></li>
+              <li><a href="nohome.html">Child link</a></li>
+              <li><a class="more" href="nohome.html">More...</a></li>
             </ul>
           </li>
           <li class="topnav-item parent">
-            <a class="parent-link" href="">Parent link</a>
+            <a class="parent-link" href="nohome.html">Parent link</a>
             <ul class="topnav-dropdown-column">
-              <li><a href="">Link link link</a></li>
-              <li><a href="">Link</a></li>
-              <li><a href="">Link</a></li>
-              <li><a href="">Link</a></li>
-              <li><a href="">Link</a></li>
-              <li><a href="">Link</a></li>
-              <li><a class="more" href="">More...</a></li>
+              <li><a href="nohome.html">Link link link</a></li>
+              <li><a href="nohome.html">Link</a></li>
+              <li><a href="nohome.html">Link</a></li>
+              <li><a href="nohome.html">Link</a></li>
+              <li><a href="nohome.html">Link</a></li>
+              <li><a href="nohome.html">Link</a></li>
+              <li><a class="more" href="nohome.html">More...</a></li>
             </ul>
           </li>
           <li class="topnav-item">
-            <a class="parent-link" href="">Parent link</a>
+            <a class="parent-link" href="nohome.html">Parent link</a>
             <ul class="topnav-dropdown-column">
-              <li><a href="">Link link link</a></li>
-              <li><a href="">Link</a></li>
-              <li><a href="">Link</a></li>
-              <li><a href="">Link</a></li>
-              <li><a href="">Link</a></li>
-              <li><a href="">Link</a></li>
-              <li><a class="more" href="">More...</a></li>
+              <li><a href="nohome.html">Link link link</a></li>
+              <li><a href="nohome.html">Link</a></li>
+              <li><a href="nohome.html">Link</a></li>
+              <li><a href="nohome.html">Link</a></li>
+              <li><a href="nohome.html">Link</a></li>
+              <li><a href="nohome.html">Link</a></li>
+              <li><a class="more" href="nohome.html">More...</a></li>
             </ul>
           </li>
           <li class="topnav-item">
-            <a class="parent-link" href="">Parent link</a>
+            <a class="parent-link" href="nohome.html">Parent link</a>
             <ul class="topnav-dropdown-column">
-              <li><a href="">Link link link</a></li>
-              <li><a href="">Link</a></li>
-              <li><a href="">Link</a></li>
-              <li><a href="">Link</a></li>
-              <li><a href="">Link</a></li>
-              <li><a href="">Link</a></li>
-              <li><a class="more" href="">More...</a></li>
+              <li><a href="nohome.html">Link link link</a></li>
+              <li><a href="nohome.html">Link</a></li>
+              <li><a href="nohome.html">Link</a></li>
+              <li><a href="nohome.html">Link</a></li>
+              <li><a href="nohome.html">Link</a></li>
+              <li><a href="nohome.html">Link</a></li>
+              <li><a class="more" href="nohome.html">More...</a></li>
             </ul>
           </li>
         </ul>
@@ -128,10 +128,10 @@ Vue.component('toggle-menu', {
       <span></span>
       <span></span>
       <ul class="mobile-dropdown-column">
-        <li><a href="">Mobile link</a></li>
-        <li><a href="">Mobile link</a></li>
-        <li><a href="">Mobile link</a></li>
-        <li><a href="">Mobile link</a></li>
+        <li><a href="nohome.html">Mobile link</a></li>
+        <li><a href="nohome.html">Mobile link</a></li>
+        <li><a href="nohome.html">Mobile link</a></li>
+        <li><a href="nohome.html">Mobile link</a></li>
       </ul>
     </div>
   `
@@ -166,19 +166,19 @@ Vue.component('search', {
               <span></span>
               <ul class="search_list-suggestions">
                 <li>
-                  <a class="search_link" href="">Plaster</a>
+                  <a class="search_link" href="nohome.html">Plaster</a>
                   <span>|</span>
                 </li>
                 <li>
-                  <a class="search_link" href="">Ground</a>
+                  <a class="search_link" href="nohome.html">Ground</a>
                   <span>|</span>
                 </li>
                 <li>
-                  <a class="search_link" href="">Walls</a>
+                  <a class="search_link" href="nohome.html">Walls</a>
                   <span>|</span>
                 </li>
                 <li>
-                  <a class="search_link" href="">Paint</a>
+                  <a class="search_link" href="nohome.html">Paint</a>
                   <span>|</span>
                 </li>
               </ul>

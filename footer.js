@@ -6,37 +6,37 @@ Vue.component('footnav', {
           <hr class="title-underline">
           <ul>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link1
               </a>
             </li>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link2
               </a>
             </li>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link3
               </a>
             </li>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link4
               </a>
             </li>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link5
               </a>
             </li>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link6
               </a>
             </li>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link7
               </a>
             </li>
@@ -47,37 +47,37 @@ Vue.component('footnav', {
           <hr class="title-underline">
           <ul>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link1
               </a>
             </li>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link2
               </a>
             </li>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link3
               </a>
             </li>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link4
               </a>
             </li>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link5
               </a>
             </li>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link6
               </a>
             </li>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link7
               </a>
             </li>
@@ -88,37 +88,37 @@ Vue.component('footnav', {
           <hr class="title-underline">
           <ul>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link1
               </a>
             </li>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link2
               </a>
             </li>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link3
               </a>
             </li>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link4
               </a>
             </li>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link5
               </a>
             </li>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link6
               </a>
             </li>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link7
               </a>
             </li>
@@ -129,37 +129,37 @@ Vue.component('footnav', {
           <hr class="title-underline">
           <ul>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link1
               </a>
             </li>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link2
               </a>
             </li>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link3
               </a>
             </li>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link4
               </a>
             </li>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link5
               </a>
             </li>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link6
               </a>
             </li>
             <li class="footnav-link-item">
-              <a href="" target="_self">
+              <a href="nohome.html">
               Link7
               </a>
             </li>
@@ -176,22 +176,22 @@ Vue.component('basement', {
           <span class="copyright-title">GG-CONSTRUCT 2021 ©</span>
           <ul class="items-list-inline">
             <li>
-              <a href="" target="_self">
+              <a href="nohome.html">
               <span>Privacy</span>
               </a>
             </li>
             <li>
-              <a href="" target="_self">
+              <a href="nohome.html">
               <span>Cookies</span>
               </a>
             </li>
             <li>
-              <a href="" target="_self">
+              <a href="nohome.html">
               <span>Item</span>
               </a>
             </li>
             <li>
-              <a href="" target="_self">
+              <a href="nohome.html">
               <span>Item</span>
               </a>
             </li>
@@ -214,17 +214,17 @@ Vue.component('contact-widget', {
         <div class="contact-widget-container">
           <ul class="items-of-contact">
             <li class="item-phone">
-              <a href="">
+              <a href="nohome.html">
               <img src="images/icons/call.svg" alt="phone call us">
               </a>
             </li>
             <li class="item-mail">
-              <a href="">
+              <a href="nohome.html">
               <img src="images/icons/envelope.svg" alt="send a mail">
               </a>
             </li>
             <li class="item-form">
-              <a href="">
+              <a href="nohome.html">
               <img src="images/icons/bullet-form.svg" alt="fill in the form">
               </a>
             </li>
