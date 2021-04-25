@@ -1223,6 +1223,40 @@ body:not(.device-touch) .button.button-reveal span {
   left: 16px;
 }
 
+/*Circles*/ 
+
+.circles > div {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  margin: 20px 40px;
+  border-radius: 50%;
+  background: #eee;
+  border: 5px solid var(--blue);
+  transition: 0.2s background;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle:hover {
+  background: var(--blue);
+}
+
+.circle-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 760px) {
   footer nav .footnav-column {
     width: 100%;

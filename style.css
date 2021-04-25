@@ -1368,6 +1368,59 @@ body:not(.device-touch) .button.button-reveal span {
   left: 16px;
 }
 
+/*Circles*/
+
+.circles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.circles-container {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  margin: 20px 40px;
+  border-radius: 50%;
+  background: #eee;
+  border: 5px solid var(--blue);
+  transition: 0.2s background;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+      -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    color: #4D4D4D;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.circle:hover {
+  background: var(--blue);
+}
+
 @media screen and (max-width: 760px) {
   footer nav .footnav-column {
     width: 100%;
