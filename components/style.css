@@ -1257,6 +1257,47 @@ body:not(.device-touch) .button.button-reveal span {
   align-items: center;
 }
 
+/*Titlebar*/
+
+.titlebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  background: var(--beige);
+  min-height: 100px;
+  padding: 10px 20px;
+}
+
+.titlebar-path {
+  font-size: 14px;
+  color: var(--blue);
+}
+
+.titlebar-path a {
+  margin: 0 .4rem;
+  color: #444;
+}
+
+.titlebar-path a:hover {
+  text-decoration: underline
+}
+
+.titlebar-path a:first-child {
+  margin: 0 .4rem 0 0
+}
+
+.titlebar-title {
+  color: var(--blue);
+  font-family: Raleway,sans-serif;
+  hyphens: none;
+  word-break: break-word;
+  font-weight: 700;
+  display: inline;
+  font-size: 21px;
+  line-height: normal;
+}
+
 @media screen and (max-width: 760px) {
   footer nav .footnav-column {
     width: 100%;
