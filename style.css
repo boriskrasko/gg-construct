@@ -720,7 +720,7 @@ footer nav.footnav {
 }
 
 .socials li a {
-  font-size: 24px;
+  font-size: 18px;
   display: flex;
   width: 34px;
   height: 34px;
@@ -1541,6 +1541,13 @@ body:not(.device-touch) .button.button-reveal span {
 
 .m-article {
   margin-top: 2rem;
+}
+
+.m-article .socials {
+  background: var(--light-blue);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 20px;
 }
 
 .paragraph.contact h3 {
