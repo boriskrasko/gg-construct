@@ -605,7 +605,8 @@ a.parent-link:hover:after {
 }
 
 .navbar {
-  position: relative;
+  position: absolute;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -788,17 +789,20 @@ footer nav.footnav {
 }
 
 .contact-widget-container {
-  visibility: hidden;
+  display: none;
+  overflow: hidden;
   width: 60px;
-  min-height: 240px;
+  /*min-height: 240px;*/
   margin-bottom: -60px;
   border-radius: 16px;
   background: #fff;
   box-shadow: 0 0 20px 1px #444;
+  animation: stretching 0.2s both;
 }
 
 .visibility {
   visibility: visible;
+  display: block;
 }
 
 .x {
@@ -821,12 +825,17 @@ footer nav.footnav {
   background: #eee;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .items-of-contact li a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.items-of-contact li:hover {
+  background: var(--light-blue);
 }
 
 .items-of-contact li img {
@@ -872,6 +881,15 @@ footer nav.footnav {
   border-color: transparent var(--blue);
 }
 
+@keyframes stretching {
+  0% {
+    height: 60px;
+  }
+  100% {
+    height: 240px;
+  }
+}
+
 @keyframes chat-to {
   0% {
     transform: translateX(600px);
@@ -915,7 +933,7 @@ footer nav.footnav {
 .startscreen {
   width: 100%;
   height: 500px;
-  /*transition: all 1s;*/
+  background-color: #ddd;
   /*background-image: url(images/renovation.jpeg);*/
   background-size: cover;
   background-repeat: no-repeat;
@@ -943,7 +961,7 @@ footer nav.footnav {
   text-align: center;
   vertical-align: baseline;
   color: #4d4d4d;
-  border: 0;
+  border: 1px solid #eee;
   border-radius: 6px;
   background: linear-gradient(#fffc, #fff);
 }
@@ -1456,6 +1474,26 @@ body:not(.device-touch) .button.button-reveal span {
   display: inline;
   font-size: 21px;
   line-height: normal;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.titlebar-title h1 {
+  margin-right: 40px;
+}
+
+.titlebar-title button, .titlebar-title input {
+  width: 60px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.titlebar-title button:hover {
+  background: var(--light-blue);
 }
 
 .m-article_content {
@@ -1465,6 +1503,18 @@ body:not(.device-touch) .button.button-reveal span {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.titlebar-title .socials-share {
+  display: flex;
+}
+
+.titlebar-title .socials {
+  visibility: hidden;
+}
+
+.titlebar-title input:checked ~.socials {
+  visibility: visible;
 }
 
 @media (max-width:359px) {
@@ -1602,11 +1652,39 @@ body:not(.device-touch) .button.button-reveal span {
 form {
   display: flex;
   flex-direction: column;
+  min-width: 500px;
+  margin-right: 33px;
 }
 
 form button {
-  margin: 20px;
+  margin: 20px 0;
   width: 80px;
+}
+
+form label {
+  width: 100%;
+  min-height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+form label input {
+  width: 100%;
+  height: 36px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 5px;
+  color: #444;
+}
+
+form label textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 5px;
 }
 
 .teasers {
@@ -1680,6 +1758,10 @@ form button {
   width: 100%;
 }
 
+.main {
+  margin-top: 75px;
+}
+
 @media screen and (max-width: 760px) {
   footer nav .footnav-column {
     width: 100%;
@@ -1700,7 +1782,6 @@ form button {
   .parallax-content {
     width: 90%;
   }
-
   .teasers {
     justify-content: center;
   }
@@ -1710,6 +1791,9 @@ form button {
   }
   .teaser-small_image {
     height: 50%;
+  }
+  form {
+    min-width: 300px;
   }
 }
 
@@ -1737,5 +1821,8 @@ form button {
   }
   .inner-text {
     width: 99%;
+  }
+  .m-article {
+    width: 100%;
   }
 }
