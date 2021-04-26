@@ -49,3 +49,30 @@ searchBtn.addEventListener('click', () => {
   searchModal.classList.toggle('flex');
 })
 
+window.onscroll = function () {
+  myFunction()
+};
+
+let navbar = document.querySelector('.navbar');
+let main = document.querySelector('.main');
+let mobile = document.getElementById('menuToggle');
+let sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add('sticky');
+    searchModal.style.marginTop = '-40px';
+    mobile.style.position = 'fixed';
+    mobile.style.marginTop = '-40px';
+    main.style.marginTop = (window.innerWidth > 1024) ? '80px' : '10px';
+
+  } else {
+    navbar.classList.remove('sticky');
+    mobile.classList.remove('sticky');
+    mobile.style.marginTop = '-120px';
+    mobile.style.position = 'relative';
+    searchModal.style.marginTop = '0';
+    main.style.marginTop = '0';
+  }
+}
+
