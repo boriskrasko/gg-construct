@@ -605,7 +605,8 @@ a.parent-link:hover:after {
 }
 
 .navbar {
-  position: relative;
+  position: absolute;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -788,17 +789,20 @@ footer nav.footnav {
 }
 
 .contact-widget-container {
-  visibility: hidden;
+  display: none;
+  overflow: hidden;
   width: 60px;
-  min-height: 240px;
+  /*min-height: 240px;*/
   margin-bottom: -60px;
   border-radius: 16px;
   background: #fff;
   box-shadow: 0 0 20px 1px #444;
+  animation: stretching 0.2s both;
 }
 
 .visibility {
   visibility: visible;
+  display: block;
 }
 
 .x {
@@ -821,12 +825,17 @@ footer nav.footnav {
   background: #eee;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .items-of-contact li a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.items-of-contact li:hover {
+  background: var(--light-blue);
 }
 
 .items-of-contact li img {
@@ -872,6 +881,15 @@ footer nav.footnav {
   border-color: transparent var(--blue);
 }
 
+@keyframes stretching {
+  0% {
+    height: 60px;
+  }
+  100% {
+    height: 240px;
+  }
+}
+
 @keyframes chat-to {
   0% {
     transform: translateX(600px);
@@ -915,7 +933,7 @@ footer nav.footnav {
 .startscreen {
   width: 100%;
   height: 500px;
-  /*transition: all 1s;*/
+  background-color: #ddd;
   /*background-image: url(images/renovation.jpeg);*/
   background-size: cover;
   background-repeat: no-repeat;
@@ -943,7 +961,7 @@ footer nav.footnav {
   text-align: center;
   vertical-align: baseline;
   color: #4d4d4d;
-  border: 0;
+  border: 1px solid #eee;
   border-radius: 6px;
   background: linear-gradient(#fffc, #fff);
 }
@@ -1680,6 +1698,10 @@ form button {
   width: 100%;
 }
 
+.main {
+  margin-top: 75px;
+}
+
 @media screen and (max-width: 760px) {
   footer nav .footnav-column {
     width: 100%;
@@ -1700,7 +1722,6 @@ form button {
   .parallax-content {
     width: 90%;
   }
-
   .teasers {
     justify-content: center;
   }
