@@ -32,7 +32,6 @@ a {
 button{
   outline: none;
   border: none;
-  overflow: hidden;
   cursor: pointer;
 }
 
@@ -82,7 +81,7 @@ img {
 
 .options {
   position: absolute;
-  z-index: 2;
+  z-index: 4001;
   top: 144%;
   right: 0;
   left: 0;
@@ -350,7 +349,7 @@ a.parent-link:hover:after {
 
 #menuToggle {
   position: absolute;
-  z-index: 1;
+  z-index: 4000;
   display: none;
   width: 100%;
   top: 114px;
@@ -612,6 +611,8 @@ a.parent-link:hover:after {
   align-items: center;
   padding: 10px 20px;
   border-bottom: 1px solid #eee;
+  background: #fff;
+  z-index: 4000;
 }
 
 .topnav-btns {
@@ -1580,7 +1581,11 @@ body:not(.device-touch) .button.button-reveal span {
 
 .sidenav-title img {
   margin-left: 20px;
-  width: 32px;
+  width: 21px;
+}
+
+.sidenav-title img:hover {
+  filter: grayscale(1);
 }
 
 .sidenav-title {
@@ -1613,7 +1618,7 @@ form button {
 .teaser-small {
   width: 22%;
   min-width: 300px;
-  height: 480px;
+  min-height: 480px;
   margin: 1rem;
   background-color: #F2F0E8;
   border-radius: 8px;
@@ -1667,6 +1672,12 @@ form button {
   color: #fff;
   border: 1px solid var(--light-blue);
   box-shadow: 0 0 1px 1px #bbb;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 @media screen and (max-width: 760px) {

@@ -509,11 +509,12 @@ a.parent-link:hover:after {
 
 /*Search*/
 
-.search {
+.search-modal {
   /*position: fixed;*/
   z-index: 4;
   /*top: 110px;*/
-  display: flex;
+  /*display: flex;*/
+  display: none;
   width: 100%;
   min-width: 320px;
   max-width: 1980px;
@@ -533,7 +534,7 @@ a.parent-link:hover:after {
   color: #556;
 }
 
-.search input {
+.search-modal input {
   font-size: 24px;
   width: 100%;
   height: 40px;
@@ -582,6 +583,10 @@ a.parent-link:hover:after {
 
 .search_list-suggestions a:hover {
   color: var(--blue);
+}
+
+.search input:checked~.search-modal {
+  display: flex;
 }
 
 .topnav {
