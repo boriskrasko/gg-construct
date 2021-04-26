@@ -1580,7 +1580,11 @@ body:not(.device-touch) .button.button-reveal span {
 
 .sidenav-title img {
   margin-left: 20px;
-  width: 32px;
+  width: 21px;
+}
+
+.sidenav-title img:hover {
+  filter: grayscale(1);
 }
 
 .sidenav-title {
@@ -1613,7 +1617,7 @@ form button {
 .teaser-small {
   width: 22%;
   min-width: 300px;
-  height: 480px;
+  min-height: 480px;
   margin: 1rem;
   background-color: #F2F0E8;
   border-radius: 8px;
