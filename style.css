@@ -1474,6 +1474,26 @@ body:not(.device-touch) .button.button-reveal span {
   display: inline;
   font-size: 21px;
   line-height: normal;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.titlebar-title h1 {
+  margin-right: 40px;
+}
+
+.titlebar-title button, .titlebar-title input {
+  width: 60px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.titlebar-title button:hover {
+  background: var(--light-blue);
 }
 
 .m-article_content {
@@ -1483,6 +1503,18 @@ body:not(.device-touch) .button.button-reveal span {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.titlebar-title .socials-share {
+  display: flex;
+}
+
+.titlebar-title .socials {
+  visibility: hidden;
+}
+
+.titlebar-title input:checked ~.socials {
+  visibility: visible;
 }
 
 @media (max-width:359px) {
