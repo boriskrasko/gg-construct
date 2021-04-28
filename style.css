@@ -1815,6 +1815,49 @@ form label textarea {
   margin-top: 75px;
 }
 
+/*pvc*/
+
+.blue-line-menu {
+  height: 50px;
+  width: 100%;
+  background: var(--blue);
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #eee;
+}
+
+.blue-line-menu li span {
+  display: block;
+  overflow: hidden;
+  width: 0px;
+  transition: 0.3s width, 0.2s background;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+}
+
+.blue-line-menu ul, .blue-line-menu li {
+  margin-left: 40px;
+  display: flex;
+  transition: 0.2s transform;
+  cursor: pointer;
+  height: 50px;
+  align-items: center;
+}
+
+.blue-line-menu li:hover .plus {
+  width: 20px;
+  background: #aaa;
+}
+
+/*.blue-line-menu li:hover {
+  transform: translateX(10px);
+}*/
+
 @media screen and (max-width: 760px) {
   footer nav .footnav-column {
     width: 100%;
