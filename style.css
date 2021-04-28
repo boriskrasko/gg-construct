@@ -1833,7 +1833,7 @@ form label textarea {
   overflow: hidden;
   width: 0px;
   transition: 0.3s width, 0.2s background;
-  height: 50px;
+  min-height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1845,8 +1845,12 @@ form label textarea {
   display: flex;
   transition: 0.2s transform;
   cursor: pointer;
-  height: 50px;
+  min-height: 50px;
   align-items: center;
+}
+
+.blue-line-menu ul {
+  flex-wrap: wrap;
 }
 
 .blue-line-menu li:hover .plus {
