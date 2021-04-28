@@ -60,7 +60,7 @@ Vue.component('navbar', {
           <li class="topnav-item">
             <a class="parent-link" href="werk.html">Soorten Werk</a>
             <ul class="topnav-dropdown-column">
-              <li><a href="vloren.html">Vloeren</a></li>
+              <li><a href="vloeren.html">Vloeren</a></li>
               <li><a href="nohome.html">Child link</a></li>
               <li><a href="nohome.html">Child link</a></li>
               <li><a href="nohome.html">Child link</a></li>
