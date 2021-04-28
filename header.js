@@ -58,9 +58,9 @@ Vue.component('navbar', {
       <nav class="topnav">
         <ul>
           <li class="topnav-item">
-            <a class="parent-link" href="nohome.html">Parent link</a>
+            <a class="parent-link" href="werk.html">Soorten Werk</a>
             <ul class="topnav-dropdown-column">
-              <li><a href="nohome.html">Long child link for testing</a></li>
+              <li><a href="vloren.html">Vloeren</a></li>
               <li><a href="nohome.html">Child link</a></li>
               <li><a href="nohome.html">Child link</a></li>
               <li><a href="nohome.html">Child link</a></li>
