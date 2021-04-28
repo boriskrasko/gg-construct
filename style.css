@@ -723,7 +723,7 @@ footer nav.footnav {
   justify-content: flex-end;
 }
 
-.socials li a {
+.socials li a, .socials .ti-printer {
   font-size: 18px;
   display: flex;
   width: 34px;
@@ -733,9 +733,11 @@ footer nav.footnav {
   justify-content: center;
   align-items: center;
   transition: 0.2s background, 0.1s color;
+  cursor: pointer;
 }
 
-.socials li a:hover {
+.socials li a:hover,
+.socials .ti-printer:hover {
   background: var(--blue);
   color: #fff;
 }
@@ -931,6 +933,21 @@ footer nav.footnav {
     visibility: hidden;
     width: 10px;
     opacity: 0;
+  }
+}
+
+@keyframes share-to {
+  
+  0% {
+    width: 10px;
+    opacity: 0;
+    overflow: hidden;
+
+  }
+  100% {
+    width: 100%;
+    opacity: 1;
+    overflow: hidden;
   }
 }
 
@@ -1488,12 +1505,17 @@ body:not(.device-touch) .button.button-reveal span {
 }
 
 .titlebar-title button, .titlebar-title input {
-  width: 60px;
-  height: 40px;
+  min-width: 60px;
+  min-height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 8px;
+}
+
+.titlebar-title button {
+  margin-left: -60px;
+  z-index: 0;
 }
 
 .titlebar-title button:hover {
@@ -1509,16 +1531,36 @@ body:not(.device-touch) .button.button-reveal span {
   flex-wrap: wrap;
 }
 
+/*.titlebar-title * {
+  border: 1px solid gray;
+}*/
+
 .titlebar-title .socials-share {
   display: flex;
+  align-items: center;
 }
 
 .titlebar-title .socials {
-  visibility: hidden;
+  display: none;
+  animation: share-to 0.5s both 0.1s;
 }
 
 .titlebar-title input:checked ~.socials {
-  visibility: visible;
+  display: flex;
+}
+
+.titlebar-title input {
+  opacity: 0;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.titlebar-title input:hover~.share-btn{
+  background: var(--light-blue);
+}
+
+.socials-share .socials li a {
+  border-radius: 50%;
 }
 
 @media (max-width:359px) {
