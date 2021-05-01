@@ -211,30 +211,31 @@ Vue.component('basement', {
 Vue.component('contact-widget', {
   template: `
   <div class="contact-widget">
-        <div class="contact-widget-container">
-          <ul class="items-of-contact">
-            <li class="item-phone">
-              <a href="contact.html">
-              <img src="images/icons/call.svg" alt="phone call us">
-              </a>
-            </li>
-            <li class="item-mail">
-              <a href="mailto:gg.construct@live.com">
-              <img src="images/icons/envelope.svg" alt="send a mail">
-              </a>
-            </li>
-            <li class="item-form">
-              <a href="form.html">
-              <img src="images/icons/bullet-form.svg" alt="fill in the form">
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="chat-to">
-          <p>Contact us</p>
-        </div>
-        <button class="contact-widget-btn"></button>
-      </div>
+    <input type="checkbox" class="contact-widget-input">
+    <button class="contact-widget-btn"></button>
+    <div class="contact-widget-container">
+      <ul class="items-of-contact">
+        <li class="item-phone">
+          <a href="">
+          <img src="images/icons/call.svg" alt="phone call us">
+          </a>
+        </li>
+        <li class="item-mail">
+          <a href="">
+          <img src="images/icons/envelope.svg" alt="send a mail">
+          </a>
+        </li>
+        <li class="item-form">
+          <a href="">
+          <img src="images/icons/bullet-form.svg" alt="fill in the form">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="chat-to">
+      <p>Contact us</p>
+    </div>
+  </div>
   `
 });
 
