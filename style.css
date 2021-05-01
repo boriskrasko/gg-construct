@@ -1947,3 +1947,24 @@ form label textarea {
     width: 100%;
   }
 }
+
+::-webkit-scrollbar {
+  width: 4px;
+  background: var(--light-blue); 
+  -webkit-border-radius: 2px;
+}
+ 
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.3); 
+  -webkit-border-radius: 2px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: var(--blue); 
+  -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.5); 
+   -webkit-border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #002E3B; 
+}
