@@ -735,9 +735,11 @@ footer nav.footnav {
   right: 10px;
   bottom: 80px;
   z-index: 4000;
+  display: flex;
+  flex-direction: column;
 }
 
-.contact-widget button {
+.contact-widget-btn, .contact-widget-input {
   width: 60px;
   height: 60px;
   transition: .2s background-image;
@@ -750,9 +752,16 @@ footer nav.footnav {
   background-size: 60%;
   box-shadow: 0 0 20px 1px #444;
   cursor: pointer;
+  order: 2;
 }
 
-.contact-widget button:hover {
+.contact-widget-input {
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+}
+
+.contact-widget-input:hover~.contact-widget-btn {
   background-color: var(--blue);
   background-image: url(images/icons/chat-white.svg);
 }
@@ -765,14 +774,15 @@ footer nav.footnav {
   border-radius: 16px;
   background: #fff;
   box-shadow: 0 0 20px 1px #444;
+  order: 1;
 }
 
-.visibility {
+.contact-widget-input:checked~.contact-widget-container {
   visibility: visible;
 }
 
-.x {
-  background-image: url(images/icons/cancel.svg)!important;
+.contact-widget-input:checked~.contact-widget-btn {
+  background-image: url(images/icons/cancel.svg);
 }
 
 .items-of-contact {
