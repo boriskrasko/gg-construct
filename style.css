@@ -1903,6 +1903,12 @@ form label textarea {
   form {
     min-width: 300px;
   }
+  .contact-widget {
+    bottom: 40px;
+  }
+  .chat-to {
+    bottom: 55px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
