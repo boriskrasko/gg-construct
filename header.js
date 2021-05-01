@@ -140,54 +140,52 @@ Vue.component('toggle-menu', {
 
 Vue.component('search', {
   template: `
-  <transition name="modal">
-    <div class="search">
-        <div class="search-modal">
-          <div class="search_container">
-            <div class="search_intro-placeholder">
-              <div class="search_intro">
-                What are you looking for?
-              </div>
+  <div class="search">
+      <div class="search-modal">
+        <div class="search_container">
+          <div class="search_intro-placeholder">
+            <div class="search_intro">
+              What are you looking for?
             </div>
-            <form id="formMenuSearch" name="query" action="" method="GET">
-              <div class="search_input">
-                <div class="search-wrapper">
-                  <input type="search" class="search-box" placeholder="Plaster" autofocus>
-                </div>
-                <div class="search_submit">
-                  <button class="btn-default" type="submit">
-                  <img src="images/icons/loupe.svg" alt="search">
-                  </button>
-                </div>
-              </div>
-            </form>
           </div>
-          <div class="search_placeholder-suggestions">
-            <div class="search_wrapper-suggestions">
-              <span></span>
-              <ul class="search_list-suggestions">
-                <li>
-                  <a class="search_link" href="nohome.html">Plaster</a>
-                  <span>|</span>
-                </li>
-                <li>
-                  <a class="search_link" href="nohome.html">Ground</a>
-                  <span>|</span>
-                </li>
-                <li>
-                  <a class="search_link" href="nohome.html">Walls</a>
-                  <span>|</span>
-                </li>
-                <li>
-                  <a class="search_link" href="nohome.html">Paint</a>
-                  <span>|</span>
-                </li>
-              </ul>
+          <form id="formMenuSearch" name="query" action="" method="GET">
+            <div class="search_input">
+              <div class="search-wrapper">
+                <input type="search" class="search-box" placeholder="Plaster" autofocus>
+              </div>
+              <div class="search_submit">
+                <button class="btn-default" type="submit">
+                <img src="images/icons/loupe.svg" alt="search">
+                </button>
+              </div>
             </div>
+          </form>
+        </div>
+        <div class="search_placeholder-suggestions">
+          <div class="search_wrapper-suggestions">
+            <span></span>
+            <ul class="search_list-suggestions">
+              <li>
+                <a class="search_link" href="nohome.html">Plaster</a>
+                <span>|</span>
+              </li>
+              <li>
+                <a class="search_link" href="nohome.html">Ground</a>
+                <span>|</span>
+              </li>
+              <li>
+                <a class="search_link" href="nohome.html">Walls</a>
+                <span>|</span>
+              </li>
+              <li>
+                <a class="search_link" href="nohome.html">Paint</a>
+                <span>|</span>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </transition>
+    </div>
   `
 });
 
