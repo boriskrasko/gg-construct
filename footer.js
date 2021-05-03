@@ -216,17 +216,17 @@ Vue.component('contact-widget', {
     <div class="contact-widget-container">
       <ul class="items-of-contact">
         <li class="item-phone">
-          <a href="">
+          <a href="contact.html">
           <img src="images/icons/call.svg" alt="phone call us">
           </a>
         </li>
         <li class="item-mail">
-          <a href="">
+          <a href="mailto:gg-construct@live.nl">
           <img src="images/icons/envelope.svg" alt="send a mail">
           </a>
         </li>
         <li class="item-form">
-          <a href="">
+          <a href="form.html">
           <img src="images/icons/bullet-form.svg" alt="fill in the form">
           </a>
         </li>

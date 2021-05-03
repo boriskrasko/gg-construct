@@ -9,17 +9,17 @@ Vue.component('topbar', {
               <div class="arrow"></div>
             </div>
             <div class="options">
-              <a class="option" href="https://www.ceresit.com/en.html" target="blink">
-                <img src="images/logos/partners/ceresit-logo.png" alt="ceresit">
+              <a class="option" href="https://www.uzin.com" target="blink">
+                <img src="images/logos/partners/uzin-logo.png" alt="uzin utz" title="Uzin Utz">
+              </a>
+              <a class="option" href="https://nl.wolf.eu" target="blink">
+                <img src="images/logos/partners/wolf-logo.png" alt="wolf" title="Wolf">
               </a>
               <a class="option" href="https://www.knauf.com" target="blink">
-                <img src="images/logos/partners/knauf-logo.png" alt="knauf">
+                <img src="images/logos/partners/knauf-logo.png" alt="knauf" title="Knauf">
               </a>
-              <a class="option" href="https://www.alpina-farben.de" target="blink">
-                <img src="images/logos/partners/alpina-farben-logo.png" alt="alpina farben">
-              </a>
-              <a class="option" href="https://www.doka.com"target="blink">
-                <img src="images/logos/partners/doka-logo.png" alt="doka">
+              <a class="option" href="https://www.forbo.com" target="blink">
+                <img src="images/logos/partners/forbo-logo.png" alt="forbo" title="Forbo">
               </a>
             </div>
           </div>
@@ -140,54 +140,52 @@ Vue.component('toggle-menu', {
 
 Vue.component('search', {
   template: `
-  <transition name="modal">
-    <div class="search">
-        <div class="search-modal">
-          <div class="search_container">
-            <div class="search_intro-placeholder">
-              <div class="search_intro">
-                What are you looking for?
-              </div>
+  <div class="search">
+      <div class="search-modal">
+        <div class="search_container">
+          <div class="search_intro-placeholder">
+            <div class="search_intro">
+              What are you looking for?
             </div>
-            <form id="formMenuSearch" name="query" action="" method="GET">
-              <div class="search_input">
-                <div class="search-wrapper">
-                  <input type="search" class="search-box" placeholder="Plaster" autofocus>
-                </div>
-                <div class="search_submit">
-                  <button class="btn-default" type="submit">
-                  <img src="images/icons/loupe.svg" alt="search">
-                  </button>
-                </div>
-              </div>
-            </form>
           </div>
-          <div class="search_placeholder-suggestions">
-            <div class="search_wrapper-suggestions">
-              <span></span>
-              <ul class="search_list-suggestions">
-                <li>
-                  <a class="search_link" href="nohome.html">Plaster</a>
-                  <span>|</span>
-                </li>
-                <li>
-                  <a class="search_link" href="nohome.html">Ground</a>
-                  <span>|</span>
-                </li>
-                <li>
-                  <a class="search_link" href="nohome.html">Walls</a>
-                  <span>|</span>
-                </li>
-                <li>
-                  <a class="search_link" href="nohome.html">Paint</a>
-                  <span>|</span>
-                </li>
-              </ul>
+          <form id="formMenuSearch" name="query" action="" method="GET">
+            <div class="search_input">
+              <div class="search-wrapper">
+                <input type="search" class="search-box" placeholder="Plaster" autofocus>
+              </div>
+              <div class="search_submit">
+                <button class="btn-default" type="submit">
+                <img src="images/icons/loupe.svg" alt="search">
+                </button>
+              </div>
             </div>
+          </form>
+        </div>
+        <div class="search_placeholder-suggestions">
+          <div class="search_wrapper-suggestions">
+            <span></span>
+            <ul class="search_list-suggestions">
+              <li>
+                <a class="search_link" href="nohome.html">Plaster</a>
+                <span>|</span>
+              </li>
+              <li>
+                <a class="search_link" href="nohome.html">Ground</a>
+                <span>|</span>
+              </li>
+              <li>
+                <a class="search_link" href="nohome.html">Walls</a>
+                <span>|</span>
+              </li>
+              <li>
+                <a class="search_link" href="nohome.html">Paint</a>
+                <span>|</span>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </transition>
+    </div>
   `
 });
 

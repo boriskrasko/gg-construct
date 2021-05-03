@@ -555,6 +555,7 @@ a.parent-link:hover:after {
 }
 
 .search input {
+  display: block;
   font-size: 24px;
   width: 100%;
   height: 40px;
@@ -562,6 +563,10 @@ a.parent-link:hover:after {
   border: 2px solid var(--blue);
   border-radius: 4px;
   outline: none;
+}
+
+.search-wrapper {
+  width: 100%;
 }
 
 .search-wrapper input {
@@ -846,10 +851,17 @@ footer nav.footnav {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
 }
 
 .items-of-contact li img {
-  width: 50%;
+  width: 40%;
+}
+
+.items-of-contact li a:hover {
+ background: var(--light-blue);
 }
 
 .chat-to {
@@ -1706,19 +1718,19 @@ body:not(.device-touch) .button.button-reveal span {
 
 /*Form*/
 
-form {
+.contact form {
   display: flex;
   flex-direction: column;
   min-width: 500px;
   margin-right: 33px;
 }
 
-form button {
+.contact form button {
   margin: 20px 0;
   width: 80px;
 }
 
-form label {
+.contact form label {
   width: 100%;
   min-height: 70px;
   display: flex;
@@ -1728,7 +1740,7 @@ form label {
   font-weight: 600;
 }
 
-form label input {
+.contact form label input {
   width: 100%;
   height: 36px;
   border: 1px solid #ccc;
@@ -1737,7 +1749,7 @@ form label input {
   color: #444;
 }
 
-form label textarea {
+.contact form label textarea {
   width: 100%;
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -1900,7 +1912,7 @@ form label textarea {
   .teaser-small_image {
     height: 50%;
   }
-  form {
+  .contact form {
     min-width: 300px;
   }
   .contact-widget {
@@ -1939,4 +1951,25 @@ form label textarea {
   .m-article {
     width: 100%;
   }
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  background: var(--light-blue); 
+  -webkit-border-radius: 2px;
+}
+ 
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.3); 
+  -webkit-border-radius: 2px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: var(--blue); 
+  -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.5); 
+   -webkit-border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #002E3B; 
 }
