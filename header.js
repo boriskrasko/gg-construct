@@ -108,7 +108,7 @@ Vue.component('navbar', {
           </li>
         </ul>
         <div class="topnav-btns">
-          <a class="btn btn-default">
+          <a class="btn btn-default" href="tel:+32472815575">
             <img src="images/icons/phone-call.svg" alt="phone">
             <img src="images/icons/dial-pad.svg" alt="dial-pad">
           </a>
