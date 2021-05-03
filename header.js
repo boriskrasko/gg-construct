@@ -9,17 +9,17 @@ Vue.component('topbar', {
               <div class="arrow"></div>
             </div>
             <div class="options">
-              <a class="option" href="https://www.ceresit.com/en.html" target="blink">
-                <img src="images/logos/partners/ceresit-logo.png" alt="ceresit">
+              <a class="option" href="https://www.uzin.com" target="blink">
+                <img src="images/logos/partners/uzin-logo.png" alt="uzin utz" title="Uzin Utz">
+              </a>
+              <a class="option" href="https://nl.wolf.eu" target="blink">
+                <img src="images/logos/partners/wolf-logo.png" alt="wolf" title="Wolf">
               </a>
               <a class="option" href="https://www.knauf.com" target="blink">
-                <img src="images/logos/partners/knauf-logo.png" alt="knauf">
+                <img src="images/logos/partners/knauf-logo.png" alt="knauf" title="Knauf">
               </a>
-              <a class="option" href="https://www.alpina-farben.de" target="blink">
-                <img src="images/logos/partners/alpina-farben-logo.png" alt="alpina farben">
-              </a>
-              <a class="option" href="https://www.doka.com"target="blink">
-                <img src="images/logos/partners/doka-logo.png" alt="doka">
+              <a class="option" href="https://www.forbo.com" target="blink">
+                <img src="images/logos/partners/forbo-logo.png" alt="forbo" title="Forbo">
               </a>
             </div>
           </div>
