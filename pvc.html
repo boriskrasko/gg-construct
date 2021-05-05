@@ -6,6 +6,7 @@
     <title>GG-CONSTRUCT</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="themify-icons/themify-icons.css">
+    <link rel="stylesheet" type="text/css" href="gallery-image-scale.css">
     <!--[if lt IE 8]><!-->
     <link rel="stylesheet" href="ie7/ie7.css">
     <!--<![endif]-->
@@ -41,26 +42,70 @@
       <div class="blue-line-menu">
         Menu
         <ul>
-          <li>
+          <!-- <li>
             <span class="plus">+</span>
           About</li>
           <li>
             <span class="plus">+</span>
-          Description</li>
+          Description</li> -->
           <li>
            <span class="plus">+</span>
          Gallery</li>
         </ul>
       </div>
-      <div class=""></div>
-     <div style="display: flex; flex-wrap: wrap;">
-      <img style="width: 320px; object-fit: cover;" src="images/pvc/01.jpeg" alt="pvc">
-      <img style="width: 320px; object-fit: cover;"  src="images/pvc/02.jpeg" alt="pvc">
-      <img style="width: 320px; object-fit: cover;"  src="images/pvc/03.jpeg" alt="pvc">
-      <img style="width: 320px; object-fit: cover;"  src="images/pvc/04.jpeg" alt="pvc">
-      <img style="width: 320px; object-fit: cover;"  src="images/pvc/05.jpeg" alt="pvc">
-      <img style="width: 320px; object-fit: cover;"  src="images/pvc/06.jpeg" alt="pvc">
-     </div>
+     <!--  <div class=""></div>
+        <div style="display: flex; flex-wrap: wrap;">
+        <img style="width: 320px; object-fit: cover;" src="images/pvc/01.jpeg" alt="pvc">
+        <img style="width: 320px; object-fit: cover;"  src="images/pvc/02.jpeg" alt="pvc">
+        <img style="width: 320px; object-fit: cover;"  src="images/pvc/03.jpeg" alt="pvc">
+        <img style="width: 320px; object-fit: cover;"  src="images/pvc/04.jpeg" alt="pvc">
+        <img style="width: 320px; object-fit: cover;"  src="images/pvc/05.jpeg" alt="pvc">
+        <img style="width: 320px; object-fit: cover;"  src="images/pvc/06.jpeg" alt="pvc">
+       </div> -->
+      <div id="gallery" class="featured_gallery gallery_items unselectable">
+         <div class="gallery_iner p0">
+          <img src="images/gallery/img-xx-1.jpg" alt="">
+        </div>
+        <div class="gallery_iner p0 ">
+            <img src="images/gallery/img-xx-2.jpg" alt="">
+        </div>
+        <div class="gallery_iner p0 ">
+            <img src="images/gallery/img-xx-3.jpg" alt="">
+        </div>
+        <div class="gallery_iner p0 ">
+            <img src="images/gallery/img-xx-4.jpg" alt="">
+        </div>
+        <div class="gallery_iner p0 ">
+            <img src="images/gallery/img-xx-5.jpg" alt="">
+        </div>
+        <div class="gallery_iner p0 ">
+            <img src="images/gallery/img-xx-6.jpg" alt="">
+        </div>
+        <div class="gallery_iner p0 ">
+            <img src="images/gallery/img-xx-7.jpg" alt="">
+        </div>
+        <div class="gallery_iner p0 ">
+            <img src="images/gallery/img-xx-8.jpg" alt="">
+        </div>
+        <div class="gallery_iner p0 ">
+            <img src="images/gallery/img-xx-9.jpg" alt="">
+        </div>
+        <div class="gallery_iner p0 ">
+            <img src="images/gallery/img-xx-10.jpg" alt="">
+        </div>
+        <div class="gallery_iner p0 ">
+            <img src="images/gallery/img-xx-11.jpg" alt="">
+        </div>
+        <div class="gallery_iner p0 ">
+            <img src="images/gallery/img-xx-12.jpg" alt="">
+        </div>
+      </div>
+      <section id="myModal" class="modal modal-image">
+      <!-- The Close Button -->
+          <span class="close-modal close">&times;</span>
+      <!-- Modal Content (The Image) -->
+          <img  class="modal-content" id="img"> 
+      </section>
     </main>
     <footer id="footer">
       <footnav></footnav>
@@ -70,5 +115,6 @@
     <script src="header.js"></script>
     <script src="footer.js"></script>
     <script src="main.js"></script>
+    <script src="gallery-image-scale.js"></script>
   </body>
 </html>
