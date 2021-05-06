@@ -230,6 +230,7 @@ img {
 
 .header-logo img {
   width: 40%;
+  min-width: 50px;
   transition: 0.5s transform;
 }
 
