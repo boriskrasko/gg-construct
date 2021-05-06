@@ -799,7 +799,7 @@ footer nav.footnav {
 }
 
 .contact-widget-container {
-  visibility: hidden;
+  display: none;
   width: 60px;
   min-height: 240px;
   margin-bottom: -60px;
@@ -822,7 +822,7 @@ footer nav.footnav {
 }
 
 .contact-widget-input:checked~.contact-widget-container {
-  visibility: visible;
+  display: block;
 }
 
 .contact-widget-input:checked~.contact-widget-btn {
