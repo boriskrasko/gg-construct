@@ -230,12 +230,11 @@ img {
 
 .header-logo img {
   width: 40%;
+  transition: 0.5s transform;
 }
 
-.logo-title {
-  font-size: 12px;
-  font-weight: 700;
-  color: #555;
+.header-logo img:hover {
+  transform: rotate(120deg);
 }
 
 /*Topnav dropdown column*/
@@ -1479,6 +1478,10 @@ body:not(.device-touch) .button.button-reveal span {
 
 /*No home*/
 
+/*.titlebar * {
+  border: 1px solid gray;
+}*/
+
 .titlebar {
   display: flex;
   flex-direction: column;
@@ -1492,6 +1495,7 @@ body:not(.device-touch) .button.button-reveal span {
 .titlebar-path {
   font-size: 12px;
   color: var(--blue);
+  margin-bottom: 5px;
 }
 
 .titlebar-path a {
@@ -1839,13 +1843,13 @@ body:not(.device-touch) .button.button-reveal span {
 /*pvc*/
 
 .blue-line-menu {
-  min-height: 50px;
+  min-height: 20px;
   width: 100%;
   background: var(--blue);
-  margin: 20px auto;
+  margin: 10px auto;
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 0 10px;
   color: #eee;
 }
 
