@@ -1620,6 +1620,8 @@ body:not(.device-touch) .button.button-reveal span {
   border-radius: 8px;
   padding: 12px;
   margin-bottom: 20px;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .paragraph.contact h3 {
@@ -1676,7 +1678,11 @@ body:not(.device-touch) .button.button-reveal span {
   font-size: 16px
 }
 
-.sidenav-file-listt li a::before {
+/*.sidenav * {
+  border: 1px solid gray;
+}*/
+
+.sidenav-file-list li a::before {
   height: 0
 }
 
@@ -1687,7 +1693,7 @@ body:not(.device-touch) .button.button-reveal span {
 .sidenav-file-list {
   line-height: 32px;
   line-height: 2rem;
-  margin-top: 12%;
+  margin-top: 40px;
   margin-bottom: 1rem;
   padding: 0 0 1rem
 }

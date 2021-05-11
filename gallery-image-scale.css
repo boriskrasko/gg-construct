@@ -11,7 +11,7 @@
 .gallery_items div {
   max-width: 25%;
   min-width: 280px;
-  height: 200px;
+  height: 210px;
   cursor: pointer;
   transition: 0.3s;
   overflow: hidden;
@@ -33,18 +33,35 @@
 
 .modal-image {
   display: none;
-  position: relative;
-  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9000;
   padding-top: 15px;
   padding-bottom: 15px;
   width: 100%;
+  height: 100vh;
   overflow: auto;
+  background-color: var(--beige);
+  /*background: url(images/bg-modal.png);*/
+  justify-content: center;
+  flex-direction: column;
+}
+
+.modal-title {
+  margin: 20px auto;
+
+}
+
+.modal-image div {
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .modal-image img {
   cursor: default;
+  transition: 0.4s all;
 }
 
 .modal-content {
