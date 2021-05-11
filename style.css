@@ -23,6 +23,7 @@ body {
   max-width: 1980px;
   margin: 0 auto;
   color: #4d4d4d;
+  position: relative;
 }
 
 a {
@@ -1841,6 +1842,7 @@ body:not(.device-touch) .button.button-reveal span {
   position: fixed;
   top: 0;
   width: 100%;
+  max-width: 1980px;
 }
 
 .main {
