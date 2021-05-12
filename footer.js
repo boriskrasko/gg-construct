@@ -176,17 +176,17 @@ Vue.component('basement', {
           <span class="copyright-title">GGVloerbekleding 2021 ©</span>
           <ul class="items-list-inline">
             <li>
-              <a target="blink" href="maatschappelijke-zetel.pdf">
+              <a target="blink" href="files/maatschappelijke-zetel.pdf">
               <span>Maatschappelijke Zetel</span>
               </a>
             </li>
             <li>
-              <a target="blink" href="rubriek-oprichting.pdf">
+              <a target="blink" href="files/rubriek-oprichting.pdf">
               <span>Rubriek Oprichting</span>
               </a>
             </li>
             <li>
-              <a target="blink" href="financiele-gegevens.pdf">
+              <a target="blink" href="files/financiele-gegevens.pdf">
               <span>Financiële Gegevens</span>
               </a>
             </li>
