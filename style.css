@@ -767,15 +767,20 @@ footer nav.footnav {
   color: #4d4d4d;
 }
 
-.items-list-inline {
-  display: inline-flex;
+.copyright .items-list-inline {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .copyright .items-list-inline li {
   font-size: 12px;
-  display: inline-block;
+  display: flex;
+  margin: 4px 0;
   padding-right: 10px;
   color: #4d4d4d;
+  justify-content: center;
+  align-items: center;
 }
 
 .copyright .items-list-inline li a:hover {
