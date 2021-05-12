@@ -239,6 +239,11 @@ img {
   transform: rotate(120deg);
 }
 
+.logo-title {
+  font-size: 12px;
+  color: #777;
+}
+
 /*Topnav dropdown column*/
 
 ul.topnav-dropdown-column {
