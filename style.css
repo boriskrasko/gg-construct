@@ -515,7 +515,13 @@ a.parent-link:hover:after {
   width: 110px;
 }
 
+.btn-call {
+  min-height: 48px;
+}
+
 .btn-search {
+  min-width: 36px;
+  min-height: 36px;
   position: relative;
   display: flex;
   padding: 2px;
@@ -641,6 +647,7 @@ a.parent-link:hover:after {
 .navbar {
   position: absolute;
   width: 100%;
+  min-height: 78px;
   display: flex;
   justify-content: space-between;
   align-items: center;
