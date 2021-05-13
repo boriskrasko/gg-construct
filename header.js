@@ -52,8 +52,10 @@ Vue.component('navbar', {
   <div class="navbar">
       <div class="header-logo">
         <a class="link-to-home" href="index.html" title="GG-construst | Home page">
-          <img src="images/logos/logo.svg" alt="gg-construct logo">
-          <!--<span class="logo-title">GG-CONSTRUCT</span>-->
+          <div class="header-logo-image">
+            <img src="images/logos/logo.svg" alt="gg-construct logo">
+          </div>
+          <span class="logo-title">GG VLOERBEKLEDING</span>
         </a>
       </div>
       <nav class="topnav">

@@ -19,12 +19,12 @@ for (let i = 0; i < galleryImage.length; i++) {
     arrowBtn[0].onclick = function () {
       n = (n >= 1) ? n - 1 : galleryImage.length - 1;
       modalImg.src = galleryImage[n].src.replace(`sm`, `lg`);
-      modalImageDescription.textContent = galleryImage[n].alt;
+      // modalImageDescription.textContent = galleryImage[n].alt;
     }
     arrowBtn[1].onclick = function () {
       n = (n < galleryImage.length - 1) ? n + 1 : 0;
       modalImg.src = galleryImage[n].src.replace(`sm`, `lg`);
-      modalImageDescription.textContent = galleryImage[n].alt;
+      // modalImageDescription.textContent = galleryImage[n].alt;
     }
   }
 }
@@ -35,9 +35,11 @@ let modalContent = document.getElementsByClassName('modal-content')[0];
 span.onclick = function () {
   modal.style.display = "none";
   gallery.style.display = 'flex';
+  modalImg.classList.remove('zoom');
 };
 
 modalContent.onclick = function () {
-  modal.style.display = "none";
-  gallery.style.display = 'flex';
+  modalImg.classList.toggle('zoom');
+  // modalImg.style.transform = 'scale(1.7)';
+  // modalImg.style.overflow = 'visible';
 }

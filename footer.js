@@ -173,26 +173,21 @@ Vue.component('basement', {
   template: `
   <div class="basement">
         <div class="copyright">
-          <span class="copyright-title">GG-CONSTRUCT 2021 ©</span>
+          <span class="copyright-title">GGVloerbekleding 2021 ©</span>
           <ul class="items-list-inline">
             <li>
-              <a href="nohome.html">
-              <span>Privacy</span>
+              <a target="blink" href="files/maatschappelijke-zetel.pdf">
+              <span>Maatschappelijke Zetel</span>
               </a>
             </li>
             <li>
-              <a href="nohome.html">
-              <span>Cookies</span>
+              <a target="blink" href="files/rubriek-oprichting.pdf">
+              <span>Rubriek Oprichting</span>
               </a>
             </li>
             <li>
-              <a href="nohome.html">
-              <span>Item</span>
-              </a>
-            </li>
-            <li>
-              <a href="nohome.html">
-              <span>Item</span>
+              <a target="blink" href="files/financiele-gegevens.pdf">
+              <span>Financiële Gegevens</span>
               </a>
             </li>
           </ul>
