@@ -63,10 +63,8 @@ function myFunction() {
 
 let currentLocationPath = window.location.pathname;
 let titlebarPath = document.querySelector('.titlebar-path')
-console.log(currentLocationPath);
 
 let pathNames = currentLocationPath.split('/');
-console.log(pathNames);
 
 for (let i = 0; i < pathNames.length; i++) {
   let a = document.createElement('a');

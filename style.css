@@ -1144,6 +1144,7 @@ footer nav.footnav {
 .card:hover {
   transform: scale(1.1);
   box-shadow: none;
+  z-index: 4000;
 }
 
 .card-top, .card-bottom {
