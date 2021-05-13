@@ -1,18 +1,3 @@
-// let contactWidgetContainer = document.querySelector('.contact-widget-container');
-// let contactWidgetBtn = document.querySelector('.contact-widget-btn');
-
-// contactWidgetBtn.addEventListener('click', () => {
-//   contactWidgetContainer.classList.toggle('visibility');
-//   contactWidgetBtn.classList.toggle('x');
-// })
-
-// window.addEventListener('click', function (e) {
-//     if (!contactWidgetBtn.contains(e.target)) {
-//     contactWidgetContainer.classList.remove('visibility');
-//     contactWidgetBtn.classList.remove('x');
-//   }
-// })
-
 for (const dropdown of document.querySelectorAll('.dropdown-list')) {
   dropdown.addEventListener('click', function () {
     this.querySelector('.dropdown-select').classList.toggle('opened');
@@ -55,8 +40,8 @@ window.onscroll = function () {
 
 let navbar = document.querySelector('.navbar');
 let main = document.querySelector('.main');
-let options = document.querySelector('.options');
 let mobile = document.getElementById('menuToggle');
+let dropdownSelect = document.querySelector('.dropdown-select');
 
 let sticky = navbar.offsetTop;
 
@@ -66,14 +51,13 @@ function myFunction() {
     searchModal.style.marginTop = '-40px';
     mobile.style.position = 'fixed';
     mobile.style.marginTop = '-40px';
-    options.style.display = 'none';
+    dropdownSelect.classList.remove('opened');
   } else {
     navbar.classList.remove('sticky');
     mobile.classList.remove('sticky');
     mobile.style.marginTop = '0';
     mobile.style.position = 'absolute';
     searchModal.style.marginTop = '0';
-    options.style.display = 'block';
   }
 }
 
@@ -94,10 +78,4 @@ for (let i = 0; i < pathNames.length; i++) {
     titlebarPath.appendChild(a);
     titlebarPath.appendChild(span);
   }
-  
 }
-
-
-
-
-

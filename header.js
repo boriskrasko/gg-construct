@@ -97,16 +97,7 @@ Vue.component('navbar', {
             </ul>
           </li>
           <li class="topnav-item">
-            <a class="parent-link" href="nohome.html">Parent link</a>
-            <ul class="topnav-dropdown-column">
-              <li><a href="nohome.html">Link link link</a></li>
-              <li><a href="nohome.html">Link</a></li>
-              <li><a href="nohome.html">Link</a></li>
-              <li><a href="nohome.html">Link</a></li>
-              <li><a href="nohome.html">Link</a></li>
-              <li><a href="nohome.html">Link</a></li>
-              <li><a class="more" href="nohome.html">More...</a></li>
-            </ul>
+            <a class="parent-link" href="contact.html">Contactgegevens</a>
           </li>
         </ul>
         <div class="topnav-btns">
@@ -194,4 +185,3 @@ Vue.component('search', {
 var app = new   Vue({
 el: '#header'
 })
-
