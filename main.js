@@ -55,8 +55,8 @@ window.onscroll = function () {
 
 let navbar = document.querySelector('.navbar');
 let main = document.querySelector('.main');
+let options = document.querySelector('.options');
 let mobile = document.getElementById('menuToggle');
-// let logoTitle = document.querySelector('.logo-title');
 
 let sticky = navbar.offsetTop;
 
@@ -66,14 +66,14 @@ function myFunction() {
     searchModal.style.marginTop = '-40px';
     mobile.style.position = 'fixed';
     mobile.style.marginTop = '-40px';
-    // logoTitle.style.display = 'none';
+    options.style.display = 'none';
   } else {
     navbar.classList.remove('sticky');
     mobile.classList.remove('sticky');
     mobile.style.marginTop = '0';
     mobile.style.position = 'absolute';
     searchModal.style.marginTop = '0';
-    // logoTitle.style.display = 'block';
+    options.style.display = 'block';
   }
 }
 
