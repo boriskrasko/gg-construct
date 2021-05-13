@@ -61,19 +61,19 @@ Vue.component('navbar', {
       <nav class="topnav">
         <ul>
           <li class="topnav-item">
-            <a class="parent-link" href="werk.html">Soorten Werk</a>
+            <a class="parent-link" href="projecten.html">Onze Projecten</a>
             <ul class="topnav-dropdown-column">
-              <li><a href="vloeren.html">Vloeren</a></li>
-              <li><a href="nohome.html">Child link</a></li>
-              <li><a href="nohome.html">Child link</a></li>
-              <li><a href="nohome.html">Child link</a></li>
-              <li><a href="nohome.html">Child link</a></li>
-              <li><a href="nohome.html">Child link</a></li>
+              <li><a href="vloerbekleding.html">Vloerbekleding</a></li>
+              <li><a href="schilderwerk.html">Schilderwerk</a></li>
+              <li><a href="gyproc.html">Gyproc werk</a></li>
+              <li><a href="terras.html">Terras werk</a></li>
+              <li><a href="hellend-dakwerk.html">Hellend dakwerk</a></li>
+              <li><a href="renovatie.html">Renovatie</a></li>
               <li><a class="more" href="nohome.html">More...</a></li>
             </ul>
           </li>
           <li class="topnav-item parent">
-            <a class="parent-link" href="nohome.html">Parent link</a>
+            <a class="parent-link" href="galerie.html">Galerie</a>
             <ul class="topnav-dropdown-column">
               <li><a href="nohome.html">Link link link</a></li>
               <li><a href="nohome.html">Link</a></li>
@@ -97,20 +97,11 @@ Vue.component('navbar', {
             </ul>
           </li>
           <li class="topnav-item">
-            <a class="parent-link" href="nohome.html">Parent link</a>
-            <ul class="topnav-dropdown-column">
-              <li><a href="nohome.html">Link link link</a></li>
-              <li><a href="nohome.html">Link</a></li>
-              <li><a href="nohome.html">Link</a></li>
-              <li><a href="nohome.html">Link</a></li>
-              <li><a href="nohome.html">Link</a></li>
-              <li><a href="nohome.html">Link</a></li>
-              <li><a class="more" href="nohome.html">More...</a></li>
-            </ul>
+            <a class="parent-link" href="contact.html">Contactgegevens</a>
           </li>
         </ul>
         <div class="topnav-btns">
-          <a class="btn btn-default" href="tel:+32472815575">
+          <a class="btn btn-default btn-call" href="tel:+32472815575">
             <img src="images/icons/phone-call.svg" alt="phone">
             <img src="images/icons/dial-pad.svg" alt="dial-pad">
           </a>
@@ -131,8 +122,8 @@ Vue.component('toggle-menu', {
       <span></span>
       <span></span>
       <ul class="mobile-dropdown-column">
-        <li><a href="nohome.html">Mobile link</a></li>
-        <li><a href="nohome.html">Mobile link</a></li>
+        <li><a href="projecten.html">Onze Projecten</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
         <li><a href="nohome.html">Mobile link</a></li>
         <li><a href="nohome.html">Mobile link</a></li>
       </ul>
@@ -194,4 +185,3 @@ Vue.component('search', {
 var app = new   Vue({
 el: '#header'
 })
-
