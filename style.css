@@ -1159,7 +1159,7 @@ footer nav.footnav {
 }
 
 .card:hover {
-  z-index: 4000;
+  z-index: 400;
   transform: scale(1.1);
   box-shadow: none;
 }
