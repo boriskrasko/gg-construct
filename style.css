@@ -729,7 +729,7 @@ footer nav.footnav {
   font-size: 12px;
   line-height: 18px;
   display: flex;
-  width: 90%;
+  width: 100%;
   margin-top: .5rem;
   padding-top: .25rem;
   padding-bottom: .25rem;
@@ -1857,10 +1857,12 @@ body:not(.device-touch) .button.button-reveal span {
 
 .teaser-small_image {
   overflow: hidden;
+  max-height: 200px;
 }
 
 .teaser-small_image img {
   transition: 2s transform;
+
 }
 
 .teaser-small_image img:hover {

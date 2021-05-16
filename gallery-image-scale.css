@@ -9,8 +9,9 @@
 }
 
 .gallery_items div {
-  max-width: 25%;
+  max-width: 20%;
   min-width: 280px;
+  margin: 20px;
   height: 210px;
   cursor: pointer;
   transition: 0.3s;

@@ -138,18 +138,18 @@ Vue.component('footnav', {
               BTW: BE 0704678967
               </a>
             </li>
-            <li class="gegevens-link-item">
-              <a href="" target="_self">
+            <li class="gegevens-link-item footnav-link-item">
+              <a href="tel:+32472815575" target="_self">
               +32472815575
               </a>
             </li>
-            <li class="gegevens-link-item">
-              <a href="" target="_self">
+            <li class="gegevens-link-item footnav-link-item">
+              <a href="https://www.google.com/maps/place/GGVloerbekleding+bvba/@51.0532724,5.7378526,15z/data=!4m5!3m4!1s0x0:0xa831bc10b126f764!8m2!3d51.0532724!4d5.7378526" target="_self">
               Kloosterpark 3, B 3650 Dilsen-Stokkem
               </a>
             </li>
-            <li class="gegevens-link-item">
-              <a href="" target="_self">
+            <li class="gegevens-link-item footnav-link-item">
+              <a href="mailto:info.admin@ggvloerbekleding.be" target="_self">
               info.admin@ggvloerbekleding.be
               </a>
             </li>
