@@ -701,6 +701,7 @@ footer nav.footnav {
   width: 20%;
   min-width: 280px;
   margin-top: 20px;
+  padding: 5px 10px; 
   border-bottom: dotted 1px gray;
 }
 
@@ -718,7 +719,12 @@ footer nav.footnav {
   margin-top: 20px;
 }
 
-.footnav-link-item a {
+.gegevens {
+  background-color: var(--light-blue);
+  border-radius: 6px;
+}
+
+.footnav-link-item a, .gegevens-link-item a {
   font: inherit;
   font-size: 12px;
   line-height: 18px;

@@ -124,43 +124,43 @@ Vue.component('footnav', {
             </li>
           </ul>
         </div>
-        <div class="footnav-column">
-          <h4 class="column-title">Column 4</h4>
+         <div class="footnav-column gegevens">
+          <h4 class="column-title">Gegevens:</h4>
           <hr class="title-underline">
           <ul>
-            <li class="footnav-link-item">
-              <a href="nohome.html">
-              Link1
+            <li class="gegevens-link-item">
+              <a href="" target="_self">
+              GGVloerbekleding  bv
               </a>
             </li>
-            <li class="footnav-link-item">
-              <a href="nohome.html">
-              Link2
+            <li class="gegevens-link-item">
+              <a href="" target="_self">
+              BTW: BE 0704678967
               </a>
             </li>
-            <li class="footnav-link-item">
-              <a href="nohome.html">
-              Link3
+            <li class="gegevens-link-item">
+              <a href="" target="_self">
+              +32472815575
               </a>
             </li>
-            <li class="footnav-link-item">
-              <a href="nohome.html">
-              Link4
+            <li class="gegevens-link-item">
+              <a href="" target="_self">
+              Kloosterpark 3, B 3650 Dilsen-Stokkem
               </a>
             </li>
-            <li class="footnav-link-item">
-              <a href="nohome.html">
-              Link5
+            <li class="gegevens-link-item">
+              <a href="" target="_self">
+              info.admin@ggvloerbekleding.be
               </a>
             </li>
-            <li class="footnav-link-item">
-              <a href="nohome.html">
-              Link6
+            <li class="gegevens-link-item">
+              <a href="" target="_self">
+              BNP PARIBAS/Fortis
               </a>
             </li>
-            <li class="footnav-link-item">
-              <a href="nohome.html">
-              Link7
+            <li class="gegevens-link-item">
+              <a href="" target="_self">
+              BE71 0019 0088 6869
               </a>
             </li>
           </ul>
