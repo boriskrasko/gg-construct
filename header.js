@@ -30,11 +30,11 @@ Vue.component('topbar', {
       <div class="flex-container">
         <div class="dropdown-list available-languages">
           <div class="dropdown-select">
-            <div class="dropdown-title">
+            <div class="dropdown-title current-lang">
               <span>EN</span>
               <div class="arrow"></div>
             </div>
-            <div class="options">
+            <div class="options options-lang">
               <span class="option selected">EN</span>
               <span class="option">NL</span>
               <span class="option">DE</span>
@@ -59,47 +59,7 @@ Vue.component('navbar', {
         </a>
       </div>
       <nav class="topnav">
-        <ul>
-          <li class="topnav-item">
-            <a class="parent-link" href="projecten.html">Projecten</a>
-            <ul class="topnav-dropdown-column">
-              <li><a href="vloerbekleding.html">Vloerbekleding</a></li>
-              <li><a href="schilderwerk.html">Schilderwerk</a></li>
-              <li><a href="gyproc.html">Gyproc werk</a></li>
-              <li><a href="terras.html">Terras werk</a></li>
-              <li><a href="hellend-dakwerk.html">Hellend dakwerk</a></li>
-              <li><a href="renovatie.html">Renovatie</a></li>
-              <li><a class="more" href="nohome.html">More...</a></li>
-            </ul>
-          </li>
-          <li class="topnav-item parent">
-            <a class="parent-link" href="galerie.html">Galerie</a>
-            <ul class="topnav-dropdown-column">
-              <li><a href="nohome.html">Link link link</a></li>
-              <li><a href="nohome.html">Link</a></li>
-              <li><a href="nohome.html">Link</a></li>
-              <li><a href="nohome.html">Link</a></li>
-              <li><a href="nohome.html">Link</a></li>
-              <li><a href="nohome.html">Link</a></li>
-              <li><a class="more" href="nohome.html">More...</a></li>
-            </ul>
-          </li>
-          <li class="topnav-item">
-            <a class="parent-link" href="nohome.html">Parent link</a>
-            <ul class="topnav-dropdown-column">
-              <li><a href="nohome.html">Link link link</a></li>
-              <li><a href="nohome.html">Link</a></li>
-              <li><a href="nohome.html">Link</a></li>
-              <li><a href="nohome.html">Link</a></li>
-              <li><a href="nohome.html">Link</a></li>
-              <li><a href="nohome.html">Link</a></li>
-              <li><a class="more" href="nohome.html">More...</a></li>
-            </ul>
-          </li>
-          <li class="topnav-item">
-            <a class="parent-link" href="contact.html">Contactgegevens</a>
-          </li>
-        </ul>
+        
         <div class="topnav-btns">
           <a class="btn btn-default btn-call" href="tel:+32472815575">
             <img src="images/icons/phone-call.svg" alt="phone">

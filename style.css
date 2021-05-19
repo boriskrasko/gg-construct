@@ -32,6 +32,7 @@ body {
 a {
   text-decoration: none;
   color: #444;
+  cursor: pointer;
 }
 
 button {
@@ -676,6 +677,7 @@ a.parent-link:hover:after {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  order: 2;
 }
 
 .topnav-btns .btn {
@@ -1147,7 +1149,6 @@ footer nav.footnav {
 .more a {
   color: var(--blue);
 }
-
 
 /*Service cards*/
 
