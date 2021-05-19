@@ -5,41 +5,7 @@ Vue.component('footnav', {
           <h4 class="column-title">Column 1</h4>
           <hr class="title-underline">
           <ul>
-            <li class="footnav-link-item">
-              <a href="nohome.html">
-              Link1
-              </a>
-            </li>
-            <li class="footnav-link-item">
-              <a href="nohome.html">
-              Link2
-              </a>
-            </li>
-            <li class="footnav-link-item">
-              <a href="nohome.html">
-              Link3
-              </a>
-            </li>
-            <li class="footnav-link-item">
-              <a href="nohome.html">
-              Link4
-              </a>
-            </li>
-            <li class="footnav-link-item">
-              <a href="nohome.html">
-              Link5
-              </a>
-            </li>
-            <li class="footnav-link-item">
-              <a href="nohome.html">
-              Link6
-              </a>
-            </li>
-            <li class="footnav-link-item">
-              <a href="nohome.html">
-              Link7
-              </a>
-            </li>
+            
           </ul>
         </div>
         <div class="footnav-column">
