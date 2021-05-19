@@ -144,7 +144,8 @@ img {
 .arrow {
   position: relative;
   height: 7px;
-  margin-left: 10px;
+  margin: 0 10px;
+
 }
 
 .arrow::before,

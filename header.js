@@ -4,8 +4,8 @@ Vue.component('topbar', {
       <div class="flex-container">
         <div class="dropdown-list partners-list">
           <div class="dropdown-select">
-            <div class="dropdown-title">
-              <span>Our partners</span>
+            <div class="dropdown-title partners">
+              <span></span>
               <div class="arrow"></div>
             </div>
             <div class="options">
@@ -25,7 +25,7 @@ Vue.component('topbar', {
           </div>
         </div>
         <span class="separator"></span>
-        <a class="topbar-contact-link" href="contact.html">Contact</a>
+        <a class="topbar-contact-link" href="contact.html"></a>
       </div>
       <div class="flex-container">
         <div class="dropdown-list available-languages">
@@ -59,7 +59,6 @@ Vue.component('navbar', {
         </a>
       </div>
       <nav class="topnav">
-        
         <div class="topnav-btns">
           <a class="btn btn-default btn-call" href="tel:+32472815575">
             <img src="images/icons/phone-call.svg" alt="phone">
@@ -82,10 +81,6 @@ Vue.component('toggle-menu', {
       <span></span>
       <span></span>
       <ul class="mobile-dropdown-column">
-        <li><a href="projecten.html">Onze Projecten</a></li>
-        <li><a href="galerie.html">Galerie</a></li>
-        <li><a href="nohome.html">Mobile link</a></li>
-        <li><a href="nohome.html">Mobile link</a></li>
       </ul>
     </div>
   `
