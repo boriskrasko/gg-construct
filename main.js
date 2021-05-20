@@ -8,6 +8,7 @@ for (const option of document.querySelectorAll('.option')) {
     if (!this.classList.contains('selected')) {
       this.parentNode.querySelector('.option.selected').classList.remove('selected');
       this.classList.add('selected');
+      localStorage.setItem('currentLang', this.textContent);
       this.closest('.dropdown-select').querySelector('.dropdown-title span').textContent = this.textContent;
     }
   })
