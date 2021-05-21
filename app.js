@@ -6,22 +6,23 @@ data = {
         "Projects", [
           ["Floor covering", [
 
-              ["Vinyl", [''],
-                ["images/floor.jpg"]
+              ["Vinyl", [''], ["images/vinyl.jpg"]
               ],
-              ["Tapijt", [''], ],
-              ["Linoleum", [''], ],
+              ["Tapijt", [], ["images/tapijt.jpg"]
+              ],
+              ["Linoleum", [''], ["images/linoleum.jpg"] 
+              ],
               ["PVC", [''],
-                ["images/floor.jpg"]
+                ["images/pvc.jpg"]
               ],
               ["LVT", [''],
                 ["images/floor.jpg"]
               ],
               ["Rubber", [''],
-                ["images/floor.jpg"]
+                ["images/rubber.jpg"]
               ],
               ["Egaliseren", [''],
-                ["images/floor.jpg"]
+                ["images/egaliseren.jpg"]
               ],
 
             ],
@@ -73,7 +74,28 @@ Do you have construction or renovation plans:`],
     [
       [
         "Projecten", [
-          ["Vloerbekleding", ["Vinyl, tapijt, linoleum, PVC, LVT, rubber, egaliseren, ..."],
+          ["Vloerbekleding", [
+
+              ["Vinyl", [''],
+                ["images/floor.jpg"]
+              ],
+              ["Tapijt", [''], ],
+              ["Linoleum", [''], ],
+              ["PVC", [''],
+                ["images/floor.jpg"]
+              ],
+              ["LVT", [''],
+                ["images/floor.jpg"]
+              ],
+              ["Rubber", [''],
+                ["images/floor.jpg"]
+              ],
+              ["Egaliseren", [''],
+                ["images/floor.jpg"]
+              ],
+
+            ],
+
             ["images/floor.jpg"]
           ],
           ["Gyproc werk", [''],
@@ -120,7 +142,27 @@ Do you have construction or renovation plans:`],
     [
       [
         "Projekte", [
-          ["Bodenbelag"],
+          ["Bodenbelag", [
+
+              ["Vinyl", [''],
+                ["images/floor.jpg"]
+              ],
+              ["Tapijt", [''], ],
+              ["Linoleum", [''], ],
+              ["PVC", [''],
+                ["images/floor.jpg"]
+              ],
+              ["LVT", [''],
+                ["images/floor.jpg"]
+              ],
+              ["Rubber", [''],
+                ["images/floor.jpg"]
+              ],
+              ["Egaliseren", [''],
+                ["images/floor.jpg"]
+              ],
+
+            ],],
           ["Gyproc Arbeit"],
           ["Terrassenarbeit"],
           ["Pitched roofing"],
@@ -156,7 +198,27 @@ Haben Sie Bau- oder Renovierungspläne:`],
     [
       [
         "Projets", [
-          ["Revêtement de sol"],
+          ["Revêtement de sol", [
+
+              ["Vinyl", [''],
+                ["images/floor.jpg"]
+              ],
+              ["Tapijt", [''], ],
+              ["Linoleum", [''], ],
+              ["PVC", [''],
+                ["images/floor.jpg"]
+              ],
+              ["LVT", [''],
+                ["images/floor.jpg"]
+              ],
+              ["Rubber", [''],
+                ["images/floor.jpg"]
+              ],
+              ["Egaliseren", [''],
+                ["images/floor.jpg"]
+              ],
+
+            ],],
           ["Travail Gyproc"],
           ["Travaux de terrasse"],
           ["Toiture en pente"],
@@ -211,12 +273,14 @@ if (pathNames[pathNames.length - 1].indexOf('index') !== -1) {
   infoBlockContent = document.querySelector('.info-block-content p');
 }
 let teasers = document.querySelector('.teasers');
+let titlebarTitle = document.querySelector('.titlebar-title h1');
 
 
 function getContent() {
   partners.textContent = data[lang][1];
   topbarContactLink.textContent = data[lang][2];
   footNavColumnTitle[0].textContent = data[lang][0][0][0];
+  titlebarTitle.textContent = data[lang][0][0][0];
   // typeInfoText.textContent = data[lang][3];
   if (pathNames[pathNames.length - 1].indexOf('index') !== -1) {
     infoBlockContent.innerHTML = data[lang][4];
@@ -299,6 +363,7 @@ function getContent() {
 
         img_MDfUj.addEventListener('click', () => {
           teasers.innerHTML = ``;
+          titlebarTitle.textContent = data[lang][0][i][1][j][0];
           for (let z = 0; z < data[lang][0][i][1][j][1].length; z++) {
             const div_GmBfj = document.createElement('div');
             div_GmBfj.classList.add('teaser-small');
