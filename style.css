@@ -1860,6 +1860,7 @@ body:not(.device-touch) .button.button-reveal span {
 .teaser-small_image {
   overflow: hidden;
   max-height: 200px;
+  cursor: pointer;
 }
 
 .teaser-small_image img {

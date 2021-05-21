@@ -1,153 +1,7 @@
-data = {
-  "en": [
-
-    [
-      [
-        "Projects", [
-          "Floor covering",
-          "Paintwork",
-          "Gyproc work",
-          "Terrace work",
-          "Pitched roofing",
-          "Renovation"
-        ],
-      ],
-      [
-        "Gallery", [
-
-        ],
-      ],
-      [
-        "Contact details", [
-
-        ],
-      ],
-    ],
-    ["Our partners"],
-    ["Contact"],
-    ["Let's build with GG"],
-    [`<strong>GGFloors & Construct</strong> is building a sustainable partnership.
-More than 15 years of experience in floor coverings, but roofs no longer hold any secrets for us.
-From major renovations to smaller repairs as well as completely new homes.<br>
-Through close cooperation with clients, employees and partners, we aim for the highest achievable top quality. Again and again in an open and respectful atmosphere.
-GGFloors & Construct brings your construction project to a successful conclusion.<br>
-In this way we make life easy for the customer because we can offer the total concept.<br>
-Our greatest asset is our craftsmen, their safety and well-being is a top priority for GG construct, because this is the only way to deliver top quality to the construction site.
-Do you have construction or renovation plans:`],
-
-  ],
-  "nl": [
-
-    [
-      [
-        "Projecten", [
-          "Vloerbekleding",
-          "Schilderwerk",
-          "Gyproc werk",
-          "Terras werk",
-          "Hellend dakwerk",
-          "Renovatie"
-        ],
-      ],
-      [
-        "Galerie", [
-
-        ],
-      ],
-      [
-        "Contactgegevens", [
-
-        ],
-      ],
-    ],
-    ["Onze partners"],
-    ["Contact"],
-    ["Laten we bouwen met GG"],
-    [`<strong>GGFloors & Construct</strong> bouwt aan een duurzame partnership.<br>Al meer dan <strong>15 jaar</strong> ervaring in vloerbekledingen, maar ook daken hebben voor ons geen geheimen meer.<br> 
-          Van grote renovaties tot kleinere herstellingen alsook volledige nieuwbouw woningen.<br>
-          Door een nauwe samenwerking met de opdrachtgevers, medewerkers en partners gaan we voor de hoogst haalbare topkwaliteit. Telkens weer in een open en respectvolle sfeer.<br>
-          <strong>GGFloors & Construct</strong> brengt uw bouwproject tot een goed einde.<br>
-          Zo maken we het leven van de klant makkelijk doordat wij het totaalconcept kunnen aanbieden.<br>
-          Ons grootste kapitaal, zijn onze vakmannen, hun veiligheid en welzijn is voor GG construct topprioriteit, want alleen zo kan je ook topkwaliteit afleveren op de werf.<br>
-          Heeft u bouw of verbouwplannen:`]
-  ],
-  "de": [
-
-    [
-      [
-        "Projekte", [
-          "Bodenbelag",
-          "Lackierung",
-          "Gyproc work",
-          "Gyproc Arbeit",
-          "Pitched roofing",
-          "Schrägdach"
-        ],
-      ],
-      [
-        "Galerie", [
-
-        ],
-      ],
-      [
-        "Kontaktdetails", [
-
-        ],
-      ],
-    ],
-    ["Unsere Partner"],
-    ["Kontakt"],
-    ["Lass uns mit GG bauen"],
-    [`GGFloors & Construct baut eine nachhaltige Partnerschaft auf.
-Mehr als 15 Jahre Erfahrung mit Bodenbelägen, aber Dächer bergen für uns keine Geheimnisse mehr.
-Von größeren Renovierungsarbeiten über kleinere Reparaturen bis hin zu komplett neuen Häusern.
-Durch die enge Zusammenarbeit mit Kunden, Mitarbeitern und Partnern streben wir die höchstmögliche Spitzenqualität an. Immer wieder in einer offenen und respektvollen Atmosphäre.
-GGFloors & Construct bringt Ihr Bauprojekt zu einem erfolgreichen Abschluss.
-Auf diese Weise machen wir dem Kunden das Leben leichter, weil wir das Gesamtkonzept anbieten können.
-Unser größtes Kapital sind unsere Handwerker. Ihre Sicherheit und ihr Wohlbefinden haben für GG konstruieren oberste Priorität, da dies der einzige Weg ist, um der Baustelle höchste Qualität zu liefern.
-Haben Sie Bau- oder Renovierungspläne:`],
-  ],
-  "fr": [
-
-    [
-      [
-        "Projets", [
-          "Revêtement de sol",
-          "Ouvrage",
-          "Gyproc work",
-          "Travail Gyproc",
-          "Toiture en pente",
-          "Rénovation"
-        ],
-      ],
-      [
-        "Galerie", [
-
-        ],
-      ],
-      [
-        "Détails du contact", [
-
-        ],
-      ],
-    ],
-    ["Nos partenaires"],
-    ["Contacter"],
-    ["Construisons avec GG"],
-    [`GGFloors & Construct construit un partenariat durable.
-Plus de 15 ans d'expérience dans les revêtements de sol, mais les toitures n'ont plus de secret pour nous.
-Des rénovations majeures aux petites réparations en passant par les maisons complètement neuves.
-En travaillant en étroite collaboration avec les clients, les employés et les partenaires, nous visons la meilleure qualité possible. Encore et encore dans une ambiance ouverte et respectueuse.
-GGFloors & Construct mène votre projet de construction à bonne fin.
-De cette façon, nous facilitons la vie du client car nous pouvons offrir le concept global.
-Notre plus grande capitale est nos artisans, leur sécurité et leur bien-être sont une priorité absolue pour GG construct, car c'est le seul moyen de fournir la meilleure qualité sur le chantier.
-Avez-vous des plans de construction ou de rénovation:`],
-  ], 
-}
-
 const companyName = `GGFloors & Construct`;
 
 let currentLang = document.querySelector('.current-lang span');
+currentLang.textContent = localStorage.getItem('currentLang');
 let lang = currentLang.textContent.toLowerCase();
 let optionLang = document.querySelectorAll('.options-lang span');
 let partners = document.querySelector('.partners span');
@@ -157,37 +11,49 @@ const ul_MHAmj = document.querySelectorAll('.footnav-column ul');
 
 const topNav = document.querySelector('.topnav');
 const ul_ztFNV = document.createElement('ul');
+let infoBlockContent;
 const mobileDropdownColumn = document.querySelector('.mobile-dropdown-column');
+
 const typeInfoText = document.querySelector('.type-info-text');
 const typeTitle = document.querySelector('.type-title');
 typeTitle.textContent = companyName;
-const infoBlockContent = document.querySelector('.info-block-content p');
+infoBlockContent = document.querySelector('.info-block-content p');
+
+let cardTitle = document.querySelectorAll('.card-title');
+let cardImage = document.querySelectorAll('.card-image img');
 
 function getContent() {
   partners.textContent = data[lang][1];
   topbarContactLink.textContent = data[lang][2];
   footNavColumnTitle[0].textContent = data[lang][0][0][0];
   typeInfoText.textContent = data[lang][3];
-  infoBlockContent.innerHTML = data[lang][4];
+  if (pathNames[pathNames.length - 1].indexOf('index') !== -1) {
+    infoBlockContent.innerHTML = data[lang][4];
+  }
+
+  for (let i = 0; i < cardTitle.length; i++) {
+    cardTitle[i].textContent = data[lang][0][0][1][i + 2][0];
+    cardImage[i].src = (data[lang][0][0][1][i][2]) ? data[lang][0][0][1][i + 2][2] : 'images/logo.svg';
+
+  }
 
   for (let i = 0; i < data[lang][0].length; i++) {
-    console.log(lang);
     topNav.appendChild(ul_ztFNV);
     const li_CIdHm = document.createElement('li');
     li_CIdHm.classList.add('topnav-item');
     ul_ztFNV.appendChild(li_CIdHm);
     const a_ezoFd = document.createElement('a');
     a_ezoFd.classList.add('parent-link');
-    // a_ezoFd.href = `${data.nl[i][0].toLowerCase()}.html`;
+    a_ezoFd.href = `${data.en[0][i][0].toLowerCase()}.html`;
     li_CIdHm.appendChild(a_ezoFd);
     a_ezoFd.textContent += data[lang][0][i][0];
     const ul_QenSy = document.createElement('ul');
     const li_UwhqJ = document.createElement('li');
     mobileDropdownColumn.appendChild(li_UwhqJ);
     const a_Zgcgk = document.createElement('a');
-    // a_Zgcgk.href = 'projecten.html';
     li_UwhqJ.appendChild(a_Zgcgk);
-    a_Zgcgk.textContent += (lang === 'NL') ? data.nl[i][0] : data.en[i][0];
+    a_Zgcgk.textContent += data[lang][0][i][0];
+
 
     if (data[lang][0][i][1].length >= 1) {
       ul_QenSy.classList.add('topnav-dropdown-column');
@@ -198,9 +64,9 @@ function getContent() {
       const li_VmhAh = document.createElement('li');
       ul_QenSy.appendChild(li_VmhAh);
       const a_uuiRj = document.createElement('a');
-      a_uuiRj.href = `${data[lang][0][i][1][j].toLowerCase()}.html`;
+      a_uuiRj.href = `${data[lang][0][i][1][j][0].toLowerCase()}.html`;
       li_VmhAh.appendChild(a_uuiRj);
-      a_uuiRj.textContent += data[lang][0][i][1][j];
+      a_uuiRj.textContent += data[lang][0][i][1][j][0];
 
       const li_HVtWm = document.createElement('li');
       li_HVtWm.classList.add('footnav-link-item');
@@ -208,7 +74,9 @@ function getContent() {
       const a_mLBgC = document.createElement('a');
       // a_mLBgC.href = 'nohome.html';
       li_HVtWm.appendChild(a_mLBgC);
-      a_mLBgC.textContent += data[lang][0][i][1][j];
+      a_mLBgC.textContent += data[lang][0][i][1][j][0];
+
+      
     }
   }
 }
@@ -218,7 +86,6 @@ for (let i = 0; i < optionLang.length; i++) {
     ul_ztFNV.innerHTML = ``;
     mobileDropdownColumn.innerHTML = ``;
     ul_MHAmj[0].innerHTML = ``;
-
     lang = optionLang[i].textContent.toLowerCase();
     getContent();
   })
