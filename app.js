@@ -1,256 +1,3 @@
-data = {
-  "en": [
-
-    [
-      [
-        "Projects", [
-          ["Floor covering", [
-
-              ["Vinyl", [''], ["images/vinyl.jpg"]
-              ],
-              ["Tapijt", [], ["images/tapijt.jpg"]
-              ],
-              ["Linoleum", [''], ["images/linoleum.jpg"] 
-              ],
-              ["PVC", [''],
-                ["images/pvc.jpg"]
-              ],
-              ["LVT", [''],
-                ["images/floor.jpg"]
-              ],
-              ["Rubber", [''],
-                ["images/rubber.jpg"]
-              ],
-              ["Egaliseren", [''],
-                ["images/egaliseren.jpg"]
-              ],
-
-            ],
-            ["images/floor.jpg"]
-          ],
-          ["Gyproc work", [''],
-            ["images/gyproc.jpg"]
-          ],
-          ["Terrace work", [''],
-            ["images/terrace.jpg"]
-          ],
-          ["Pitched roofing", [''],
-            ["images/roofing.jpg"]
-          ],
-          ["Paintwork", [''],
-            ["images/paint.jpg"]
-          ],
-          ["Renovation", [''],
-            ["images/renovation.jpg"]
-          ],
-        ],
-      ],
-      [
-        "Gallery", [
-
-        ],
-      ],
-      [
-        "Contact details", [
-
-        ],
-      ],
-    ],
-    ["Our partners"],
-    ["Contact"],
-    ["Let's build with GG"],
-    [`<strong>GGFloors & Construct</strong> is building a sustainable partnership.
-More than 15 years of experience in floor coverings, but roofs no longer hold any secrets for us.
-From major renovations to smaller repairs as well as completely new homes.<br>
-Through close cooperation with clients, employees and partners, we aim for the highest achievable top quality. Again and again in an open and respectful atmosphere.
-GGFloors & Construct brings your construction project to a successful conclusion.<br>
-In this way we make life easy for the customer because we can offer the total concept.<br>
-Our greatest asset is our craftsmen, their safety and well-being is a top priority for GG construct, because this is the only way to deliver top quality to the construction site.
-Do you have construction or renovation plans:`],
-
-  ],
-  "nl": [
-
-    [
-      [
-        "Projecten", [
-          ["Vloerbekleding", [
-
-              ["Vinyl", [''],
-                ["images/floor.jpg"]
-              ],
-              ["Tapijt", [''], ],
-              ["Linoleum", [''], ],
-              ["PVC", [''],
-                ["images/floor.jpg"]
-              ],
-              ["LVT", [''],
-                ["images/floor.jpg"]
-              ],
-              ["Rubber", [''],
-                ["images/floor.jpg"]
-              ],
-              ["Egaliseren", [''],
-                ["images/floor.jpg"]
-              ],
-
-            ],
-
-            ["images/floor.jpg"]
-          ],
-          ["Gyproc werk", [''],
-            ["images/gyproc.jpg"]
-          ],
-          ["Terras werk", [''],
-            ["images/terrace.jpg"]
-          ],
-          ["Hellend dakwerk", [''],
-            ["images/roofing.jpg"]
-          ],
-          ["Schilderwerk", [''],
-            ["images/paint.jpg"]
-          ],
-          ["Renovatie", [''],
-            ["images/renovation.jpg"]
-          ]
-        ],
-      ],
-      [
-        "Galerie", [
-
-        ],
-      ],
-      [
-        "Contactgegevens", [
-
-        ],
-      ],
-    ],
-    ["Onze partners"],
-    ["Contact"],
-    ["Laten we bouwen met GG"],
-    [`<strong>GGFloors & Construct</strong> bouwt aan een duurzame partnership.<br>Al meer dan <strong>15 jaar</strong> ervaring in vloerbekledingen, maar ook daken hebben voor ons geen geheimen meer.<br> 
-          Van grote renovaties tot kleinere herstellingen alsook volledige nieuwbouw woningen.<br>
-          Door een nauwe samenwerking met de opdrachtgevers, medewerkers en partners gaan we voor de hoogst haalbare topkwaliteit. Telkens weer in een open en respectvolle sfeer.<br>
-          <strong>GGFloors & Construct</strong> brengt uw bouwproject tot een goed einde.<br>
-          Zo maken we het leven van de klant makkelijk doordat wij het totaalconcept kunnen aanbieden.<br>
-          Ons grootste kapitaal, zijn onze vakmannen, hun veiligheid en welzijn is voor GG construct topprioriteit, want alleen zo kan je ook topkwaliteit afleveren op de werf.<br>
-          Heeft u bouw of verbouwplannen:`]
-  ],
-  "de": [
-
-    [
-      [
-        "Projekte", [
-          ["Bodenbelag", [
-
-              ["Vinyl", [''],
-                ["images/floor.jpg"]
-              ],
-              ["Tapijt", [''], ],
-              ["Linoleum", [''], ],
-              ["PVC", [''],
-                ["images/floor.jpg"]
-              ],
-              ["LVT", [''],
-                ["images/floor.jpg"]
-              ],
-              ["Rubber", [''],
-                ["images/floor.jpg"]
-              ],
-              ["Egaliseren", [''],
-                ["images/floor.jpg"]
-              ],
-
-            ],],
-          ["Gyproc Arbeit"],
-          ["Terrassenarbeit"],
-          ["Pitched roofing"],
-          ["Lackierung"],
-          ["Schrägdach"]
-        ],
-      ],
-      [
-        "Galerie", [
-
-        ],
-      ],
-      [
-        "Kontaktdetails", [
-
-        ],
-      ],
-    ],
-    ["Unsere Partner"],
-    ["Kontakt"],
-    ["Lass uns mit GG bauen"],
-    [`GGFloors & Construct baut eine nachhaltige Partnerschaft auf.
-Mehr als 15 Jahre Erfahrung mit Bodenbelägen, aber Dächer bergen für uns keine Geheimnisse mehr.
-Von größeren Renovierungsarbeiten über kleinere Reparaturen bis hin zu komplett neuen Häusern.
-Durch die enge Zusammenarbeit mit Kunden, Mitarbeitern und Partnern streben wir die höchstmögliche Spitzenqualität an. Immer wieder in einer offenen und respektvollen Atmosphäre.
-GGFloors & Construct bringt Ihr Bauprojekt zu einem erfolgreichen Abschluss.
-Auf diese Weise machen wir dem Kunden das Leben leichter, weil wir das Gesamtkonzept anbieten können.
-Unser größtes Kapital sind unsere Handwerker. Ihre Sicherheit und ihr Wohlbefinden haben für GG konstruieren oberste Priorität, da dies der einzige Weg ist, um der Baustelle höchste Qualität zu liefern.
-Haben Sie Bau- oder Renovierungspläne:`],
-  ],
-  "fr": [
-
-    [
-      [
-        "Projets", [
-          ["Revêtement de sol", [
-
-              ["Vinyl", [''],
-                ["images/floor.jpg"]
-              ],
-              ["Tapijt", [''], ],
-              ["Linoleum", [''], ],
-              ["PVC", [''],
-                ["images/floor.jpg"]
-              ],
-              ["LVT", [''],
-                ["images/floor.jpg"]
-              ],
-              ["Rubber", [''],
-                ["images/floor.jpg"]
-              ],
-              ["Egaliseren", [''],
-                ["images/floor.jpg"]
-              ],
-
-            ],],
-          ["Travail Gyproc"],
-          ["Travaux de terrasse"],
-          ["Toiture en pente"],
-          ["Ouvrage"],
-          ["Rénovation"]
-        ],
-      ],
-      [
-        "Galerie", [
-
-        ],
-      ],
-      [
-        "Détails du contact", [
-
-        ],
-      ],
-    ],
-    ["Nos partenaires"],
-    ["Contacter"],
-    ["Construisons avec GG"],
-    [`GGFloors & Construct construit un partenariat durable.
-Plus de 15 ans d'expérience dans les revêtements de sol, mais les toitures n'ont plus de secret pour nous.
-Des rénovations majeures aux petites réparations en passant par les maisons complètement neuves.
-En travaillant en étroite collaboration avec les clients, les employés et les partenaires, nous visons la meilleure qualité possible. Encore et encore dans une ambiance ouverte et respectueuse.
-GGFloors & Construct mène votre projet de construction à bonne fin.
-De cette façon, nous facilitons la vie du client car nous pouvons offrir le concept global.
-Notre plus grande capitale est nos artisans, leur sécurité et leur bien-être sont une priorité absolue pour GG construct, car c'est le seul moyen de fournir la meilleure qualité sur le chantier.
-Avez-vous des plans de construction ou de rénovation:`],
-  ],
-}
-
 const companyName = `GGFloors & Construct`;
 
 let currentLang = document.querySelector('.current-lang span');
@@ -266,24 +13,28 @@ const topNav = document.querySelector('.topnav');
 const ul_ztFNV = document.createElement('ul');
 let infoBlockContent;
 const mobileDropdownColumn = document.querySelector('.mobile-dropdown-column');
-if (pathNames[pathNames.length - 1].indexOf('index') !== -1) {
-  const typeInfoText = document.querySelector('.type-info-text');
-  const typeTitle = document.querySelector('.type-title');
-  typeTitle.textContent = companyName;
-  infoBlockContent = document.querySelector('.info-block-content p');
-}
-let teasers = document.querySelector('.teasers');
-let titlebarTitle = document.querySelector('.titlebar-title h1');
 
+const typeInfoText = document.querySelector('.type-info-text');
+const typeTitle = document.querySelector('.type-title');
+typeTitle.textContent = companyName;
+infoBlockContent = document.querySelector('.info-block-content p');
+
+let cardTitle = document.querySelectorAll('.card-title');
+let cardImage = document.querySelectorAll('.card-image img');
 
 function getContent() {
   partners.textContent = data[lang][1];
   topbarContactLink.textContent = data[lang][2];
   footNavColumnTitle[0].textContent = data[lang][0][0][0];
-  titlebarTitle.textContent = data[lang][0][0][0];
-  // typeInfoText.textContent = data[lang][3];
+  typeInfoText.textContent = data[lang][3];
   if (pathNames[pathNames.length - 1].indexOf('index') !== -1) {
     infoBlockContent.innerHTML = data[lang][4];
+  }
+
+  for (let i = 0; i < cardTitle.length; i++) {
+    cardTitle[i].textContent = data[lang][0][0][1][i + 2][0];
+    cardImage[i].src = (data[lang][0][0][1][i][2]) ? data[lang][0][0][1][i + 2][2] : 'images/logo.svg';
+
   }
 
   for (let i = 0; i < data[lang][0].length; i++) {
@@ -325,83 +76,7 @@ function getContent() {
       li_HVtWm.appendChild(a_mLBgC);
       a_mLBgC.textContent += data[lang][0][i][1][j][0];
 
-      if (pathNames[pathNames.length - 1].indexOf('index') === -1) {
-        const div_GmBfj = document.createElement('div');
-        div_GmBfj.classList.add('teaser-small');
-        teasers.appendChild(div_GmBfj);
-        const div_sUwXk = document.createElement('div');
-        div_sUwXk.classList.add('teaser-small_image');
-        div_GmBfj.appendChild(div_sUwXk);
-        const img_MDfUj = new Image();
-        img_MDfUj.src = (data[lang][0][i][1][j][2]) ? data[lang][0][i][1][j][2] : 'images/logo.svg';
-        img_MDfUj.setAttribute(`alt`, data[lang][0][i][1][j][0]);
-        div_sUwXk.appendChild(img_MDfUj);
-        const div_HFbUm = document.createElement('div');
-        div_HFbUm.classList.add('teaser-small_content');
-        div_GmBfj.appendChild(div_HFbUm);
-        const div_OFpOG = document.createElement('div');
-        div_OFpOG.classList.add('teaser-small_title');
-        div_HFbUm.appendChild(div_OFpOG);
-        const h2_qunjJ = document.createElement('h2');
-        h2_qunjJ.classList.add('title');
-        div_OFpOG.appendChild(h2_qunjJ);
-        const a_FZoyA = document.createElement('a');
-        a_FZoyA.href = 'vloerbekleding.html';
-        h2_qunjJ.appendChild(a_FZoyA);
-        a_FZoyA.textContent += data[lang][0][i][1][j][0];
-        const p_Wzyfz = document.createElement('p');
-        div_HFbUm.appendChild(p_Wzyfz);
-        p_Wzyfz.textContent = (data[lang][0][i][1][j][1] != ``) ? data[lang][0][i][1][j][1] : `...`;
-        const p_Kdnxl = document.createElement('p');
-        p_Kdnxl.classList.add('m-teaser-small_readmore');
-        div_HFbUm.appendChild(p_Kdnxl);
-        const a_piRos = document.createElement('a');
-        a_piRos.classList.add('btn-default');
-        a_piRos.href = 'vloerbekleding.html';
-        p_Kdnxl.appendChild(a_piRos);
-        a_piRos.textContent += `Lees meer`;
-
-        img_MDfUj.addEventListener('click', () => {
-          teasers.innerHTML = ``;
-          titlebarTitle.textContent = data[lang][0][i][1][j][0];
-          for (let z = 0; z < data[lang][0][i][1][j][1].length; z++) {
-            const div_GmBfj = document.createElement('div');
-            div_GmBfj.classList.add('teaser-small');
-            teasers.appendChild(div_GmBfj);
-            const div_sUwXk = document.createElement('div');
-            div_sUwXk.classList.add('teaser-small_image');
-            div_GmBfj.appendChild(div_sUwXk);
-            const img_MDfUj = new Image();
-            img_MDfUj.src = (data[lang][0][i][1][j][1][z][2]) ? data[lang][0][i][1][j][1][z][2] : 'images/logo.svg';
-            img_MDfUj.setAttribute(`alt`, data[lang][0][i][1][j][0]);
-            div_sUwXk.appendChild(img_MDfUj);
-            const div_HFbUm = document.createElement('div');
-            div_HFbUm.classList.add('teaser-small_content');
-            div_GmBfj.appendChild(div_HFbUm);
-            const div_OFpOG = document.createElement('div');
-            div_OFpOG.classList.add('teaser-small_title');
-            div_HFbUm.appendChild(div_OFpOG);
-            const h2_qunjJ = document.createElement('h2');
-            h2_qunjJ.classList.add('title');
-            div_OFpOG.appendChild(h2_qunjJ);
-            const a_FZoyA = document.createElement('a');
-            a_FZoyA.href = 'vloerbekleding.html';
-            h2_qunjJ.appendChild(a_FZoyA);
-            a_FZoyA.textContent += data[lang][0][i][1][j][1][z][0];
-            const p_Wzyfz = document.createElement('p');
-            div_HFbUm.appendChild(p_Wzyfz);
-            p_Wzyfz.textContent = (data[lang][0][i][1][j][1][z][1] != ``) ? data[lang][0][i][1][j][1][z][1] : `...`;
-            const p_Kdnxl = document.createElement('p');
-            p_Kdnxl.classList.add('m-teaser-small_readmore');
-            div_HFbUm.appendChild(p_Kdnxl);
-            const a_piRos = document.createElement('a');
-            a_piRos.classList.add('btn-default');
-            a_piRos.href = 'vloerbekleding.html';
-            p_Kdnxl.appendChild(a_piRos);
-            a_piRos.textContent += `Lees meer`;
-          }
-        })
-      }
+      
     }
   }
 }
@@ -411,7 +86,6 @@ for (let i = 0; i < optionLang.length; i++) {
     ul_ztFNV.innerHTML = ``;
     mobileDropdownColumn.innerHTML = ``;
     ul_MHAmj[0].innerHTML = ``;
-    teasers.innerHTML = ``;
     lang = optionLang[i].textContent.toLowerCase();
     getContent();
   })
