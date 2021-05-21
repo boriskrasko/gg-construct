@@ -1,8 +1,8 @@
 const companyName = `GGFloors & Construct`;
 
 let currentLang = document.querySelector('.current-lang span');
-currentLang.textContent = localStorage.getItem('currentLang');
-let lang = currentLang.textContent.toLowerCase();
+currentLang.textContent = localStorage.getItem('currentLang') || 'EN';
+let lang =  currentLang.textContent.toLowerCase() ;
 let optionLang = document.querySelectorAll('.options-lang span');
 let partners = document.querySelector('.partners span');
 const topbarContactLink = document.querySelector('.topbar-contact-link');
