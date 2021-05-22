@@ -67,6 +67,7 @@ GGFloors & Construct brings your construction project to a successful conclusion
 In this way we make life easy for the customer because we can offer the total concept.<br>
 Our greatest asset is our craftsmen, their safety and well-being is a top priority for GG construct, because this is the only way to deliver top quality to the construction site.
 Do you have construction or renovation plans:`],
+['images/intro.jpg'],
 
   ],
   "nl": [
@@ -135,7 +136,8 @@ Do you have construction or renovation plans:`],
           <strong>GGFloors & Construct</strong> brengt uw bouwproject tot een goed einde.<br>
           Zo maken we het leven van de klant makkelijk doordat wij het totaalconcept kunnen aanbieden.<br>
           Ons grootste kapitaal, zijn onze vakmannen, hun veiligheid en welzijn is voor GG construct topprioriteit, want alleen zo kan je ook topkwaliteit afleveren op de werf.<br>
-          Heeft u bouw of verbouwplannen:`]
+          Heeft u bouw of verbouwplannen:`],
+          ['images/intro_nl.jpg'],
   ],
   "de": [
 
@@ -192,6 +194,7 @@ GGFloors & Construct bringt Ihr Bauprojekt zu einem erfolgreichen Abschluss.
 Auf diese Weise machen wir dem Kunden das Leben leichter, weil wir das Gesamtkonzept anbieten können.
 Unser größtes Kapital sind unsere Handwerker. Ihre Sicherheit und ihr Wohlbefinden haben für GG konstruieren oberste Priorität, da dies der einzige Weg ist, um der Baustelle höchste Qualität zu liefern.
 Haben Sie Bau- oder Renovierungspläne:`],
+['images/intro_2.jpg'],
   ],
   "fr": [
 
@@ -248,5 +251,6 @@ GGFloors & Construct mène votre projet de construction à bonne fin.
 De cette façon, nous facilitons la vie du client car nous pouvons offrir le concept global.
 Notre plus grande capitale est nos artisans, leur sécurité et leur bien-être sont une priorité absolue pour GG construct, car c'est le seul moyen de fournir la meilleure qualité sur le chantier.
 Avez-vous des plans de construction ou de rénovation:`],
+['images/floor.jpg'],
   ],
 }

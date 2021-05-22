@@ -34,12 +34,12 @@ Vue.component('topbar', {
               <span>EN</span>
               <div class="arrow"></div>
             </div>
-            <div class="options options-lang">
-              <span class="option selected">EN</span>
-              <span class="option">NL</span>
-              <span class="option">DE</span>
-              <span class="option">FR</span>
-            </div>
+            <ul class="options options-lang">
+              <li class="option selected"><a href="#en">EN</a></li>
+              <li class="option"><a href="#nl">NL</a></li>
+              <li class="option"><a href="#de">DE</a></li>
+              <li class="option"><a href="#fr">FR</a></li>
+            </ul>
           </div>
         </div>
       </div>

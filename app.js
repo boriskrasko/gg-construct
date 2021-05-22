@@ -2,8 +2,8 @@ const companyName = `GGFloors & Construct`;
 
 let currentLang = document.querySelector('.current-lang span');
 currentLang.textContent = localStorage.getItem('currentLang') || 'EN';
-let lang =  currentLang.textContent.toLowerCase() ;
-let optionLang = document.querySelectorAll('.options-lang span');
+let lang = (window.location.href.indexOf('#') !== -1) ? window.location.href[ window.location.href.length - 2] + window.location.href[ window.location.href.length - 1] : currentLang.textContent.toLowerCase();
+let optionLang = document.querySelectorAll('.options-lang a');
 let partners = document.querySelector('.partners span');
 const topbarContactLink = document.querySelector('.topbar-contact-link');
 const footNavColumnTitle = document.querySelectorAll('.footnav-column h4');
@@ -21,8 +21,14 @@ infoBlockContent = document.querySelector('.info-block-content p');
 
 let cardTitle = document.querySelectorAll('.card-title');
 let cardImage = document.querySelectorAll('.card-image img');
+let startscreen = document.querySelector('.startscreen');
 
 function getContent() {
+  startscreen.style.background = `url('${data[lang][5]}')`;
+  startscreen.style.backgroundRepeat = `no-repeat`;
+  startscreen.style.backgroundSize = `cover`;
+
+
   partners.textContent = data[lang][1];
   topbarContactLink.textContent = data[lang][2];
   footNavColumnTitle[0].textContent = data[lang][0][0][0];
@@ -75,8 +81,6 @@ function getContent() {
       // a_mLBgC.href = 'nohome.html';
       li_HVtWm.appendChild(a_mLBgC);
       a_mLBgC.textContent += data[lang][0][i][1][j][0];
-
-      
     }
   }
 }
@@ -86,8 +90,10 @@ for (let i = 0; i < optionLang.length; i++) {
     ul_ztFNV.innerHTML = ``;
     mobileDropdownColumn.innerHTML = ``;
     ul_MHAmj[0].innerHTML = ``;
-    lang = optionLang[i].textContent.toLowerCase();
+    setTimeout(() => {
+    lang = window.location.href[ window.location.href.length - 2] + window.location.href[ window.location.href.length - 1];
     getContent();
+  }, 0)
   })
 }
 

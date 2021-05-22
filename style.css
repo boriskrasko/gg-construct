@@ -118,11 +118,21 @@ img {
   display: flex;
   width: 70%;
   margin: 2px auto;
-  padding: 12px 0 12px 2px;
   cursor: pointer;
   color: var(--blue);
   justify-content: center;
   align-items: center;
+}
+
+.partners-list .option {
+  padding: 12px 0 12px 2px;
+}
+
+.option a {
+  width: 100%;
+  height: 100%;
+  padding: 12px 0 12px 2px;
+  /*border: 1px solid gray;*/
 }
 
 .option img {
@@ -1036,10 +1046,11 @@ footer nav.footnav {
   width: 100%;
   height: 500px;
   background-color: #ddd;
-  background-image: url(images/intro.jpg);
+  /*background: url(images/intro.jpg);*/
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+  transition: 0.2s background;
 }
 
 .title {
