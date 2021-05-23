@@ -11,8 +11,13 @@ const topNav = document.querySelector('.topnav');
 const topNavUl = document.createElement('ul');
 const searchIntro = document.querySelector('.search_intro');
 const logo = document.querySelector('.header-logo-image img');
+let work;
 
 function getContent() {
+
+  for (let i = 0; i < optionLang.length; i++) {
+    optionLang[i].href = (work != undefined) ? `#${work}-${optionLang[i].textContent.toLowerCase()}` : optionLang[i].href;
+  }
 
   partners.textContent = data[lang][1];
   topbarContactLink.textContent = data[lang][2];
@@ -46,7 +51,7 @@ function getContent() {
       const li_VmhAh = document.createElement('li');
       ul_QenSy[0].appendChild(li_VmhAh);
       const a_uuiRj = document.createElement('a');
-      a_uuiRj.href = `${data[lang][0][0][1][j][0].toLowerCase()}.html`;
+      a_uuiRj.href = `work.html#${data[lang][0][0][1][j][0].toLowerCase()}-${lang}`;
       li_VmhAh.appendChild(a_uuiRj);
       a_uuiRj.textContent += data[lang][0][0][1][j][0];
 
@@ -62,7 +67,7 @@ function getContent() {
       const li_VmhAh = document.createElement('li');
       ul_QenSy[1].appendChild(li_VmhAh);
       const a_uuiRj = document.createElement('a');
-      a_uuiRj.href = `${data[lang][0][1][1][j][0].toLowerCase()}.html`;
+      a_uuiRj.href = `work.html#${data[lang][0][1][1][j][0].toLowerCase()}-${lang}`;
       li_VmhAh.appendChild(a_uuiRj);
       a_uuiRj.textContent += data[lang][0][1][1][j][0];
 
@@ -84,7 +89,9 @@ window.addEventListener('hashchange', function(e) {
   footNavColumn[1].innerHTML = ``;
   setTimeout(() => {
   lang = window.location.href.slice(window.location.href.length - 2);
+  if (window.location.href.indexOf('index') == -1) getWork();
   getContent();
+  getWorkContent();
   }, 0)
 });
 

@@ -695,7 +695,6 @@ a.parent-link:hover:after {
   margin-left: 20px;
 }
 
-
 /*Foonav*/
 
 footer {
@@ -1957,7 +1956,7 @@ body:not(.device-touch) .button.button-reveal span {
 }
 
 .blue-line-menu li:hover .plus {
-  width: 20px;
+  width: 80px;
   background: #aaa;
 }
 
