@@ -25,7 +25,7 @@ Vue.component('topbar', {
           </div>
         </div>
         <span class="separator"></span>
-        <a class="topbar-contact-link" href="contact.html"></a>
+        <a class="topbar-contact-link" href="form.html"></a>
       </div>
       <div class="flex-container">
         <div class="dropdown-list available-languages">

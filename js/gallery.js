@@ -1,19 +1,21 @@
 const modal = document.getElementById('myModal');
-let galleryImage = document.querySelectorAll('.gallery_inner img');
+let galleryImage;
 let gallery = document.querySelector('.gallery_items');
 let arrowBtn = document.querySelectorAll('.arrow-btn');
 let modalImageDescription = document.querySelector('.modal-image-description');
-let img = document.querySelector('.gallery_iner');
+let img = document.querySelector('.gallery_inner');
 let modalImg = document.getElementById('img');
 
-for (let i = 0; i < galleryImage.length; i++) {
-  n = i;
-  galleryImage[i].onclick = function () {
-    gallery.style.display = 'none';
-    modal.style.display = 'flex';
-    console.log(galleryImage[i].src);
-    modalImg.src = galleryImage[i].src.replace(`sm`, `lg`);
-    modalImageDescription.textContent = galleryImage[i].alt;
+function getGallery () {
+  galleryImage = document.querySelectorAll('.gallery_inner img');
+  for (let i = 0; i < galleryImage.length; i++) {
+    n = i;
+    galleryImage[i].onclick = function () {
+      gallery.style.display = 'none';
+      modal.style.display = 'flex';
+      console.log(galleryImage[i].src);
+      modalImg.src = galleryImage[i].src.replace(`sm`, `lg`);
+      // modalImageDescription.textContent = galleryImage[i].alt;
   }
   for (let i = 0; i <= arrowBtn.length; i++) {
     arrowBtn[0].onclick = function () {
@@ -25,6 +27,7 @@ for (let i = 0; i < galleryImage.length; i++) {
       n = (n < galleryImage.length - 1) ? n + 1 : 0;
       modalImg.src = galleryImage[n].src.replace(`sm`, `lg`);
       // modalImageDescription.textContent = galleryImage[n].alt;
+      }
     }
   }
 }
@@ -43,3 +46,5 @@ modalContent.onclick = function () {
   // modalImg.style.transform = 'scale(1.7)';
   // modalImg.style.overflow = 'visible';
 }
+
+getGallery();
