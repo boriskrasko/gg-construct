@@ -37,7 +37,7 @@ function getContent() {
     mobileDropdownColumn.appendChild(li_UwhqJ);
     const a_Zgcgk = document.createElement('a');
     li_UwhqJ.appendChild(a_Zgcgk);
-    a_Zgcgk.href = `${data.en[0][i][0].toLowerCase()}.html`;
+    a_Zgcgk.href = `${data.en[0][i][0].replace(' ', '-').toLowerCase()}.html`;
     a_Zgcgk.textContent += data[lang][0][i][0];
 
     if (data[lang][0][i][1].length >= 1) {
@@ -50,7 +50,7 @@ function getContent() {
       const li_VmhAh = document.createElement('li');
       ul_QenSy[0].appendChild(li_VmhAh);
       const a_uuiRj = document.createElement('a');
-      a_uuiRj.href = `${data[lang][0][0][1][j][0].toLowerCase()}.html`;
+      a_uuiRj.href = `${data[lang][0][0][1][j][0].replace(' ', '-').toLowerCase()}.html`;
       li_VmhAh.appendChild(a_uuiRj);
       a_uuiRj.textContent += data[lang][0][0][1][j][0];
 
@@ -58,7 +58,7 @@ function getContent() {
       li_HVtWm.classList.add('footnav-link-item');
       footNavColumn[0].appendChild(li_HVtWm);
       const a_mLBgC = document.createElement('a');
-      a_mLBgC.href = `${data.en[0][0][0].toLowerCase()}.html`;
+      a_mLBgC.href = `${data[lang][0][0][1][j][0].replace(' ', '-').toLowerCase()}.html`;
       li_HVtWm.appendChild(a_mLBgC);
       a_mLBgC.textContent += data[lang][0][0][1][j][0];
     }

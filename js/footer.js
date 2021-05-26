@@ -132,7 +132,7 @@ Vue.component('contact-widget', {
     <div class="contact-widget-container">
       <ul class="items-of-contact">
         <li class="item-phone">
-          <a href="contact.html">
+          <a href="contact-details.html">
           <img src="images/icons/call.svg" alt="phone call us">
           </a>
         </li>
