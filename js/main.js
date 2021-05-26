@@ -61,20 +61,3 @@ function myFunction() {
     searchModal.style.marginTop = '0';
   }
 }
-
-// let currentLocationPath = window.location.pathname;
-// let titlebarPath = document.querySelector('.titlebar-path')
-
-// let pathNames = currentLocationPath.split('/');
-
-// for (let i = 0; i < pathNames.length; i++) {
-//   let a = document.createElement('a');
-//   let span = document.createElement('span');
-//   span.textContent = `›`;
-//   a.textContent = pathNames[i + 1];
-//   a.href = currentLocationPath;
-//   if (a.textContent !== '') {
-//     titlebarPath.appendChild(a);
-//     titlebarPath.appendChild(span);
-//   }
-// }

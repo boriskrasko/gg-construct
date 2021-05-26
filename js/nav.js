@@ -11,12 +11,11 @@ const topNav = document.querySelector('.topnav');
 const topNavUl = document.createElement('ul');
 const searchIntro = document.querySelector('.search_intro');
 const logo = document.querySelector('.header-logo-image img');
-let work;
 
 function getContent() {
 
   for (let i = 0; i < optionLang.length; i++) {
-    optionLang[i].href = (work != undefined) ? `#${work}-${optionLang[i].textContent.toLowerCase()}` : optionLang[i].href;
+    optionLang[i].href = optionLang[i].href;
   }
 
   partners.textContent = data[lang][1];
@@ -30,7 +29,7 @@ function getContent() {
     topNavUl.appendChild(li_CIdHm);
     const a_ezoFd = document.createElement('a');
     a_ezoFd.classList.add('parent-link');
-    a_ezoFd.href = `${data.en[0][i][0].toLowerCase()}.html`;
+    a_ezoFd.href = `${data.en[0][i][0].replace(' ', '-').toLowerCase()}.html`;
     li_CIdHm.appendChild(a_ezoFd);
     a_ezoFd.textContent += data[lang][0][i][0];
     const ul_QenSy = document.createElement('ul');
@@ -51,7 +50,7 @@ function getContent() {
       const li_VmhAh = document.createElement('li');
       ul_QenSy[0].appendChild(li_VmhAh);
       const a_uuiRj = document.createElement('a');
-      a_uuiRj.href = `work.html#${data[lang][0][0][1][j][0].toLowerCase()}-${lang}`;
+      a_uuiRj.href = `${data[lang][0][0][1][j][0].toLowerCase()}.html`;
       li_VmhAh.appendChild(a_uuiRj);
       a_uuiRj.textContent += data[lang][0][0][1][j][0];
 
@@ -67,7 +66,7 @@ function getContent() {
       const li_VmhAh = document.createElement('li');
       ul_QenSy[1].appendChild(li_VmhAh);
       const a_uuiRj = document.createElement('a');
-      a_uuiRj.href = `work.html#${data[lang][0][1][1][j][0].toLowerCase()}-${lang}`;
+      a_uuiRj.href = `${data[lang][0][1][1][j][0].toLowerCase()}.html`;
       li_VmhAh.appendChild(a_uuiRj);
       a_uuiRj.textContent += data[lang][0][1][1][j][0];
 
@@ -89,9 +88,8 @@ window.addEventListener('hashchange', function(e) {
   footNavColumn[1].innerHTML = ``;
   setTimeout(() => {
   lang = window.location.href.slice(window.location.href.length - 2);
-  if (window.location.href.indexOf('index') == -1) getWork();
   getContent();
-  getWorkContent();
+  getGallery();
   }, 0)
 });
 
