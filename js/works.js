@@ -28,6 +28,7 @@ let works = {
     ["images/gallery/test/img-sm-3.jpg"],
     ["images/gallery/test/img-sm-4.jpg"],
     ["images/gallery/test/img-sm-5.jpg"],
+    ["images/gallery/test/img-sm-6.jpg"],
   ]
   ],
 }
