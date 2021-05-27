@@ -1087,7 +1087,7 @@ footer nav.footnav {
 }
 
 .info-block>div {
-  min-width: 320px;
+  min-width: 280px;
   border-bottom: 2px solid #eee;
   /*background: rgb(238, 236, 226);*/
 }
@@ -1676,6 +1676,7 @@ body:not(.device-touch) .button.button-reveal span {
 
 .m-article {
   margin-top: 2rem;
+  padding: 5px;
 }
 
 .m-article .socials {
@@ -1941,14 +1942,14 @@ body:not(.device-touch) .button.button-reveal span {
 .blue-line-menu li {
   display: flex;
   min-height: 50px;
-  margin-left: 40px;
+  margin-left: 20px;
   cursor: pointer;
   transition: .2s transform;
   align-items: center;
 }
 
 .blue-line-menu li {
-  min-width: 160px;
+  min-width: 100px;
 }
 
 .blue-line-menu ul {
