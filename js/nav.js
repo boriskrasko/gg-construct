@@ -10,7 +10,7 @@ const footNavColumn = document.querySelectorAll('.footnav-column ul');
 const topNav = document.querySelector('.topnav');
 const topNavUl = document.createElement('ul');
 const searchIntro = document.querySelector('.search_intro');
-const logo = document.querySelector('.header-logo-image img');
+// const logo = document.querySelector('.header-logo-image img');
 
 function getContent() {
 

@@ -2,132 +2,33 @@ data = {
   "en": [
     [
       [
-        "Floor covering",
-        [
-          [
-            "Vinyl",
-            [
-              ""
-            ],
-            [
-              "images/vinyl.jpg"
-            ]
-          ],
-          [
-            "Tapijt",
-            [],
-            [
-              "images/tapijt.jpg"
-            ]
-          ],
-          [
-            "Linoleum",
-            [
-              ""
-            ],
-            [
-              "images/linoleum.jpg"
-            ]
-          ],
-          [
-            "PVC",
-            [
-              ""
-            ],
-            [
-              "images/pvc.jpg"
-            ]
-          ],
-          [
-            "LVT",
-            [
-              ""
-            ],
-            [
-              "images/floor.jpg"
-            ]
-          ],
-          [
-            "Rubber",
-            [
-              ""
-            ],
-            [
-              "images/rubber.jpg"
-            ]
-          ],
-          [
-            "Egaliseren",
-            [
-              ""
-            ],
-            [
-              "images/egaliseren.jpg"
-            ]
-          ]
-        ],
-        [
-          "images/floor.jpg"
-        ]
+        "Home",
+        [],
       ],
       [
-        "Сonstruction",
-        [
-          [
-            "Gyproc work",
-            [
-              ""
-            ],
-            [
-              "images/gyproc.jpg"
-            ]
-          ],
-          [
-            "Terrace work",
-            [
-              ""
-            ],
-            [
-              "images/terrace.jpg"
-            ]
-          ],
-          [
-            "Pitched roofing",
-            [
-              ""
-            ],
-            [
-              "images/roofing.jpg"
-            ]
-          ],
-          [
-            "Paintwork",
-            [
-              ""
-            ],
-            [
-              "images/paint.jpg"
-            ]
-          ],
-          [
-            "Renovation",
-            [
-              ""
-            ],
-            [
-              "images/renovation.jpg"
-            ]
-          ]
-        ]
+        "About Us",
+        [],
       ],
       [
-        "Gallery",
-        []
+        "Activities",
+        [],
       ],
       [
-        "Contact details",
-        []
-      ]
+        "References",
+        [],
+      ],
+      [
+        "News",
+        [],
+      ],
+      [
+        "Vacancies",
+        [],
+      ],
+      [
+        "Contact",
+        [],
+      ],
     ],
     [
       "Our partners"
@@ -151,128 +52,33 @@ data = {
   "nl": [
     [
       [
-        "Vloerbekleding",
-        [
-          [
-            "Vinyl",
-            [
-              ""
-            ],
-            [
-              "images/floor.jpg"
-            ]
-          ],
-          [
-            "Tapijt",
-            [
-              ""
-            ]
-          ],
-          [
-            "Linoleum",
-            [
-              ""
-            ]
-          ],
-          [
-            "PVC",
-            [
-              ""
-            ],
-            [
-              "images/floor.jpg"
-            ]
-          ],
-          [
-            "LVT",
-            [
-              ""
-            ],
-            [
-              "images/floor.jpg"
-            ]
-          ],
-          [
-            "Rubber",
-            [
-              ""
-            ],
-            [
-              "images/floor.jpg"
-            ]
-          ],
-          [
-            "Egaliseren",
-            [
-              ""
-            ],
-            [
-              "images/floor.jpg"
-            ]
-          ]
-        ],
-        [
-          "images/floor.jpg"
-        ]
+        "Home",
+        [],
       ],
       [
-        "Bouw",
-        [
-          [
-            "Gyproc werk",
-            [
-              ""
-            ],
-            [
-              "images/gyproc.jpg"
-            ]
-          ],
-          [
-            "Terras werk",
-            [
-              ""
-            ],
-            [
-              "images/terrace.jpg"
-            ]
-          ],
-          [
-            "Hellend dakwerk",
-            [
-              ""
-            ],
-            [
-              "images/roofing.jpg"
-            ]
-          ],
-          [
-            "Schilderwerk",
-            [
-              ""
-            ],
-            [
-              "images/paint.jpg"
-            ]
-          ],
-          [
-            "Renovatie",
-            [
-              ""
-            ],
-            [
-              "images/renovation.jpg"
-            ]
-          ]
-        ]
+        "Over ons",
+        [],
       ],
       [
-        "Galerie",
-        []
+        "Activiteiten",
+        [],
       ],
       [
-        "Contactgegevens",
-        []
-      ]
+        "Referenties",
+        [],
+      ],
+      [
+        "Nieuws",
+        [],
+      ],
+      [
+        "Vacatures",
+        [],
+      ],
+      [
+        "Contact",
+        [],
+      ],
     ],
     [
       "Onze partners"
@@ -296,95 +102,33 @@ data = {
   "de": [
     [
       [
-        "Bodenbelag",
-        [
-          [
-            "Vinyl",
-            [
-              ""
-            ],
-            [
-              "images/floor.jpg"
-            ]
-          ],
-          [
-            "Tapijt",
-            [
-              ""
-            ]
-          ],
-          [
-            "Linoleum",
-            [
-              ""
-            ]
-          ],
-          [
-            "PVC",
-            [
-              ""
-            ],
-            [
-              "images/floor.jpg"
-            ]
-          ],
-          [
-            "LVT",
-            [
-              ""
-            ],
-            [
-              "images/floor.jpg"
-            ]
-          ],
-          [
-            "Rubber",
-            [
-              ""
-            ],
-            [
-              "images/floor.jpg"
-            ]
-          ],
-          [
-            "Egaliseren",
-            [
-              ""
-            ],
-            [
-              "images/floor.jpg"
-            ]
-          ]
-        ]
+        "Zuhause",
+        [],
       ],
       [
-        "Konstruktion",
-        [
-          [
-            "Gyproc Arbeit"
-          ],
-          [
-            "Terrassenarbeit"
-          ],
-          [
-            "Pitched roofing"
-          ],
-          [
-            "Lackierung"
-          ],
-          [
-            "Schrägdach"
-          ]
-        ]
+        "Über uns",
+        [],
       ],
       [
-        "Galerie",
-        []
+        "Aktivitäten",
+        [],
       ],
       [
-        "Kontaktdetails",
-        []
-      ]
+        "Verweise",
+        [],
+      ],
+      [
+        "Nachrichten",
+        [],
+      ],
+      [
+        "Stellenangebote",
+        [],
+      ],
+      [
+        "Kontakt",
+        [],
+      ],
     ],
     [
       "Unsere Partner"
@@ -408,95 +152,33 @@ data = {
   "fr": [
     [
       [
-        "Revêtement de sol",
-        [
-          [
-            "Vinyl",
-            [
-              ""
-            ],
-            [
-              "images/floor.jpg"
-            ]
-          ],
-          [
-            "Tapijt",
-            [
-              ""
-            ]
-          ],
-          [
-            "Linoleum",
-            [
-              ""
-            ]
-          ],
-          [
-            "PVC",
-            [
-              ""
-            ],
-            [
-              "images/floor.jpg"
-            ]
-          ],
-          [
-            "LVT",
-            [
-              ""
-            ],
-            [
-              "images/floor.jpg"
-            ]
-          ],
-          [
-            "Rubber",
-            [
-              ""
-            ],
-            [
-              "images/floor.jpg"
-            ]
-          ],
-          [
-            "Egaliseren",
-            [
-              ""
-            ],
-            [
-              "images/floor.jpg"
-            ]
-          ]
-        ]
+        "Domicile",
+        [],
       ],
       [
-        "Construction",
-        [
-          [
-            "Travail Gyproc"
-          ],
-          [
-            "Travaux de terrasse"
-          ],
-          [
-            "Toiture en pente"
-          ],
-          [
-            "Ouvrage"
-          ],
-          [
-            "Rénovation"
-          ]
-        ]
+        "À propos de nous",
+        [],
       ],
       [
-        "Galerie",
-        []
+        "Activités",
+        [],
       ],
       [
-        "Détails du contact",
-        []
-      ]
+        "Les références",
+        [],
+      ],
+      [
+        "Nouvelles",
+        [],
+      ],
+      [
+        "Postes vacants",
+        [],
+      ],
+      [
+        "Contacter",
+        [],
+      ],
     ],
     [
       "Nos partenaires"

@@ -59,6 +59,73 @@ Vue.component('navbar', {
         </a>
       </div>
       <nav class="topnav">
+        <!-- <ul>
+         <li class="topnav-item">
+            <a class="parent-link" href="">Home</a>
+          </li>
+        <li class="topnav-item">
+          <a class="parent-link" href="">Over ons</a>
+          <ul class="topnav-dropdown-column">
+            <li><a href="">Long child link for testing</a></li>
+            <li><a href="">Child link</a></li>
+            <li><a href="">Child link</a></li>
+            <li><a href="">Child link</a></li>
+            <li><a href="">Child link</a></li>
+            <li><a href="">Child link</a></li>
+            <li><a class="more" href="">More...</a></li>
+          </ul>
+        </li>
+        <li class="topnav-item parent">
+          <a class="parent-link" href="">Activiteiten</a>
+          <ul class="topnav-dropdown-column">
+            <li><a href="">Link link link</a></li>
+            <li><a href="">Link</a></li>
+            <li><a href="">Link</a></li>
+            <li><a href="">Link</a></li>
+            <li><a href="">Link</a></li>
+            <li><a href="">Link</a></li>
+            <li><a class="more" href="">More...</a></li>
+          </ul>
+        </li>
+        <li class="topnav-item">
+          <a class="parent-link" href="">Referenties</a>
+          <ul class="topnav-dropdown-column">
+            <li><a href="">Link link link</a></li>
+            <li><a href="">Link</a></li>
+            <li><a href="">Link</a></li>
+            <li><a href="">Link</a></li>
+            <li><a href="">Link</a></li>
+            <li><a href="">Link</a></li>
+            <li><a class="more" href="">More...</a></li>
+          </ul>
+        </li>
+        <li class="topnav-item">
+          <a class="parent-link" href="">Nieuws</a>
+          <ul class="topnav-dropdown-column">
+            <li><a href="">Link link link</a></li>
+            <li><a href="">Link</a></li>
+            <li><a href="">Link</a></li>
+            <li><a href="">Link</a></li>
+            <li><a href="">Link</a></li>
+            <li><a href="">Link</a></li>
+            <li><a class="more" href="">More...</a></li>
+          </ul>
+        </li>
+        <li class="topnav-item">
+          <a class="parent-link" href="">Vacatures</a>
+          <ul class="topnav-dropdown-column">
+            <li><a href="">Link link link</a></li>
+            <li><a href="">Link</a></li>
+            <li><a href="">Link</a></li>
+            <li><a href="">Link</a></li>
+            <li><a href="">Link</a></li>
+            <li><a href="">Link</a></li>
+            <li><a class="more" href="">More...</a></li>
+          </ul>
+        <li class="topnav-item">
+          <a class="parent-link" href="">Contact</a>
+        </li>
+      </ul> -->
         <div class="topnav-btns">
           <a class="btn btn-default btn-call" href="tel:+32472815575">
             <img src="images/icons/phone-call.svg" alt="phone">
