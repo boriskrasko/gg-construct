@@ -2,7 +2,7 @@ Vue.component('footnav', {
   template: `
   <nav class="footnav">
         <div class="footnav-column">
-          <h4 class="column-title">Column 1</h4>
+          <h4 class="column-title">Home</h4>
           <hr class="title-underline">
           <ul>
             

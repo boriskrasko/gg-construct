@@ -7,7 +7,7 @@ let cardTitle = document.querySelectorAll('.card-title');
 let cardImage = document.querySelectorAll('.card-image img');
 let startscreen = document.querySelector('.startscreen');
 
-function getConten() {
+function getContent() {
   startscreen.style.background = `url('${data[lang][5]}')`;
   startscreen.style.backgroundRepeat = `no-repeat`;
   startscreen.style.backgroundSize = `cover`;
@@ -21,8 +21,8 @@ function getConten() {
 
 window.addEventListener('hashchange', () => {
   setTimeout(() => {
-  getConten();
+  getContent();
   }, 0)
 });
 
-getConten();
+getContent();

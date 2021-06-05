@@ -11,7 +11,26 @@ data = {
       ],
       [
         "Activities",
-        [],
+        [
+           [
+             "Floor Covering"
+           ],
+           [
+             "Painting"
+           ],
+           [
+             "Gyproc work"
+           ],
+           [
+             "Terrace work"
+           ],
+           [
+             "Sloping roof work"
+           ],
+           [
+             "Renovation"
+           ],
+         ]
       ],
       [
         "References",
@@ -61,7 +80,26 @@ data = {
       ],
       [
         "Activiteiten",
-        [],
+        [
+          [
+            "Vloerbekleding"
+          ],
+          [
+            "Schilderwerk"
+          ],
+          [
+            "Gyproc werk"
+          ],
+          [
+            "Terras werk"
+          ],
+          [
+            "Hellend dak werk"
+          ],
+          [
+            "Renovatie"
+          ],
+        ]
       ],
       [
         "Referenties",
@@ -111,7 +149,26 @@ data = {
       ],
       [
         "Aktivitäten",
-        [],
+        [
+           [
+             "Bodenbelag"
+           ],
+           [
+             "Malerei"
+           ],
+           [
+             "Gyproc-Arbeit"
+           ],
+           [
+             "Terrassenarbeit"
+           ],
+           [
+             "Schrägdacharbeiten"
+           ],
+           [
+             "Renovierung"
+           ],
+         ]
       ],
       [
         "Verweise",
@@ -161,7 +218,26 @@ data = {
       ],
       [
         "Activités",
-        [],
+        [
+           [
+             "Revêtement de sol"
+           ],
+           [
+             "La peinture"
+           ],
+           [
+             "travaux de gyproc"
+           ],
+           [
+             "Travail de terrasse"
+           ],
+           [
+             "Travaux de toiture en pente"
+           ],
+           [
+             "Rénovation"
+           ],
+         ]
       ],
       [
         "Les références",
