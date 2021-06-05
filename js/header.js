@@ -5,7 +5,7 @@ Vue.component('topbar', {
         <div class="dropdown-list partners-list">
           <div class="dropdown-select">
             <div class="dropdown-title partners">
-              <span></span>
+              <span>Onze partners</span>
               <div class="arrow"></div>
             </div>
             <div class="options">
@@ -25,9 +25,16 @@ Vue.component('topbar', {
           </div>
         </div>
         <span class="separator"></span>
-        <a class="topbar-contact-link" href="form.html"></a>
+        <a class="topbar-contact-link" href="form.html">Contact</a>
       </div>
       <div class="flex-container">
+      <div class="socials">
+          <ul>
+            <li><a class="ti-facebook" href="https://www.facebook.com/ggvloerbekleding.vloerbekleding"></a></li>
+            <li><a class="ti-linkedin" href="https://linkedin.com"></a></li>
+            <li><a class="ti-instagram" href="https://www.instagram.com/ggvloerbekleding"></a></li>
+          </ul>
+        </div>
         <div class="dropdown-list available-languages">
           <div class="dropdown-select">
             <div class="dropdown-title current-lang">
@@ -59,73 +66,37 @@ Vue.component('navbar', {
         </a>
       </div>
       <nav class="topnav">
-        <!-- <ul>
+        <ul>
          <li class="topnav-item">
-            <a class="parent-link" href="">Home</a>
+            <a class="parent-link" href="home.html">Home</a>
           </li>
         <li class="topnav-item">
           <a class="parent-link" href="">Over ons</a>
-          <ul class="topnav-dropdown-column">
-            <li><a href="">Long child link for testing</a></li>
-            <li><a href="">Child link</a></li>
-            <li><a href="">Child link</a></li>
-            <li><a href="">Child link</a></li>
-            <li><a href="">Child link</a></li>
-            <li><a href="">Child link</a></li>
-            <li><a class="more" href="">More...</a></li>
-          </ul>
         </li>
         <li class="topnav-item parent">
           <a class="parent-link" href="">Activiteiten</a>
           <ul class="topnav-dropdown-column">
-            <li><a href="">Link link link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
+            <li><a href="">Vloerbekleding</a></li>
+            <li><a href="">Schilderwerk</a></li>
+            <li><a href="">Gyproc werk</a></li>
+            <li><a href="">Terras werk</a></li>
+            <li><a href="">Hellend dak werk</a></li>
+            <li><a href="">Renovatie</a></li>
             <li><a class="more" href="">More...</a></li>
           </ul>
         </li>
         <li class="topnav-item">
           <a class="parent-link" href="">Referenties</a>
-          <ul class="topnav-dropdown-column">
-            <li><a href="">Link link link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a class="more" href="">More...</a></li>
-          </ul>
         </li>
         <li class="topnav-item">
           <a class="parent-link" href="">Nieuws</a>
-          <ul class="topnav-dropdown-column">
-            <li><a href="">Link link link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a class="more" href="">More...</a></li>
-          </ul>
         </li>
         <li class="topnav-item">
           <a class="parent-link" href="">Vacatures</a>
-          <ul class="topnav-dropdown-column">
-            <li><a href="">Link link link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a href="">Link</a></li>
-            <li><a class="more" href="">More...</a></li>
-          </ul>
         <li class="topnav-item">
-          <a class="parent-link" href="">Contact</a>
+          <a class="parent-link" href="contact.html">Contact</a>
         </li>
-      </ul> -->
+      </ul>
         <div class="topnav-btns">
           <a class="btn btn-default btn-call" href="tel:+32472815575">
             <img src="images/icons/phone-call.svg" alt="phone">
