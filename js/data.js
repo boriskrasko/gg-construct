@@ -66,6 +66,9 @@ data = {
     ],
     [
       " What are you looking for?"
+    ],
+    [
+      "Read more"
     ]
   ],
   "nl": [
@@ -135,6 +138,9 @@ data = {
     ],
     [
       "Wat zoek je?"
+    ],
+    [
+      "Lees meer"
     ]
   ],
   "de": [
@@ -204,6 +210,9 @@ data = {
     ],
     [
       "Was suchen Sie?"
+    ],
+    [
+      "Weiterlesen"
     ]
   ],
   "fr": [
@@ -273,6 +282,9 @@ data = {
     ],
     [
       "Qu'est-ce que tu cherches?"
+    ],
+    [
+      "Lire plus"
     ]
   ]
 }
