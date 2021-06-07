@@ -5,11 +5,10 @@ Vue.component('footnav', {
           <h4 class="column-title">Home</h4>
           <hr class="title-underline">
           <ul>
-            
           </ul>
         </div>
         <div class="footnav-column">
-          <h4 class="column-title">Column 2</h4>
+          <h4 class="column-title">Activiteiten</h4>
           <hr class="title-underline">
           <ul>
           </ul>
