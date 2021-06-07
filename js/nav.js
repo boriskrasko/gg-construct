@@ -1,21 +1,24 @@
 let topNavItem = document.querySelectorAll('.parent-link');
 let currentLang = document.querySelector('.current-lang span');
-    currentLang.textContent = localStorage.getItem('currentLang') || 'NL';
+currentLang.textContent = localStorage.getItem('currentLang') || 'NL';
 let lang = (window.location.href.indexOf('#') !== -1) ? window.location.href.slice(window.location.href.length - 2) : currentLang.textContent.toLowerCase();
 const footNavColumn = document.querySelectorAll('.footnav-column ul');
 const mobileDropdownColumn = document.querySelector('.mobile-dropdown-column');
-
+const topNavDropdownColumnLink = document.querySelectorAll('.topnav-dropdown-column a');
+const searchIntro = document.querySelector('.search_intro');
+const partners = document.querySelector('.partners span');
+const topbarContactLink = document.querySelector('.topbar-contact-link');
 
 let getNav = () => {
   for (let i = 0; i < topNavItem.length; i++) {
     topNavItem[i].textContent = data[lang][0][i][0];
-    topNavItem[i].href = `${data.en[0][i][0].replace(' ', '-').toLowerCase()}.html`;
+    topNavItem[i].href = `${data.nl[0][i][0].replace(/ /g, '-').toLowerCase()}.html`;
 
     const li_HVtWm = document.createElement('li');
     li_HVtWm.classList.add('footnav-link-item');
     footNavColumn[0].appendChild(li_HVtWm);
     const a_mLBgC = document.createElement('a');
-    a_mLBgC.href = `${data[lang][0][i][0].replace(' ', '-').toLowerCase()}.html`;
+    a_mLBgC.href = `${data.nl[0][i][0].replace(/ /g, '-').toLowerCase()}.html`;
     li_HVtWm.appendChild(a_mLBgC);
     a_mLBgC.textContent += data[lang][0][i][0];
 
@@ -23,21 +26,30 @@ let getNav = () => {
     mobileDropdownColumn.appendChild(li_UwhqJ);
     const a_Zgcgk = document.createElement('a');
     li_UwhqJ.appendChild(a_Zgcgk);
-    a_Zgcgk.href = `${data.en[0][i][0].replace(' ', '-').toLowerCase()}.html`;
+    a_Zgcgk.href = `${data.nl[0][i][0].replace(/ /g, '-').toLowerCase()}.html`;
     a_Zgcgk.textContent += data[lang][0][i][0];
   }
+
+  for (let j = 0; j < data[lang][0][2][1].length; j++) {
+    topNavDropdownColumnLink[j].textContent = data[lang][0][2][1][j][0];
+    topNavDropdownColumnLink[j].href = `${data.nl[0][2][1][j][0].replace(/ /g, '-').toLowerCase()}.html`;
+  }
+
+  searchIntro.textContent = data[lang][6];
+  partners.textContent = data[lang][1];
+  topbarContactLink.textContent = data[lang][2];
 }
 
- window.addEventListener('hashchange', function(e) {
+window.addEventListener('hashchange', function (e) {
   mobileDropdownColumn.innerHTML = ``;
   footNavColumn[0].innerHTML = ``;
   setTimeout(() => {
-  lang = window.location.href.slice(window.location.href.length - 2);
-  getNav();
+    lang = window.location.href.slice(window.location.href.length - 2);
+    getNav();
   }, 0)
 });
 
- getNav();
+getNav();
 
 
 // let currentLang = document.querySelector('.current-lang span');
