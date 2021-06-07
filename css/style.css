@@ -1063,8 +1063,8 @@ footer nav.footnav {
   background-color: #ddd;
   /*background: url(../images/intro.jpg);*/
   background-repeat: no-repeat;
-  background-position: top center;
   background-size: cover;
+  background-position: center center;
   transition: 0.2s background;
 }
 
@@ -1957,23 +1957,23 @@ body:not(.device-touch) .button.button-reveal span {
 .blue-line-menu li {
   display: flex;
   min-height: 50px;
-  margin-left: 20px;
+  /*margin-left: 20px;*/
   cursor: pointer;
   transition: .2s transform;
   align-items: center;
+  justify-content: center;
 }
 
 .blue-line-menu li {
-  min-width: 100px;
+  min-width: 160px;
 }
 
 .blue-line-menu ul {
   flex-wrap: wrap;
 }
 
-.blue-line-menu li:hover .plus {
-  width: 80px;
-  background: #aaa;
+.blue-line-menu li:hover {
+  background: var(--light-blue);
 }
 
 @media screen and (max-width: 1024px) {
@@ -2057,6 +2057,13 @@ body:not(.device-touch) .button.button-reveal span {
   }
   .topbar .socials {
     display: none;
+  }
+  .video-block h1,
+  .video-block p {
+    display: none;
+  }
+  .video-block video {
+    width: 90%;
   }
 }
 

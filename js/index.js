@@ -11,6 +11,7 @@ function getContent() {
   startscreen.style.background = `url('${data[lang][5]}')`;
   startscreen.style.backgroundRepeat = `no-repeat`;
   startscreen.style.backgroundSize = `cover`;
+  startscreen.style.backgroundPosition = `center center`;
   typeInfoText.textContent = data[lang][3];
   infoBlockContent.innerHTML = data[lang][4];
   // for (let i = 0; i < cardTitle.length; i++) {
