@@ -2,7 +2,7 @@ Vue.component('footnav', {
   template: `
   <nav class="footnav">
         <div class="footnav-column">
-          <h4 class="column-title">Home</h4>
+          <h4 class="column-title">Hoofd</h4>
           <hr class="title-underline">
           <ul>
           </ul>
@@ -115,7 +115,7 @@ Vue.component('basement', {
         <div class="socials">
           <ul>
             <li><a class="ti-facebook" href="https://www.facebook.com/ggvloerbekleding.vloerbekleding"></a></li>
-            <li><a class="ti-linkedin" href="https://linkedin.com"></a></li>
+            <li><a class="ti-linkedin" href="https://www.linkedin.com/company/ggvloerbekleding/ "></a></li>
             <li><a class="ti-instagram" href="https://www.instagram.com/ggvloerbekleding"></a></li>
           </ul>
         </div>

@@ -8,6 +8,10 @@ const topNavDropdownColumnLink = document.querySelectorAll('.topnav-dropdown-col
 const searchIntro = document.querySelector('.search_intro');
 const partners = document.querySelector('.partners span');
 const topbarContactLink = document.querySelector('.topbar-contact-link');
+const searchLink = document.querySelectorAll('.search_link');
+const searchBox = document.querySelector('.search-box');
+const footNavColumnTitle = document.querySelectorAll('.footnav-column h4')
+
 
 let getNav = () => {
   for (let i = 0; i < topNavItem.length; i++) {
@@ -45,9 +49,18 @@ let getNav = () => {
     topNavDropdownColumnLink[j].href = `${data.nl[0][2][1][j][0].replace(/ /g, '-').toLowerCase()}.html`;
   }
 
-  searchIntro.textContent = data[lang][6];
+  for (let i = 0; i < searchLink.length; i++) {
+    searchLink[i].textContent = data[lang][6][i + 1];
+  }
+
+  searchIntro.textContent = data[lang][6][0];
+  searchBox.setAttribute('placeholder', data[lang][6][1])
   partners.textContent = data[lang][1];
   topbarContactLink.textContent = data[lang][2];
+  footNavColumnTitle[0].textContent = data[lang][8];
+  footNavColumnTitle[1].textContent = data[lang][0][2][0];
+  footNavColumnTitle[3].textContent = data[lang][9];
+
 }
 
 window.addEventListener('hashchange', function (e) {

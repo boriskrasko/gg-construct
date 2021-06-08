@@ -31,7 +31,7 @@ Vue.component('topbar', {
       <div class="socials">
           <ul>
             <li><a class="ti-facebook" href="https://www.facebook.com/ggvloerbekleding.vloerbekleding"></a></li>
-            <li><a class="ti-linkedin" href="https://linkedin.com"></a></li>
+            <li><a class="ti-linkedin" href="https://www.linkedin.com/company/ggvloerbekleding"></a></li>
             <li><a class="ti-instagram" href="https://www.instagram.com/ggvloerbekleding"></a></li>
           </ul>
         </div>

@@ -1118,7 +1118,7 @@ footer nav.footnav {
 }
 
 .greeting .info-block-image {
-  background-image: url(../images/intro_2.jpg);
+  background-image: url(../images/facade-renovation.jpg);
 }
 
 .row {
@@ -1991,7 +1991,8 @@ body:not(.device-touch) .button.button-reveal span {
     display: block;
   }
   .topbar,
-  .navbar {
+  .navbar,
+  .titlebar {
     padding: 5px 5px;
   }
   .info-block>div {
@@ -2016,7 +2017,6 @@ body:not(.device-touch) .button.button-reveal span {
   }
   .copyright,
   .socials {
-    /*margin-top: 20px;*/
     justify-content: center;
     align-items: center;
   }
