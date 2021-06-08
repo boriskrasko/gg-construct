@@ -65,7 +65,11 @@ data = {
       "images/intro.jpg"
     ],
     [
-      " What are you looking for?"
+      [" What are you looking for?"],
+      ["Plaster"],
+      ["Finishing work"],
+      ["Paint"],
+      ["Roofing"]
     ],
     [
       "Read more"
@@ -137,7 +141,11 @@ data = {
       "images/intro_nl.jpg"
     ],
     [
-      "Wat zoek je?"
+      [" Wat zoek je?"],
+       ["Gips"],
+       ["Werk afmaken"],
+       ["Schilderen"],
+       ["Dakbedekking"]
     ],
     [
       "Lees meer"
@@ -209,7 +217,11 @@ data = {
       "images/intro_2.jpg"
     ],
     [
-      "Was suchen Sie?"
+      ["Was suchen Sie?"],
+       ["Gips"],
+       ["Arbeit beenden"],
+       ["Malerei"],
+       ["Überdachung"]
     ],
     [
       "Weiterlesen"
@@ -281,7 +293,11 @@ data = {
       "images/intro_fr.jpg"
     ],
     [
-      "Qu'est-ce que tu cherches?"
+      [" Qu'est-ce que tu cherches?"],
+       ["Plâtre"],
+       ["Finir le travail"],
+       ["Peinture"],
+       ["Toiture"]
     ],
     [
       "Lire plus"
