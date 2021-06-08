@@ -65,7 +65,7 @@ data = {
       "images/intro.jpg"
     ],
     [
-      [" What are you looking for?"],
+      ["What are you looking for?"],
       ["Plaster"],
       ["Finishing work"],
       ["Paint"],
@@ -73,6 +73,12 @@ data = {
     ],
     [
       "Read more"
+    ],
+    [
+      "Main"
+    ],
+    [
+      "Data"
     ]
   ],
   "nl": [
@@ -141,7 +147,7 @@ data = {
       "images/intro_nl.jpg"
     ],
     [
-      [" Wat zoek je?"],
+      ["Wat zoek je?"],
        ["Gips"],
        ["Werk afmaken"],
        ["Schilderen"],
@@ -149,6 +155,12 @@ data = {
     ],
     [
       "Lees meer"
+    ],
+    [
+      "Hoofd"
+    ],
+    [
+      "Gegevens:"
     ]
   ],
   "de": [
@@ -225,6 +237,12 @@ data = {
     ],
     [
       "Weiterlesen"
+    ],
+    [
+      "Main",
+    ],
+    [
+      "Daten:"
     ]
   ],
   "fr": [
@@ -301,6 +319,12 @@ data = {
     ],
     [
       "Lire plus"
+    ],
+    [
+      "D'accueil"
+    ],
+    [
+      "Les données"
     ]
   ]
 }
