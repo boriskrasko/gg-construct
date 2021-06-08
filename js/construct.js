@@ -13,7 +13,7 @@ function getCards() {
         div_sUwXk.classList.add('teaser-small_image');
         div_GmBfj.appendChild(div_sUwXk);
         const img_MDfUj = new Image();
-        img_MDfUj.src = 'images/logo.svg';
+        img_MDfUj.src = `images/${data.nl[0][2][1][i][0].replace(/ /g, '-').toLowerCase()}.jpg` || 'images/logo.svg';
         img_MDfUj.setAttribute(`alt`, '');
         div_sUwXk.appendChild(img_MDfUj);
         const div_HFbUm = document.createElement('div');

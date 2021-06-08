@@ -1,86 +1,4 @@
 data = {
-  "en": [
-    [
-      [
-        "Home",
-        [],
-      ],
-      [
-        "About Us",
-        [],
-      ],
-      [
-        "Activities",
-        [
-           [
-             "Floor Covering"
-           ],
-           [
-             "Painting"
-           ],
-           [
-             "Gyproc work"
-           ],
-           [
-             "Terrace work"
-           ],
-           [
-             "Sloping roof work"
-           ],
-           [
-             "Renovation"
-           ],
-         ]
-      ],
-      [
-        "References",
-        [],
-      ],
-      [
-        "News",
-        [],
-      ],
-      [
-        "Vacancies",
-        [],
-      ],
-      [
-        "Contact",
-        [],
-      ],
-    ],
-    [
-      "Our partners"
-    ],
-    [
-      "Contact"
-    ],
-    [
-      "Let's build with GG"
-    ],
-    [
-      "<strong>GGFloors & Construct</strong> is building a sustainable partnership.\nMore than 15 years of experience in floor coverings, but roofs no longer hold any secrets for us.\nFrom major renovations to smaller repairs as well as completely new homes.<br>\nThrough close cooperation with clients, employees and partners, we aim for the highest achievable top quality. Again and again in an open and respectful atmosphere.\nGGFloors & Construct brings your construction project to a successful conclusion.<br>\nIn this way we make life easy for the customer because we can offer the total concept.<br>\nOur greatest asset is our craftsmen, their safety and well-being is a top priority for GG construct, because this is the only way to deliver top quality to the construction site.\nDo you have construction or renovation plans:"
-    ],
-    [
-      "images/intro.jpg"
-    ],
-    [
-      ["What are you looking for?"],
-      ["Plaster"],
-      ["Finishing work"],
-      ["Paint"],
-      ["Roofing"]
-    ],
-    [
-      "Read more"
-    ],
-    [
-      "Main"
-    ],
-    [
-      "Data"
-    ]
-  ],
   "nl": [
     [
       [
@@ -161,6 +79,88 @@ data = {
     ],
     [
       "Gegevens:"
+    ]
+  ],
+  "en": [
+    [
+      [
+        "Home",
+        [],
+      ],
+      [
+        "About Us",
+        [],
+      ],
+      [
+        "Activities",
+        [
+           [
+             "Floor Covering"
+           ],
+           [
+             "Painting"
+           ],
+           [
+             "Gyproc work"
+           ],
+           [
+             "Terrace work"
+           ],
+           [
+             "Sloping roof work"
+           ],
+           [
+             "Renovation"
+           ],
+         ]
+      ],
+      [
+        "References",
+        [],
+      ],
+      [
+        "News",
+        [],
+      ],
+      [
+        "Vacancies",
+        [],
+      ],
+      [
+        "Contact",
+        [],
+      ],
+    ],
+    [
+      "Our partners"
+    ],
+    [
+      "Contact"
+    ],
+    [
+      "Let's build with GG"
+    ],
+    [
+      "<strong>GGFloors & Construct</strong> is building a sustainable partnership.\nMore than 15 years of experience in floor coverings, but roofs no longer hold any secrets for us.\nFrom major renovations to smaller repairs as well as completely new homes.<br>\nThrough close cooperation with clients, employees and partners, we aim for the highest achievable top quality. Again and again in an open and respectful atmosphere.\nGGFloors & Construct brings your construction project to a successful conclusion.<br>\nIn this way we make life easy for the customer because we can offer the total concept.<br>\nOur greatest asset is our craftsmen, their safety and well-being is a top priority for GG construct, because this is the only way to deliver top quality to the construction site.\nDo you have construction or renovation plans:"
+    ],
+    [
+      "images/intro.jpg"
+    ],
+    [
+      ["What are you looking for?"],
+      ["Plaster"],
+      ["Finishing work"],
+      ["Paint"],
+      ["Roofing"]
+    ],
+    [
+      "Read more"
+    ],
+    [
+      "Main"
+    ],
+    [
+      "Data"
     ]
   ],
   "de": [
