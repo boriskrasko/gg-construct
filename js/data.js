@@ -265,7 +265,7 @@ data = {
              "La peinture"
            ],
            [
-             "travaux de gyproc"
+             "Travaux de gyproc"
            ],
            [
              "Travail de terrasse"

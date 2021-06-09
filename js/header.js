@@ -38,12 +38,12 @@ Vue.component('topbar', {
         <div class="dropdown-list available-languages">
           <div class="dropdown-select">
             <div class="dropdown-title current-lang">
-              <span>EN</span>
+              <span>NL</span>
               <div class="arrow"></div>
             </div>
             <ul class="options options-lang">
-              <li class="option selected"><a href="#en">EN</a></li>
-              <li class="option"><a href="#nl">NL</a></li>
+              <li class="option selected"><a href="#nl">NL</a></li>
+              <li class="option"><a href="#en">EN</a></li>
               <li class="option"><a href="#de">DE</a></li>
               <li class="option"><a href="#fr">FR</a></li>
             </ul>
