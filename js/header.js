@@ -102,8 +102,8 @@ Vue.component('navbar', {
             <img src="images/icons/phone-call.svg" alt="phone">
             <img src="images/icons/dial-pad.svg" alt="dial-pad">
           </a>
-          <button class="btn btn-search">
-            <img src="images/icons/search.svg" alt="search button">
+          <button class="btn btn-search ti-search">
+            <!-- <img src="images/icons/search.svg" alt="search button"> -->
           </button>
         </div>
       </nav>
@@ -165,7 +165,6 @@ Vue.component('search', {
               </li>
               <li>
                 <a class="search_link" href="nohome.html">Paint</a>
-                <span>|</span>
               </li>
             </ul>
           </div>
@@ -175,6 +174,6 @@ Vue.component('search', {
   `
 });
 
-var app = new   Vue({
-el: '#header'
+var app = new Vue({
+  el: '#header'
 })
