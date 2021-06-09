@@ -1,5 +1,4 @@
 let variant = `over-ons`;
-console.log(variant);
 
 const getVariantContent = () => {
   let titlebarTitle = document.querySelector('.titlebar-title h1');
