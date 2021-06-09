@@ -127,22 +127,22 @@ Vue.component('contact-widget', {
   template: `
   <div class="contact-widget">
     <input type="checkbox" class="contact-widget-input">
-    <button class="contact-widget-btn"></button>
+    <button class="contact-widget-btn ti-comment"></button>
     <div class="contact-widget-container">
       <ul class="items-of-contact">
         <li class="item-phone">
-          <a href="contact-details.html">
-          <img src="images/icons/call.svg" alt="phone call us">
+          <a class="ti-mobile" href="contact.html" title="Contact">
+          <!-- <img src="images/icons/call.svg" alt="phone call us"> -->
           </a>
         </li>
         <li class="item-mail">
-          <a href="mailto:gg-construct@live.nl">
-          <img src="images/icons/envelope.svg" alt="send a mail">
+          <a class="ti-email" href="mailto:gg-construct@live.nl" title="E-mail">
+          <!-- <img src="images/icons/envelope.svg" alt="send a mail"> -->
           </a>
         </li>
         <li class="item-form">
-          <a href="form.html">
-          <img src="images/icons/bullet-form.svg" alt="fill in the form">
+          <a class="ti-view-list-alt" href="form.html" title="Form">
+          <!--<img src="images/icons/bullet-form.svg" alt="fill in the form"> -->
           </a>
         </li>
       </ul>

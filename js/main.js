@@ -43,6 +43,13 @@ let navbar = document.querySelector('.navbar');
 let main = document.querySelector('.main');
 let mobile = document.getElementById('menuToggle');
 let dropdownSelect = document.querySelector('.dropdown-select');
+let widgetBtn = document.querySelector('.contact-widget-btn');
+let widgetInput = document.querySelector('.contact-widget-input');
+
+widgetInput.addEventListener('change', () => {
+  widgetBtn.classList.toggle('ti-comment');
+  widgetBtn.classList.toggle('ti-close');
+})
 
 let sticky = navbar.offsetTop;
 

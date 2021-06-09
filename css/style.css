@@ -30,9 +30,9 @@ body {
 }
 
 a {
+  cursor: pointer;
   text-decoration: none;
   color: #444;
-  cursor: pointer;
 }
 
 button {
@@ -129,10 +129,10 @@ img {
 }
 
 .option a {
+  display: flex;
   width: 100%;
   height: 100%;
   padding: 12px 0 12px 2px;
-  display: flex;
   justify-content: center;
   align-items: center;
   /*border: 1px solid gray;*/
@@ -158,7 +158,6 @@ img {
   position: relative;
   height: 7px;
   margin: 0 10px;
-
 }
 
 .arrow::before,
@@ -549,6 +548,8 @@ a.parent-link:hover:after {
 }
 
 .btn-search {
+  font-size: 32px;
+  font-weight: bold !important;
   position: relative;
   display: flex;
   min-width: 36px;
@@ -556,6 +557,7 @@ a.parent-link:hover:after {
   padding: 2px;
   cursor: pointer;
   transition: .2s all;
+  color: var(--blue);
   background: transparent;
   justify-content: center;
   align-items: center;
@@ -658,6 +660,7 @@ a.parent-link:hover:after {
 .search_wrapper-suggestions,
 .search_list-suggestions {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .search_list-suggestions span {
@@ -698,6 +701,7 @@ a.parent-link:hover:after {
   margin-left: 20px;
 }
 
+
 /*Foonav*/
 
 footer {
@@ -716,7 +720,7 @@ footer nav.footnav {
   width: 20%;
   min-width: 240px;
   margin-top: 20px;
-  padding: 5px 10px; 
+  padding: 5px 10px;
   border-bottom: dotted 1px gray;
 }
 
@@ -735,11 +739,12 @@ footer nav.footnav {
 }
 
 .gegevens {
-  background-color: var(--light-blue);
   border-radius: 6px;
+  background-color: var(--light-blue);
 }
 
-.footnav-link-item a, .gegevens-link-item a {
+.footnav-link-item a,
+.gegevens-link-item a {
   font: inherit;
   font-size: 12px;
   line-height: 18px;
@@ -835,7 +840,6 @@ footer nav.footnav {
   background: var(--dark-blue);
 }
 
-
 .copyright-title {
   font: inherit;
   font-size: 14px;
@@ -863,6 +867,7 @@ footer nav.footnav {
   text-decoration: underline;
 }
 
+
 /*Contact widget */
 
 .contact-widget {
@@ -876,17 +881,19 @@ footer nav.footnav {
 
 .contact-widget-btn,
 .contact-widget-input {
+  font-size: 28px;
   width: 60px;
   height: 60px;
   cursor: pointer;
   transition: .2s background-image;
+  color: var(--blue);
   border: 2px solid var(--blue);
   border-radius: 16px;
   background: #fff;
-  background-image: url(../images/icons/chat.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 60%;
+  /*background-image: url(../images/icons/chat.svg);*/
+  /*background-repeat: no-repeat;*/
+  /*background-position: center;*/
+  /*background-size: 60%;*/
   box-shadow: 0 0 20px 1px #444;
   order: 2;
 }
@@ -910,16 +917,13 @@ footer nav.footnav {
 }
 
 .contact-widget-input:hover~.contact-widget-btn {
+  color: #fff;
   background-color: var(--blue);
-  background-image: url(../images/icons/chat-white.svg);
+  /*background-image: url(../images/icons/chat-white.svg);*/
 }
 
 .contact-widget-input:checked~.contact-widget-container {
   display: block;
-}
-
-.contact-widget-input:checked~.contact-widget-btn {
-  background-image: url(../images/icons/cancel.svg);
 }
 
 .items-of-contact {
@@ -941,6 +945,7 @@ footer nav.footnav {
 }
 
 .items-of-contact li a {
+  font-size: 28px;
   display: flex;
   width: 100%;
   height: 100%;
@@ -954,6 +959,7 @@ footer nav.footnav {
 }
 
 .items-of-contact li a:hover {
+  color: #222;
   background: var(--light-blue);
 }
 
@@ -973,7 +979,7 @@ footer nav.footnav {
   color: #fff;
   border: 0;
   border-radius: 10px;
-  background: var(--blue);
+  background: var(--dark-blue);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
 }
@@ -1060,12 +1066,12 @@ footer nav.footnav {
 .startscreen {
   width: 100%;
   height: 500px;
-  background-color: #ddd;
+  transition: .2s background;
   background: url(../images/intro_nl.jpg);
+  background-color: #ddd;
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center center;
-  transition: 0.2s background;
+  background-size: cover;
 }
 
 .title {
@@ -1109,15 +1115,14 @@ footer nav.footnav {
 }
 
 .info-block-image {
+  overflow: hidden;
   width: 50%;
   min-height: 240px;
   max-height: 500px;
-
   padding: 20px 0;
   background-position: center;
   /*background-color: var(--light-blue);*/
   background-size: cover;
-  overflow: hidden;
 }
 
 .greeting .info-block-image {
@@ -1180,6 +1185,7 @@ footer nav.footnav {
   color: var(--blue);
 }
 
+
 /*Service cards*/
 
 .card {
@@ -1188,6 +1194,7 @@ footer nav.footnav {
   flex-direction: column;
   width: 300px;
   height: 400px;
+  margin: 6px;
   transition: .4s transform;
   border: 1px solid #eee;
   box-shadow: 0 0 2px 1px #bbb;
@@ -1427,6 +1434,7 @@ footer nav.footnav {
 .parallax-content {
   font-size: 14px;
   width: 60%;
+  margin: 20px;
   padding: 20px;
   color: #fff;
   border-radius: 8px;
@@ -1563,8 +1571,8 @@ body:not(.device-touch) .button.button-reveal span {
 }
 
 .circle:hover {
-  background: var(--blue);
   color: var(--beige);
+  background: var(--blue);
 }
 
 
@@ -1897,7 +1905,6 @@ body:not(.device-touch) .button.button-reveal span {
 
 .teaser-small_image img {
   transition: 2s transform;
-
 }
 
 .teaser-small_image img:hover {
@@ -1932,6 +1939,7 @@ body:not(.device-touch) .button.button-reveal span {
 .main {
   margin-top: 72px;
 }
+
 
 /*pvc*/
 
@@ -2050,7 +2058,9 @@ body:not(.device-touch) .button.button-reveal span {
   .chat-to {
     bottom: 55px;
   }
-  .info-block-content, .info-block-image, .info-block {
+  .info-block-content,
+  .info-block-image,
+  .info-block {
     padding: 5px !important;
   }
   .arrow-btn {
