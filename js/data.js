@@ -15,7 +15,9 @@ data = {
           [
             "Vloerbekleding", 
             [
-              ["Vinyl"],
+              ["Vinyl",
+                ["Vinyl is een algemene benaming voor een (soepel en veerkrachtige) kunststof vloerbedekking van hard materiaal. In de volksmond is het soms beter gekend als Novilon. Soms wordt vinyl verward met linoleum, doe dit zeker niet want er zijn zeker verschillen. Je zal dit zelf kunnen lezen op deze website. Vinyl is een synthetisch materiaal, terwijl linoleum puur natuur is. Omwille van het natuurlijk karakter van linoleum is deze minder bestand tegen water. Wordt de linoleumvloer té nat, dan zal dit materiaal blazen trekken, wat bij vinyl niet het geval is. Kunststof vloeren zijn werkelijk overal terug te vinden: woonkamer, slaapkamer, maar ook in ziekenhuizen of kantoren en winkels, … Ze zijn makkelijk te plaatsen, onderhoudsvriendelijk en goed voor het budget. Het is dus niet verwonderlijk dat dit soort vloer populair is. Vinyl is verkrijgbaar in diktes van 1 tot 3.5 millimeter en in breedtes van 1 tot 5 meter. De algemene regel luidt: Hoe meer de vloer belast wordt, hoe dikker en sterker de kwaliteit van het vinyl moet zijn. Soorten vinyl vloeren, het zijn er in feite teveel om allemaal op te sommen."],
+              ],
               ["Tapijt"],
               ["Linoleum"],
               ["PVC"],

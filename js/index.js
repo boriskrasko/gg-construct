@@ -29,7 +29,7 @@ function getContent() {
     activitiesListItem[i].textContent = data[lang][0][2][1][i][0];
     activitiesListItem[i].href = `${data.nl[0][2][1][i][0].replace(/ /g, '-').toLowerCase()}.html`;
   }
-  activitiesListItem[0].textContent += ` (${data[lang][0][2][1][0][1].toString().replace(/,/g, ', ').toLowerCase()}, ... )`;
+  activitiesListItem[0].textContent += ` (${data[lang][0][2][1][0][1][0][0].toString().replace(/,/g, ', ').toLowerCase()}, ... )`;
   articleHeadingTitle[0].textContent = data[lang][0][2][0];
 }
 

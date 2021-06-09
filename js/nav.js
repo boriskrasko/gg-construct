@@ -41,7 +41,7 @@ let getNav = () => {
     const a_mLBg = document.createElement('a');
     a_mLBg.href = `${data.nl[0][2][1][i][0].replace(/ /g, '-').toLowerCase()}.html`;
     li_HVtW.appendChild(a_mLBg);
-    a_mLBg.textContent += data[lang][0][2][1][i];
+    a_mLBg.textContent += data[lang][0][2][1][i][0];
   }
 
   for (let j = 0; j < data[lang][0][2][1].length; j++) {
