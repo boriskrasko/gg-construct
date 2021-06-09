@@ -174,6 +174,6 @@ Vue.component('search', {
   `
 });
 
-var app = new   Vue({
-el: '#header'
+var app = new Vue({
+  el: '#header'
 })
