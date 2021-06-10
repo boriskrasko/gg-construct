@@ -1,4 +1,4 @@
-const companyName = `GGFloors & Construct`;
+const companyName = `GG Floors & Construct`;
 let infoBlockContent = document.querySelectorAll('.info-block-content p');
 const typeInfoText = document.querySelector('.type-info-text');
 const typeTitle = document.querySelector('.type-title');
