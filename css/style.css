@@ -740,6 +740,8 @@ footer nav.footnav {
 }
 
 .gegevens {
+  min-width: 300px;
+  font-family: Raleway, sans-serif;
   border-radius: 6px;
   background-color: var(--light-blue);
 }
@@ -758,7 +760,7 @@ footer nav.footnav {
   vertical-align: baseline;
   letter-spacing: 0;
   text-transform: uppercase;
-  color: #4d4d4d;
+  color: #2d2d2d;
   align-items: center;
 }
 
@@ -2080,6 +2082,9 @@ body:not(.device-touch) .button.button-reveal span {
   }
   .video-block video {
     width: 90%;
+  }
+  footer nav.footnav {
+    padding: 20px 10px;
   }
 }
 
