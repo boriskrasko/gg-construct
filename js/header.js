@@ -76,12 +76,15 @@ Vue.component('navbar', {
         <li class="topnav-item parent">
           <a class="parent-link" href="">Activiteiten</a>
           <ul class="topnav-dropdown-column">
-            <li><a href="">Vloerbekleding</a></li>
-            <li><a href="">Schilderwerk</a></li>
-            <li><a href="">Gyproc werk</a></li>
-            <li><a href="">Terras werk</a></li>
-            <li><a href="">Hellend dak werk</a></li>
+            <li><a href="">Vloerder</a></li>
+            <li><a href="">Schilderwerken</a></li>
+            <li><a href="">Gyprocwerken</a></li>
+            <li><a href="">Pleisterwerken</a></li>
+            <li><a href="">Terrassen en opritten</a></li>
+            <li><a href="">Dakwerken</a></li>
+            <li><a href="">Gevels</a></li>
             <li><a href="">Renovatie</a></li>
+            <li><a href="">Nieuwbouw</a></li>
             <li><a class="more" href="">More...</a></li>
           </ul>
         </li>
