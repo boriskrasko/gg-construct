@@ -13,7 +13,8 @@ data = {
         "Activiteiten",
         [
           [
-            "Vloerbekleding", 
+            "Vloerder",
+            ["Wanneer u kiest voor GG Floors&Construct , dan kiest u voor kwaliteit, prima vakmanschap en een mooi verzorgde afwerking. GG Floors&Construct is immers gespecialiseerd in alle vloerwerken en weet perfect op welke manier vlot, professioneel en perfect al uw vloeren en wanden te betegelen. Kies de tegels, kleuren en afwerking en GG Floors&Construct realiseert de kamer(s) van uw dromen. Wij plaatsten alle soorten duurzame en decoratieve tegels voor vloeren en wanden, zowel voor leefruimtes als voor keukens, badkamers en bergruimtes, waaronder: Natuursteen, Keramiek, Mozaïek, Exclusieve tegels, parket, Laminaat, Linoleum, … Geen enkele vloer heeft nog geheimen voor ons."],
             [
               ["Vinyl",
                 ["Vinyl is een algemene benaming voor een (soepel en veerkrachtige) kunststof vloerbedekking van hard materiaal. In de volksmond is het soms beter gekend als Novilon. Soms wordt vinyl verward met linoleum, doe dit zeker niet want er zijn zeker verschillen. Je zal dit zelf kunnen lezen op deze website. Vinyl is een synthetisch materiaal, terwijl linoleum puur natuur is. Omwille van het natuurlijk karakter van linoleum is deze minder bestand tegen water. Wordt de linoleumvloer té nat, dan zal dit materiaal blazen trekken, wat bij vinyl niet het geval is. Kunststof vloeren zijn werkelijk overal terug te vinden: woonkamer, slaapkamer, maar ook in ziekenhuizen of kantoren en winkels, … Ze zijn makkelijk te plaatsen, onderhoudsvriendelijk en goed voor het budget. Het is dus niet verwonderlijk dat dit soort vloer populair is. Vinyl is verkrijgbaar in diktes van 1 tot 3.5 millimeter en in breedtes van 1 tot 5 meter. De algemene regel luidt: Hoe meer de vloer belast wordt, hoe dikker en sterker de kwaliteit van het vinyl moet zijn. Soorten vinyl vloeren, het zijn er in feite teveel om allemaal op te sommen."],
@@ -39,19 +40,34 @@ data = {
             ],
           ],
           [
-            "Schilderwerk"
+            "Schilderwerken",
+            ["GG Floors&Construct heeft door zijn jarenlange ervaring een reputatie opgebouwd van een zeer betrouwbare en zeer solide onderneming. Hierbij staat vakmanschap, kwaliteit en service steeds centraal. Door het snel en accuraat inspelen op specifieke wensen van de opdrachtgevers staat GG Floors&Construct garant voor een perfect eindresultaat. GG Floors&Construct staat reeds jaren garant voor alle schilderwerken voor verschillende grotere klasse 8 firma’s. Deze gebruiken wij dan ook graag als referentie voor ons vakmanschap. GG Floors&Construct speelt dan ook in op de specifieke wensen vanuit de opdrachtgevers, die bij voorkeur werken met één en dezelfde partij, die verantwoordelijk is voor verschillende werkzaamheden binnen een project. Geen enkele muur zal er nog opgeschilderd uitzien."],
           ],
           [
-            "Gyproc werk"
+            "Gyprocwerken",
+            ["Naast standaard scheidings- en voorzetwanden kan u bij ons terecht voor de plaatsing van gespecialiseerde oplossingen. Zo plaatsen we wanden met een specifiek brandwerend, geluidswerend, vochtwerend en schimmelwerend effect. We beschikken ook over een compleet scala aan milieuvriendelijke gipsplaten, ideaal dus voor groene bouwprojecten. Gyproc is een materiaal dat zowel geschikt is voor nieuwbouw- als renovatieprojecten. Dit komt omdat gyproc op verschillende manieren kan aangewend worden. U kan er gemakkelijk de binnenkant van uw woning opnieuw mee indelen of bepaalde ruimtes renoveren. Bovendien bestaat er ook speciale gyproc voor vochtige ruimtes zoals badkamers, douches, … Hierdoor is gyproc de afwerking bij uitstek voor badkamer- en keukenrenovaties. Zowel de totale inrichting van diverse ruimtes en zolders, de plaatsing van valse plafonds alsook kleinere werken zoals de afwerking rond een inbouwtoilet kan u door ons laten uitvoeren. Wie gyprocwerken laat uitvoeren door GG Floors&Construct is verzekerd van een mooi en meteen schilderklaar resultaat, omdat we ook zorgen voor de volledige afwerking. Verder kan u eveneens op ons vakmanschap vertrouwen voor het plaatsen van binnendeuren. Wij kijken er nauw op toe dat alles tot in de kleinste details wordt afgewerkt. Kwaliteit en een goede service voor onze klanten staan dan ook voorop."]
           ],
           [
-            "Terras werk"
+            "Pleisterwerken"
           ],
           [
-            "Hellend dak werk"
+            "Terrassen en opritten",
+            ["GG Floors&Construct verzorgt alle klinkerwerken en tegelwerken, van terrassen tot tuinpaden en van opritten tot trappen en parkings. Dit kan in natuursteen, kasseien, kleiklinkers, betonklinkers... Voor zowel grote als kleinere projecten kan je bij GG Floors&Construct terecht. Nauwkeurigheid en precizie zijn van het grootste belang voor GG Floors&Construct en zijn team. Bezit je een volledig uitgewerkt plan of wil je graag samen bekijken wat de mogelijkheden zijn, dit is allemaal perfect mogelijk. GG Floors&Construct en zijn team zijn over het hele land actief. "]
           ],
           [
-            "Renovatie"
+            "Dakwerken",
+            ["GG Floors&Construct, een uiterst gedreven team voor  uw dakrenovatie.  Of het nu gaat om het repareren van uw schouw en  dakgoten  of een renovatie van uw volledige dak  u kan bij ons steeds terecht voor vakkundig en vrijblijvend advies.  Over de jaren heen renoveerden wij 100den daken in de provincies Limburg , Antwerpen en Vlaams-Brabant Uw dak is wellicht het belangrijkste element voor  een gezond huis .  Het beschermt u  tegen weer en wind en bepaalt ook de uitstraling van uw woning. Problemen met uw bestaand plat dak of dakterras?  Wilt u uw nieuw plat dak renoveren of terug waterdicht laten maken?  GG Floors&Construct is gespecialiseerd in het plaatsen-branden van Roofing op platte daken. De levensduur van uw plat dak is sterk afhankelijk van de kwaliteit van de roofing en de vakkundige plaatsing."]
+          ],
+          [
+            "Gevels",
+            ["Soms is uw woning aan een verjongingskuur toe. Met een gevelrenovatie bereikt u verbluffende resultaten GG Floors&Construct renoveert voor u de gevel van uw woning tot in de puntjes. Gaande van zandstralen van de gevel, de voegen vervangen en/of reinigen tot een volledige gevelreiniging. Daarnaast ook pleisterwerk bijwerken of vernieuwen, de gevel afwerken met schilderwerk, vochtwerende behandelingen aanbrengen, vervangen of aanpassen van gevelmetselwerk. Uw woning krijgt meteen een heel andere uitstraling na zo’n gevelrenovatie. Naast gevelrenovaties kunnen wij ook metselwerken aanbieden."]
+          ],
+          [
+            "Renovatie",
+            ["Je huis van A tot Z renoveren: de ideale opdracht voor GG Floors&Construct.Heb je een huis gekocht dat volledig gerenoveerd moet worden? Of Is het na al die jaren tijd geworden om je woning grondig onder handen te nemen?GG Floors&Construct renoveert je huis van boven tot onder in nauw overleg. Daarbij pikken we voortdurend in op je wensen en feedback. Wil je graag een grotere woonkamer, tijd voor uitbreiding? Heb je meer ruimte nodig in de keuken om je culinair uit te leven? Wat de reden ook is, de adviseurs van GG Floors&Construct komengraag eens horen wat jouw plannen zijn.Droom je van een nieuwe keuken of badkamer? GG Floors&Construct kan die droom werkelijkheid worden. We geven met plezier advies over afwerkingen of materialen en jullie beslissen hoe alles uitgevoerd wordt"]
+          ],
+          [
+            "Nieuwbouw"
           ],
         ]
       ],
@@ -82,7 +98,7 @@ data = {
       "Laten we bouwen met GG"
     ],
     [
-      ["<strong>GG Floors & Construct</strong> bouwt aan een duurzame partnership.<br>Al meer dan <strong>15 jaar</strong> ervaring in vloerbekledingen, maar ook daken hebben voor ons geen geheimen meer.<br> \n          Van grote renovaties tot kleinere herstellingen alsook volledige nieuwbouw woningen.<br>\n          Door een nauwe samenwerking met de opdrachtgevers, medewerkers en partners gaan we voor de hoogst haalbare topkwaliteit. Telkens weer in een open en respectvolle sfeer.<br>\n          <strong>GGFloors & Construct</strong> brengt uw bouwproject tot een goed einde.<br>\n          Zo maken we het leven van de klant makkelijk doordat wij het totaalconcept kunnen aanbieden.<br>\n          Ons grootste kapitaal, zijn onze vakmannen, hun veiligheid en welzijn is voor GG construct topprioriteit, want alleen zo kan je ook topkwaliteit afleveren op de werf.<br>\n          Heeft u bouw of verbouwplannen:"],
+      ["<strong>GG Floors&Construct</strong> bouwt aan een duurzame partnerschip.<br>Al meer dan <strong>15 jaar</strong> ervaring in vloerbekledingen, maar ook daken hebben voor ons geen geheimen meer.<br>Onze specialiteit blijft nog steeds allerhande vloeren, harde als zachte. Van grote renovaties tot kleinere herstellingen alsook volledige nieuwbouw woningen.<br> Door een nauwe samenwerking met de opdrachtgevers, medewerkers en partners gaan we voor de hoogst haalbare topkwaliteit. Telkens weer in een open en respectvolle sfeer.<br><strong>GG Flors&Construct</strong> brengt uw bouwproject tot een goed einde. Zo maken we het leven van de klant makkelijk doordat wij het totaalconcept kunnen aanbieden.<br>Ons grootste kapitaal, zijn onze vakmannen, hun veiligheid en welzijn is voor GG Floors&Construct topprioriteit, want alleen zo kan je ook topkwaliteit afleveren op de werf. Heeft u bouw of verbouwplannen:"],
       ["We doen het samen met u. Volg ons ook op de social media voor de verschillende realisaties:"],
     ],
     [
@@ -120,6 +136,7 @@ data = {
         [
            [
              "Floor Covering",
+             [""],
              [
                ["Vinyl"],
                ["Carpet"],
@@ -131,19 +148,28 @@ data = {
              ],
            ],
            [
-             "Painting"
+             "Painting works"
            ],
            [
-             "Gyproc work"
+             "Gyproc Works"
            ],
            [
-             "Terrace work"
+             "Plastering"
            ],
            [
-             "Sloping roof work"
+             "Terraces and Driveways"
+           ],
+           [
+             "Roofing works"
+           ],
+           [
+             "Facades"
            ],
            [
              "Renovation"
+           ],
+           [
+             "New construction"
            ],
          ]
       ],
@@ -174,7 +200,7 @@ data = {
       "Let's build with GG"
     ],
     [
-      ["<strong>GG Floors & Construct</strong> is building a sustainable partnership.\nMore than 15 years of experience in floor coverings, but roofs no longer hold any secrets for us.\nFrom major renovations to smaller repairs as well as completely new homes.<br>\nThrough close cooperation with clients, employees and partners, we aim for the highest achievable top quality. Again and again in an open and respectful atmosphere.\nGGFloors & Construct brings your construction project to a successful conclusion.<br>\nIn this way we make life easy for the customer because we can offer the total concept.<br>\nOur greatest asset is our craftsmen, their safety and well-being is a top priority for GG construct, because this is the only way to deliver top quality to the construction site.\nDo you have construction or renovation plans:"],
+      ["<strong>GG Floors&Construct</strong> is building a sustainable partnership.<br>More than <strong>15 years</strong> of experience in floor coverings, but roofs no longer hold any secrets for us.<br>Our specialty is still all kinds of floors, hard and soft.<br>From major renovations to smaller repairs as well as completely new homes.<br>Through close collaboration with clients, employees and partners, we aim for the highest achievable top quality. Again and again in an open and respectful atmosphere.<br><strong>GG Flors&Construct</strong> brings your construction project to a successful conclusion.<br>In this way we make the customer's life easy because we can offer the total concept.<br>Our greatest capital is our craftsmen, their safety and well-being is top priority for GG Floors&Construct, because this is the only way you can deliver top quality on site.<br>Do you have construction or renovation plans:"],
       ["We do it together with you. Follow us on social media for the different realizations:"],
     ],
     [
@@ -212,6 +238,7 @@ data = {
         [
            [
              "Bodenbelag",
+             [""],
              [
                ["Vinyl"],
                ["Teppich"],
@@ -223,19 +250,28 @@ data = {
              ],
            ],
            [
-             "Malerei"
+             "Malerei funktioniert"
            ],
            [
-             "Gyproc-Arbeit"
+             "Gyproc-Werke"
            ],
            [
-             "Terrassenarbeit"
+             "Verputzen"
            ],
            [
-             "Schrägdacharbeiten"
+             "Terrassen und Einfahrten"
+           ],
+           [
+             "Dacharbeiten"
+           ],
+           [
+             "Fassaden"
            ],
            [
              "Renovierung"
+           ],
+           [
+             "Neubau"
            ],
          ]
       ],
@@ -266,7 +302,7 @@ data = {
       "Lass uns mit GG bauen"
     ],
     [
-      ["GG Floors & Construct baut eine nachhaltige Partnerschaft auf.\nMehr als 15 Jahre Erfahrung mit Bodenbelägen, aber Dächer bergen für uns keine Geheimnisse mehr.\nVon größeren Renovierungsarbeiten über kleinere Reparaturen bis hin zu komplett neuen Häusern.\nDurch die enge Zusammenarbeit mit Kunden, Mitarbeitern und Partnern streben wir die höchstmögliche Spitzenqualität an. Immer wieder in einer offenen und respektvollen Atmosphäre.\nGGFloors & Construct bringt Ihr Bauprojekt zu einem erfolgreichen Abschluss.\nAuf diese Weise machen wir dem Kunden das Leben leichter, weil wir das Gesamtkonzept anbieten können.\nUnser größtes Kapital sind unsere Handwerker. Ihre Sicherheit und ihr Wohlbefinden haben für GG konstruieren oberste Priorität, da dies der einzige Weg ist, um der Baustelle höchste Qualität zu liefern.\nHaben Sie Bau- oder Renovierungspläne:"],
+      ["<strong>GG Floors&Construct</strong> baut eine nachhaltige Partnerschaft auf. Über <strong>15 Jahre</strong> Erfahrung mit Bodenbelägen, aber auch Dächern bergen für uns keine Geheimnisse mehr.<br>Unsere Spezialität sind nach wie vor alle Arten von Böden, hart und weich.<br>Von großen Renovierungen über kleinere Reparaturen bis hin zu komplett neuen Häusern.<br>Durch eine enge Zusammenarbeit mit Kunden, Mitarbeitern und Partnern streben wir die höchstmögliche Spitzenqualität an. Immer wieder in einer offenen und respektvollen Atmosphäre.<br><strong>GG Flors&Construct</strong> bringt Ihr Bauvorhaben zu einem erfolgreichen Abschluss.<br>Auf diese Weise machen wir dem Kunden das Leben leicht, weil wir das Gesamtkonzept anbieten können.<br>Unser größtes Kapital sind unsere Handwerker, deren Sicherheit und Wohlbefinden für GG Floors&Construct oberste Priorität haben, denn nur so können Sie vor Ort Top-Qualität liefern.<br>Sie haben Bau- oder Renovierungspläne:"],
       ["Wir machen es gemeinsam mit Ihnen. Folgen Sie uns in den sozialen Medien für die verschiedenen Erkenntnisse:"],
     ],
     [
@@ -304,6 +340,7 @@ data = {
         [
            [
              "Revêtement de sol",
+             [""],
              [
                ["Vinyle"],
                ["Tapis"],
@@ -315,19 +352,28 @@ data = {
              ],
            ],
            [
-             "La peinture"
+             "Les travaux de peinture"
            ],
            [
-             "Travaux de gyproc"
+             "Gyproc fonctionne"
            ],
            [
-             "Travail de terrasse"
+             "Plâtrage"
            ],
            [
-             "Travaux de toiture en pente"
+             "Terrasses et allées"
+           ],
+           [
+             "travaux de toiture"
+           ],
+           [
+             "Façades"
            ],
            [
              "Rénovation"
+           ],
+           [
+             "Nouvelle construction"
            ],
          ]
       ],
@@ -358,7 +404,7 @@ data = {
       "Construisons avec GG"
     ],
     [
-      ["GG Floors & Construct construit un partenariat durable.\nPlus de 15 ans d'expérience dans les revêtements de sol, mais les toitures n'ont plus de secret pour nous.\nDes rénovations majeures aux petites réparations en passant par les maisons complètement neuves.\nEn travaillant en étroite collaboration avec les clients, les employés et les partenaires, nous visons la meilleure qualité possible. Encore et encore dans une ambiance ouverte et respectueuse.\nGGFloors & Construct mène votre projet de construction à bonne fin.\nDe cette façon, nous facilitons la vie du client car nous pouvons offrir le concept global.\nNotre plus grande capitale est nos artisans, leur sécurité et leur bien-être sont une priorité absolue pour GG construct, car c'est le seul moyen de fournir la meilleure qualité sur le chantier.\nAvez-vous des plans de construction ou de rénovation:"],
+      ["<strong>GG Floors&Construct</strong> construit un partenariat durable. Plus de <strong>15 ans</strong> d'expérience dans les revêtements de sol, mais aussi les toitures n'ont plus de secrets pour nous.<br>Notre spécialité reste toutes sortes de sols, durs et mous.<br>Des rénovations majeures aux petites réparations en passant par les maisons entièrement neuves.<br>Grâce à une étroite collaboration avec les clients, les employés et les partenaires, nous visons la meilleure qualité possible. Encore et encore dans une atmosphère ouverte et respectueuse.<br><strong>GG Flors&Construct</strong> mène à bien votre projet de construction.<br>De cette façon, nous facilitons la vie du client car nous pouvons offrir le concept total.<br>Notre plus grand capital est nos artisans, leur sécurité et leur bien-être sont la priorité absolue pour GG Floors&Construct, car ce n'est qu'alors que vous pouvez livrer une qualité supérieure sur place.<br>Vous avez des projets de construction ou de rénovation:"],
       ["Nous le faisons avec vous. Suivez-nous sur les réseaux sociaux pour les différentes réalisations :"],
     ],
     [

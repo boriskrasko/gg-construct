@@ -12,10 +12,13 @@ function getCards() {
         const div_sUwXk = document.createElement('div');
         div_sUwXk.classList.add('teaser-small_image');
         div_GmBfj.appendChild(div_sUwXk);
+        const a_sUwXk = document.createElement('a');
+        div_sUwXk.appendChild(a_sUwXk);
+        a_sUwXk.href = `${data.nl[0][2][1][i][0].replace(/ /g, '-').toLowerCase()}.html`;
         const img_MDfUj = new Image();
         img_MDfUj.src = `images/${data.nl[0][2][1][i][0].replace(/ /g, '-').toLowerCase()}.jpg` || 'images/logo.svg';
         img_MDfUj.setAttribute(`alt`, '');
-        div_sUwXk.appendChild(img_MDfUj);
+        a_sUwXk.appendChild(img_MDfUj);
         const div_HFbUm = document.createElement('div');
         div_HFbUm.classList.add('teaser-small_content');
         div_GmBfj.appendChild(div_HFbUm);
@@ -31,7 +34,7 @@ function getCards() {
         a_FZoyA.textContent += data[lang][0][2][1][i][0];
         const p_Wzyfz = document.createElement('p');
         div_HFbUm.appendChild(p_Wzyfz);
-        p_Wzyfz.textContent = `...`;
+        p_Wzyfz.textContent = (data[lang][0][2][1][i][1] !== undefined) ? `${data[lang][0][2][1][i][1].slice(0, 1).toString().substring(0, 200)} ... ` : `...`;
         const p_Kdnxl = document.createElement('p');
         p_Kdnxl.classList.add('m-teaser-small_readmore');
         div_HFbUm.appendChild(p_Kdnxl);
