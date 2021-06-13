@@ -1482,7 +1482,7 @@ footer nav.footnav {
   left: -32px;
   display: flex;
   width: 32px;
-  height: 32px;
+  height: 100%;
   margin: 0;
   text-align: center;
   border-radius: 6px 0 0 6px;
@@ -1491,7 +1491,7 @@ footer nav.footnav {
   justify-content: center;
 }
 
-.button.button-reveal span {
+.button.button-reveal a {
   position: relative;
   top: 0;
   left: 0;
@@ -1512,7 +1512,7 @@ footer nav.footnav {
 }
 
 body:not(.device-touch) .button.button-reveal i,
-body:not(.device-touch) .button.button-reveal span {
+body:not(.device-touch) .button.button-reveal a {
   transition: left .3s ease, right .3s ease;
 }
 
@@ -1522,7 +1522,7 @@ body:not(.device-touch) .button.button-reveal span {
   height: 100%;
 }
 
-.button.button-reveal:hover>span {
+.button.button-reveal:hover>a {
   top: 0;
   left: 16px;
 }
