@@ -1469,13 +1469,13 @@ footer nav.footnav {
   align-items: center;
 }
 
-.button.button-reveal {
+.button.button-reveal, .icon-reveal {
   position: relative;
   overflow: hidden;
   padding: 0 28px;
 }
 
-.button.button-reveal i {
+.button.button-reveal i, .icon-reveal i {
   line-height: 32px;
   position: absolute;
   top: 0;
@@ -1491,12 +1491,22 @@ footer nav.footnav {
   justify-content: center;
 }
 
-.button.button-reveal a {
+.button.button-reveal a, .icon-reveal span {
   position: relative;
   top: 0;
   left: 0;
   display: inline-block;
   color: #fff;
+}
+
+.icon-reveal {
+  height: 50px; 
+  background: #ccc;
+  cursor: default;
+}
+
+.icon-reveal span {
+  font-size: 36px;
 }
 
 .arrow-right {
