@@ -42,7 +42,9 @@ span.onclick = function () {
 };
 
 modalContent.onclick = function () {
-  modalImg.classList.toggle('zoom');
+  
+    modalImg.classList.toggle('zoom');
+  
   // modalImg.style.transform = 'scale(1.7)';
   // modalImg.style.overflow = 'visible';
 }
