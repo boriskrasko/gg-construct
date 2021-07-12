@@ -2002,6 +2002,12 @@ body:not(.device-touch) .button.button-reveal a {
   background: var(--light-blue);
 }
 
+@media screen and (max-width: 1400px) {
+  .teasers {
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   nav.topnav ul {
     display: none;

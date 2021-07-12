@@ -43,7 +43,6 @@ if (window.location.href !== window.location.hostname) {
 }
 
 window.addEventListener('hashchange', function(e) {
-  gallery.innerHTML = ``;
   setTimeout(() => {
     getVariantContent();
   }, 10)

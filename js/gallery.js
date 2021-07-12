@@ -76,31 +76,31 @@ modalContent.onclick = function () {
   // modalImg.style.overflow = 'visible';
 }
 
+let min_x = 20; //min x swipe for horizontal swipe
+let max_x = 40; //max x difference for vertical swipe
+let min_y = 40; //min y swipe for vertical swipe
+let max_y = 50; //max y difference for horizontal swipe
+let direc = "";
+
 function detectswipe(el) {
   swipe_det = new Object();
   swipe_det.sX = 0;
   swipe_det.sY = 0;
   swipe_det.eX = 0;
   swipe_det.eY = 0;
-  var min_x = 20; //min x swipe for horizontal swipe
-  var max_x = 40; //max x difference for vertical swipe
-  var min_y = 40; //min y swipe for vertical swipe
-  var max_y = 50; //max y difference for horizontal swipe
-  var direc = "";
   ele = document.querySelector(el);
   ele.addEventListener('touchstart', function (e) {
-    var t = e.touches[0];
+    let t = e.touches[0];
     swipe_det.sX = t.screenX;
     swipe_det.sY = t.screenY;
   }, false);
   ele.addEventListener('touchmove', function (e) {
     e.preventDefault();
-    var t = e.touches[0];
+    t = e.touches[0];
     swipe_det.eX = t.screenX;
     swipe_det.eY = t.screenY;
   }, false);
   ele.addEventListener('touchend', function (e) {
-    //horizontal detection
     if ((((swipe_det.eX - min_x > swipe_det.sX) || (swipe_det.eX + min_x < swipe_det.sX)) && ((swipe_det.eY < swipe_det.sY + max_y) && (swipe_det.sY > swipe_det.eY - max_y)))) {
       if (swipe_det.eX > swipe_det.sX) {
         n = (n >= 1) ? n - 1 : galleryImage.length - 1;
@@ -122,6 +122,14 @@ function detectswipe(el) {
     direc = "";
   }, false);
 }
+
+window.addEventListener('hashchange', function(e) {
+  gallery.innerHTML = ``;
+  miniatures.innerHTML = ``;
+  setTimeout(() => {
+    getGallery();
+  }, 10)
+});
 
 detectswipe('.swipeme');
 

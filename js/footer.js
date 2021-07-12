@@ -18,27 +18,27 @@ Vue.component('footnav', {
         <hr class="title-underline">
         <ul>
           <li class="footnav-link-item">
-            <a href="nohome.html">
+            <a href="https://www.facebook.com/ggvloerbekleding.vloerbekleding">
             Facebook
             </a>
           </li>
           <li class="footnav-link-item">
-            <a href="nohome.html">
+            <a href="https://twitter.com">
             Twitter
             </a>
           </li>
           <li class="footnav-link-item">
-            <a href="nohome.html">
+            <a href="https://www.instagram.com/gg_floors_constructions">
             Instagram
             </a>
           </li>
           <li class="footnav-link-item">
-            <a href="nohome.html">
+            <a href="https://www.linkedin.com/company/ggvloerbekleding">
             Linkedin
             </a>
           </li>
           <li class="footnav-link-item">
-            <a href="nohome.html">
+            <a href="https://youtube.com">
             Youtube
             </a>
           </li>
@@ -107,8 +107,8 @@ Vue.component('basement', {
       <div class="socials">
         <ul>
           <li><a class="ti-facebook" href="https://www.facebook.com/ggvloerbekleding.vloerbekleding"></a></li>
-          <li><a class="ti-linkedin" href="https://www.linkedin.com/company/ggvloerbekleding/ "></a></li>
-          <li><a class="ti-instagram" href="https://www.instagram.com/ggvloerbekleding"></a></li>
+          <li><a class="ti-linkedin" href="https://www.linkedin.com/company/ggvloerbekleding"></a></li>
+          <li><a class="ti-instagram" href="https://www.instagram.com/gg_floors_constructions"></a></li>
         </ul>
       </div>
     </div>
