@@ -119,6 +119,9 @@ data = {
     ],
     [
       "Gegevens:"
+    ],
+    [
+      "Zie ook:"
     ]
   ],
   "en": [
@@ -221,6 +224,9 @@ data = {
     ],
     [
       "Data"
+    ],
+    [
+      "See also:"
     ]
   ],
   "de": [
@@ -323,6 +329,9 @@ data = {
     ],
     [
       "Daten:"
+    ],
+    [
+      "Siehe auch:"
     ]
   ],
   "fr": [
@@ -425,6 +434,9 @@ data = {
     ],
     [
       "Les données"
+    ],
+    [
+      "Voir également:"
     ]
   ]
 }
