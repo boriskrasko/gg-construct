@@ -1,7 +1,7 @@
 let topNavItem = document.querySelectorAll('.parent-link');
 let currentLang = document.querySelector('.current-lang span');
 currentLang.textContent = localStorage.getItem('currentLang') || 'NL';
-let lang = (window.location.href.indexOf('#') !== -1) ? window.location.href.slice(window.location.href.length - 2) : currentLang.textContent.toLowerCase();
+let lang = currentLang.textContent.toLowerCase();
 const footNavColumn = document.querySelectorAll('.footnav-column ul');
 const mobileDropdownColumn = document.querySelector('.mobile-dropdown-column');
 const topNavDropdownColumnLink = document.querySelectorAll('.topnav-dropdown-column a');
@@ -68,7 +68,7 @@ window.addEventListener('hashchange', function (e) {
   footNavColumn[0].innerHTML = ``;
   footNavColumn[1].innerHTML = ``;
   setTimeout(() => {
-    lang = window.location.href.slice(window.location.href.length - 2);
+    lang = currentLang.textContent.toLowerCase();
     getNav();
   }, 0)
 });
