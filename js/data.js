@@ -119,6 +119,18 @@ data = {
     ],
     [
       "Gegevens:"
+    ],
+    [
+      "Zie ook:"
+    ],
+    [
+      "Omschrijving"
+    ],
+    [
+      "Galerie"
+    ],
+    [
+      "Dien uw aanvraag in"
     ]
   ],
   "en": [
@@ -221,6 +233,18 @@ data = {
     ],
     [
       "Data"
+    ],
+    [
+      "See also:"
+    ],
+    [
+      "Description"
+    ],
+    [
+      "Gallery"
+    ],
+    [
+      "Submit your application"
     ]
   ],
   "de": [
@@ -323,6 +347,18 @@ data = {
     ],
     [
       "Daten:"
+    ],
+    [
+      "Siehe auch:"
+    ],
+    [
+      "Beschreibung",
+    ],
+    [
+      "Galerie"
+    ],
+    [
+      "Reichen Sie Ihre Bewerbung ein"
     ]
   ],
   "fr": [
@@ -425,6 +461,18 @@ data = {
     ],
     [
       "Les données"
+    ],
+    [
+      "Voir également:"
+    ],
+    [
+      "la description"
+    ],
+    [
+      "Galerie"
+    ],
+    [
+      "Soumettez votre candidature"
     ]
   ]
 }

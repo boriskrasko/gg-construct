@@ -1161,7 +1161,7 @@ footer nav.footnav {
 }
 
 .list-of-services {
-  margin: 10px 0 10px 18px;
+  margin: 10px 0 20px 18px;
   list-style-image: url(../images/icons/next.svg);
 }
 
@@ -1961,45 +1961,44 @@ body:not(.device-touch) .button.button-reveal a {
   width: 100%;
   min-height: 20px;
   margin: 10px auto;
-  padding: 0 10px;
+  padding: 10px 20px;
   color: #eee;
   background: var(--blue);
   align-items: center;
 }
 
-.blue-line-menu li span {
-  display: block;
-  display: flex;
-  overflow: hidden;
-  width: 0;
-  min-height: 50px;
-  margin: 0 5px;
-  transition: .3s width, .2s background;
-  align-items: center;
-  justify-content: center;
-}
-
 .blue-line-menu ul,
-.blue-line-menu li {
+.blue-line-menu a {
   display: flex;
   min-height: 50px;
-  /*margin-left: 20px;*/
   cursor: pointer;
   transition: .2s transform;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+}
+
+.blue-line-menu a {
+  color: #eee;
+  margin-right: 40px;
+  padding: 0 5px;
 }
 
 .blue-line-menu li {
-  min-width: 160px;
+  margin-right: 40px;
 }
 
 .blue-line-menu ul {
   flex-wrap: wrap;
 }
 
-.blue-line-menu li:hover {
+.blue-line-menu a:hover {
   background: var(--light-blue);
+}
+
+@media screen and (max-width: 1400px) {
+  .teasers {
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -2018,7 +2017,8 @@ body:not(.device-touch) .button.button-reveal a {
   }
   .topbar,
   .navbar,
-  .titlebar {
+  .titlebar,
+  .blue-line-menu {
     padding: 5px 5px;
   }
   .info-block>div {
