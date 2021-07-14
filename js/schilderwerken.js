@@ -1,5 +1,5 @@
 let variants = {
-  "over-ons" : [
+  "schilderwerken" : [
     ["images/schilderwerken.jpg"], {
     "nl" :
     [
@@ -23,12 +23,21 @@ let variants = {
     ],
   },
   [
-    ["images/gallery/over-ons/img-sm-1.jpg"],
-    ["images/gallery/over-ons/img-sm-2.jpg"],
-    ["images/gallery/over-ons/img-sm-3.jpg"],
-    ["images/gallery/over-ons/img-sm-4.jpg"],
-    ["images/gallery/over-ons/img-sm-5.jpg"],
-    ["images/gallery/over-ons/img-sm-6.jpg"],
+    ["images/gallery/schilderwerken/img-sm-1.jpg"],
+    ["images/gallery/schilderwerken/img-sm-2.jpg"],
+    ["images/gallery/schilderwerken/img-sm-3.jpg"],
+    ["images/gallery/schilderwerken/img-sm-4.jpg"],
+    ["images/gallery/schilderwerken/img-sm-5.jpg"],
+    ["images/gallery/schilderwerken/img-sm-6.jpg"],
+    ["images/gallery/schilderwerken/img-sm-7.jpg"],
+    ["images/gallery/schilderwerken/img-sm-8.jpg"],
+    ["images/gallery/schilderwerken/img-sm-9.jpg"],
+    ["images/gallery/schilderwerken/img-sm-10.jpg"],
+    ["images/gallery/schilderwerken/img-sm-11.jpg"],
+    ["images/gallery/schilderwerken/img-sm-12.jpg"],
+    ["images/gallery/schilderwerken/img-sm-13.jpg"],
+    ["images/gallery/schilderwerken/img-sm-14.jpg"],
+    ["images/gallery/schilderwerken/img-sm-15.jpg"],
   ]
   ],
 }
