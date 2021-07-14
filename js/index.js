@@ -20,10 +20,10 @@ function getContent() {
   infoBlockContent[0].innerHTML = data[lang][4][0];
   infoBlockContent[1].innerHTML = data[lang][4][1];
   for (let i = 0; i < cardTitle.length; i++) {
-    cardTitle[i].textContent = data[lang][0][2][1][i][0];
-    cardImage[i].src = `images/${data.nl[0][2][1][i][0].replace(/ /g, '-').toLowerCase()}.jpg` || 'images/logo.svg';
-    cardImage[i].setAttribute('alt', data[lang][0][2][1][i][0]);
-    serviseCardLink[i].href = `${data.nl[0][2][1][i][0].replace(/ /g, '-').toLowerCase()}.html`;
+    cardTitle[i].textContent = data[lang][0][2][1][i + 1][0];
+    cardImage[i].src = `images/${data.nl[0][2][1][i + 1][0].replace(/ /g, '-').toLowerCase()}.jpg` || 'images/logo.svg';
+    cardImage[i].setAttribute('alt', data[lang][0][2][1][i + 1][0]);
+    serviseCardLink[i].href = `${data.nl[0][2][1][i + 1][0].replace(/ /g, '-').toLowerCase()}.html`;
   }
   for (let i = 0; i < activitiesListItem.length - 1; i++) {
     activitiesListItem[i].textContent = data[lang][0][2][1][i][0];

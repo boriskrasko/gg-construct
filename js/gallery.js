@@ -1,4 +1,4 @@
-const modal = document.getElementById('myModal');
+const modal = document.getElementById('galleryModal');
 let galleryImage;
 let gallery = document.querySelector('.gallery_items');
 let arrowBtn = document.querySelectorAll('.arrow-btn');
