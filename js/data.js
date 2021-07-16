@@ -48,7 +48,8 @@ data = {
             ["Naast standaard scheidings- en voorzetwanden kan u bij ons terecht voor de plaatsing van gespecialiseerde oplossingen. Zo plaatsen we wanden met een specifiek brandwerend, geluidswerend, vochtwerend en schimmelwerend effect. We beschikken ook over een compleet scala aan milieuvriendelijke gipsplaten, ideaal dus voor groene bouwprojecten. Gyproc is een materiaal dat zowel geschikt is voor nieuwbouw- als renovatieprojecten. Dit komt omdat gyproc op verschillende manieren kan aangewend worden. U kan er gemakkelijk de binnenkant van uw woning opnieuw mee indelen of bepaalde ruimtes renoveren. Bovendien bestaat er ook speciale gyproc voor vochtige ruimtes zoals badkamers, douches, … Hierdoor is gyproc de afwerking bij uitstek voor badkamer- en keukenrenovaties. Zowel de totale inrichting van diverse ruimtes en zolders, de plaatsing van valse plafonds alsook kleinere werken zoals de afwerking rond een inbouwtoilet kan u door ons laten uitvoeren. Wie gyprocwerken laat uitvoeren door GG Floors&Construct is verzekerd van een mooi en meteen schilderklaar resultaat, omdat we ook zorgen voor de volledige afwerking. Verder kan u eveneens op ons vakmanschap vertrouwen voor het plaatsen van binnendeuren. Wij kijken er nauw op toe dat alles tot in de kleinste details wordt afgewerkt. Kwaliteit en een goede service voor onze klanten staan dan ook voorop."]
           ],
           [
-            "Pleisterwerken"
+            "Pleisterwerken",
+            ["Bouwen of verbouwen een renovatie binnenkort? Onze stukadoors staan klaar voor jullie project. Wij zorgen ervoor dat je binnenmuren en plafonds netjes afgewerkt zijn met binnenpleister. En de eerste stap richting een afgewerkt interieur. Daardoor lijkt je woning meteen een pak groter. Wij spuiten binnenpleisterwerk op alle mogelijke ondergronden, snelbouwsteen, beton en voor een perfecte hechting word de te bepleisteren ondergrond behandeld met een hechtmiddel. Zuiver werken daar hechten wij belang aan. Zeker bij renovatie werken letten wij aandachtig op! Voor proper en correct afgewerkte pleisterwerken in je huis, dan dien je bij GG-Floors&Construct te zijn. In kleine ruimten, gebeurt het bepleisteren met de hand. In grote ruimten kan het ook machinaal gedaan worden. Afhankelijk van de grote van de werf en ruimten, wordt er bepaald welke techniek gebruikt wordt. Een ervaren en goede plakker beheerst de kennis van  beide technieken."]
           ],
           [
             "Terrassen en opritten",
@@ -67,7 +68,8 @@ data = {
             ["Je huis van A tot Z renoveren: de ideale opdracht voor GG Floors&Construct.Heb je een huis gekocht dat volledig gerenoveerd moet worden? Of Is het na al die jaren tijd geworden om je woning grondig onder handen te nemen?GG Floors&Construct renoveert je huis van boven tot onder in nauw overleg. Daarbij pikken we voortdurend in op je wensen en feedback. Wil je graag een grotere woonkamer, tijd voor uitbreiding? Heb je meer ruimte nodig in de keuken om je culinair uit te leven? Wat de reden ook is, de adviseurs van GG Floors&Construct komengraag eens horen wat jouw plannen zijn.Droom je van een nieuwe keuken of badkamer? GG Floors&Construct kan die droom werkelijkheid worden. We geven met plezier advies over afwerkingen of materialen en jullie beslissen hoe alles uitgevoerd wordt"]
           ],
           [
-            "Nieuwbouw"
+            "Nieuwbouw",
+            ["Bij het realiseren van een nieuwbouw woning is een goed en betrouwbaar bouwbedrijf onmisbaar. GG-Floors&Construct helpt u graag met het bouwen van uw droomhuis. Wij hebben veel ervaring met het uitvoeren van diverse nieuwbouwprojecten. U bent dan ook verzekerd van een perfect resultaat voor een goede prijs. Het laten bouwen van een nieuwbouw woning is een groot project. Wij zullen u dan ook steeds op de hoogte houden van de voortgang. De voordelen van een nieuwbouw woning U kunt om meerdere redenen een nieuwbouw woning laten realiseren. Het grootste voordeel is natuurlijk dat u de volledige controle heeft over de indeling en het uiterlijk van de nieuwe woning. Dit geeft u de kans om uw droomhuis te realiseren. U kunt er bijvoorbeeld voor kiezen om een ruime woonkamer te laten bouwen of u kunt een kantoorruimte in het huis verwerken. Tevens kunt u ervoor kiezen om twee badkamers te laten maken. Deze opties vindt u niet snel bij een bestaand huis. Een nieuwbouw woning vereist weinig onderhoud. Het huis is tenslotte helemaal nieuw waardoor het huis in perfecte staat is. Dit scheelt de komende jaren kosten voor het onderhoud. Een ander voordeel is dat nieuwbouw woningen vaak in waarde stijgen. Dit betekent dat u de woning over enkele jaren wellicht voor een gunstige prijs kan verkopen."]
           ],
         ]
       ],
@@ -174,30 +176,38 @@ data = {
              ],
            ],
            [
-             "Painting works"
-           ],
-           [
-             "Gyproc Works"
-           ],
-           [
-             "Plastering"
-           ],
-           [
-             "Terraces and Driveways"
-           ],
-           [
-             "Roofing works"
-           ],
-           [
-             "Facades"
-           ],
-           [
-             "Renovation"
-           ],
-           [
-             "New construction"
-           ],
-         ]
+            "Painting",
+            ["Thanks to its many years of experience, GG Floors&Construct has built up a reputation as a very reliable and very solid company. Craftsmanship, quality and service are always central. By responding quickly and accurately to specific wishes of the clients, GG Floors&Construct guarantees a perfect GG Floors&Construct has been a guarantor for all painting works for several larger class 8 companies for years.We like to use these as a reference for our craftsmanship.GG Floors&Construct therefore responds to the specific wishes of the clients, who prefer to work with one and the same party, who is responsible for different activities within a project. Not a single wall will look painted again."],
+          ],
+          [
+            "Gyproc Works",
+            ["In addition to standard partitions and retaining walls, you can come to us for the installation of specialized solutions. For example, we install walls with a specific fire-resistant, sound-resistant, moisture-resistant and mold-resistant effect. We also have a complete range of environmentally friendly plasterboards, ideal for green building projects. Gyproc is a material that is suitable for both new construction and renovation projects. This is because gyproc can be used in different ways. You can easily redesign the inside of your home or renovate certain areas. Moreover, there is also special gyproc for damp areas such as bathrooms, showers, ... This makes gyproc the perfect finish for bathroom and kitchen renovations.You can go through the total furnishing of various rooms and attics, the placement of false ceilings as well as smaller works such as the finish around a built-in toilet. who have gyproc works carried out by GG Floo rs&Construct is assured of a beautiful and immediately ready-to-paint result, because we also provide the complete finish. You can also rely on our expertise for installing interior doors. We watch closely that everything is finished down to the smallest detail. Quality and good service for our customers are therefore paramount."]
+          ],
+          [
+            "Plastering",
+            ["Building or renovating a renovation soon? Our plasterers are ready for your project. We ensure that your interior walls and ceilings are neatly finished with interior plaster. And the first step towards a finished interior. This makes your home immediately look a lot bigger. We spraying indoor plaster on all possible surfaces, fast building stone, concrete and for a perfect bond the surface to be plastered is treated with an adhesive. Clean working is important to us. We pay attention especially during renovation work! For clean and correctly finished plasterwork in your At home, you should contact GG-Floors&Construct. In small spaces, the plastering is done by hand. In large spaces, it can also be done mechanically. Depending on the size of the yard and spaces, it is determined which technique is used An experienced and good plasterer masters the knowledge of both techniques."]
+          ],
+          [
+            "Terraces and Driveways",
+            ["GG Floors&Construct takes care of all clinker and tiling work, from terraces to garden paths and from driveways to stairs and car parks. This can be done in natural stone, cobblestones, pavers, concrete pavers... You can contact GG Floors&Construct for both large and smaller projects. Accuracy and precision are of the utmost importance to GG Floors&Construct and his team. Do you have a fully developed plan or would you like to explore the possibilities together, this is all perfectly possible. GG Floors&Construct and his team are active all over the country."]
+          ],
+          [
+            "Roofing works",
+            ["GG Floors&Construct, an extremely passionate team for your roof renovation. Whether it concerns the repair of your chimney and gutters or a renovation of your entire roof, you can always contact us for professional and non-binding advice. Over the years we have renovated 100s of roofs in the provinces of Limburg, Antwerp and Flemish Brabant Your roof is perhaps the most important element for a healthy house.It protects you against wind and weather and also determines the appearance of your home.Problems with your existing flat roof or roof terrace? Do you want to renovate your new flat roof or have it made waterproof again? GG Floors&Construct specializes in installing and burning Roofing on flat roofs. The lifespan of your flat roof strongly depends on the quality of the roofing and the professional installation."]
+          ],
+          [
+            "Facades",
+            ["Sometimes your home needs a rejuvenation cure. With a facade renovation you achieve amazing results GG Floors&Construct renovates the facade of your home down to the last detail. Ranging from sandblasting the facade, replacing and/or cleaning the joints to a complete facade cleaning. In addition, also updating or renewing plaster, finishing the facade with paint, applying moisture-resistant treatments, replacing or adjusting facade masonry. Your home will immediately have a completely different look after such a facade renovation. In addition to facade renovations, we can also offer masonry works."]
+          ],
+          [
+            "Renovation",
+            ["Renovating your house from A to Z: the ideal assignment for GG Floors&Construct. Have you bought a house that needs to be completely renovated? Or Is it time after all these years to thoroughly overhaul your home? GG Floors&Construct will renovate you house from top to bottom in close consultation.We continuously respond to your wishes and feedback.Would you like a larger living room, time to expand?Do you need more space in the kitchen to indulge your culinary needs?Whatever the reason is, the consultants of GG Floors&Construct would like to hear what your plans are.Do you dream of a new kitchen or bathroom? GG Floors&Construct can make that dream come true. We are happy to advise you on finishes or materials and you decide how everything is executed"]
+          ],
+          [
+            "New construction",
+            ["When realizing a new-build home, a good and reliable construction company is indispensable. GG-Floors&Construct is happy to help you build your dream home. We have a lot of experience in carrying out various new-build projects. You are therefore assured of a perfect result for a good price.Having a new-build home built is a major project. We will therefore always keep you informed of the progress.The advantages of a new-build home. You can have a new-build home built for several reasons. The advantage is of course that you have full control over the layout and appearance of the new home.This gives you the opportunity to realize your dream home.For example, you can choose to have a spacious living room built or you can build an office space. process the house. You can also choose to have two bathrooms made. These options are not easily found in an existing house. A new-build house requires little maintain. After all, the house is completely new, so the house is in perfect condition. This will save maintenance costs in the coming years. Another advantage is that new-build homes often increase in value. This means that in a few years you may be able to sell the house for a favorable price."]
+          ],
+        ]
       ],
       [
         "References",
@@ -302,30 +312,38 @@ data = {
              ],
            ],
            [
-             "Malerei funktioniert"
-           ],
-           [
-             "Gyproc-Werke"
-           ],
-           [
-             "Verputzen"
-           ],
-           [
-             "Terrassen und Einfahrten"
-           ],
-           [
-             "Dacharbeiten"
-           ],
-           [
-             "Fassaden"
-           ],
-           [
-             "Renovierung"
-           ],
-           [
-             "Neubau"
-           ],
-         ]
+            "Gemälde",
+            ["Durch die langjährige Erfahrung hat sich GG Floors&Construct einen Ruf als sehr zuverlässiges und sehr solides Unternehmen aufgebaut. Handwerkskunst, Qualität und Service stehen dabei immer im Mittelpunkt. Durch schnelles und genaues Reagieren auf spezifische Kundenwünsche garantiert GG Floors&Construct ein perfekter GG Floors&Construct ist seit Jahren Garant für alle Malerarbeiten für mehrere größere Klasse 8 Unternehmen.Wir verwenden diese gerne als Referenz für unsere Handwerkskunst.und der gleiche Partner, der für verschiedene Aktivitäten innerhalb eines Projekts verantwortlich ist einzelne Wand sieht wieder gestrichen aus."],
+          ],
+          [
+            "Gyproc-Werke",
+            ["Neben Standard-Trennwänden und Stützwänden können Sie für den Einbau von Sonderlösungen zu uns kommen. Wir bauen beispielsweise Wände mit einer bestimmten feuerhemmenden, schalldämmenden, feuchtigkeitsbeständigen und schimmelhemmenden Wirkung ein. Wir haben auch ein komplettes Sortiment an umweltfreundlichen Gipskartonplatten, ideal für umweltfreundliche Bauprojekte. Gyproc ist ein Material, das sich sowohl für Neubauten als auch für Renovierungsprojekte eignet. Denn Gyproc kann auf unterschiedliche Weise verwendet werden. Sie können das Innere Ihres zu Hause oder bestimmte Bereiche renovieren.Außerdem gibt es auch Spezialgiproc für Feuchträume wie Badezimmer, Duschen, ... Das macht Gyproc zum idealen Finish für Bad- und Küchenrenovierungen. die Gipsarbeiten von GG Floo . ausführen lassen Ein schönes und sofort lackierfähiges Ergebnis ist rs&Construct sicher, denn wir kümmern uns auch um das komplette Finish. Auch beim Einbau von Innentüren können Sie sich auf unser Know-how verlassen. Wir achten sehr darauf, dass alles bis ins kleinste Detail fertig ist. Qualität und guter Service für unsere Kunden stehen daher an erster Stelle."]
+          ],
+          [
+            "Verputzen",
+            ["Bald eine Renovierung bauen oder renovieren? Unsere Stuckateure sind bereit für Ihr Projekt. Wir sorgen dafür, dass Ihre Innenwände und Decken sauber mit Innenputz verputzt werden. Und der erste Schritt zum fertigen Interieur. So sieht Ihr Zuhause sofort viel größer aus . Wir spritzen Innenputz auf alle möglichen Untergründe, Schnellbaustein, Beton und für einen perfekten Verbund wird die zu verputzende Fläche mit einem Kleber behandelt. Sauberes Arbeiten ist uns wichtig. Wir achten besonders bei Renovierungsarbeiten! Fertige Putzarbeiten in Ihrem Zuhause wenden Sie sich bitte an GG-Floors&Construct. In kleinen Räumen erfolgt das Verputzen von Hand. In großen Räumen kann es auch maschinell erfolgen. Je nach Größe des Hofes und der Flächen wird festgelegt, welche Technik kommt zum Einsatz Ein erfahrener und guter Stuckateur beherrscht das Wissen beider Techniken."]
+          ],
+          [
+            "Terrassen und Einfahrten",
+            ["GG Floors&Construct kümmert sich um alle Klinker- und Fliesenarbeiten, von Terrassen bis zu Gartenwegen und von Einfahrten bis zu Treppen und Parkplätzen. Dies kann in Naturstein, Kopfsteinpflaster, Pflasterklinker, Betonpflasterstein erfolgen ... Sie können GG Floors&Construct kontaktieren sowohl für große als auch für kleinere Projekte. Genauigkeit und Präzision sind für GG Floors&Construct und sein Team von größter Bedeutung. Haben Sie einen ausgereiften Plan oder möchten Sie gemeinsam die Möglichkeiten erkunden, dies alles ist perfekt möglich. GG Floors&Construct und sein Team sind im ganzen Land aktiv."]
+          ],
+          [
+            "Dachbauarbeiten",
+            ["GG Floors&Construct, ein äußerst leidenschaftliches Team für Ihre Dachsanierung. Ob es um die Reparatur Ihres Schornsteins und Ihrer Dachrinnen oder eine Sanierung Ihres gesamten Daches geht, Sie können uns jederzeit für eine professionelle und unverbindliche Beratung kontaktieren. Im Laufe der Jahre haben wir sanierte Hunderte von Dächern in den Provinzen Limburg, Antwerpen und Flämisch-Brabant Ihr Dach ist vielleicht das wichtigste Element für ein gesundes Haus. Es schützt Sie vor Wind und Wetter und bestimmt auch das Erscheinungsbild Ihres Hauses. Probleme mit Ihrem bestehenden Flachdach oder Sie möchten Ihr neues Flachdach renovieren oder wieder wasserdicht machen lassen? GG Floors&Construct ist spezialisiert auf das Verlegen und Verbrennen von Dacheindeckungen auf Flachdächern.Die Lebensdauer Ihres Flachdaches hängt stark von der Qualität der Dacheindeckung und der fachgerechten Montage ab. "]
+          ],
+          [
+            "Fassaden",
+            ["Manchmal braucht Ihr Zuhause eine Verjüngungskur. Mit einer Fassadensanierung erzielen Sie erstaunliche Ergebnisse GG Floors&Construct saniert die Fassade Ihres Hauses bis ins Detail. Angefangen vom Sandstrahlen der Fassade über das Ersetzen und/oder Reinigen der Fugen bis hin zur kompletten Fassadenreinigung. Darüber hinaus auch Auffrischen oder Erneuern von Putz, Veredeln der Fassade mit Farbe, Auftragen von feuchtigkeitsbeständigen Behandlungen, Ersetzen oder Anpassen von Fassadenmauerwerk. Ihr Zuhause wird nach einer solchen Fassadensanierung sofort ein ganz anderes Aussehen haben. Neben Fassadensanierungen können wir auch Maurerarbeiten anbieten."]
+          ],
+          [
+            "Renovierung",
+            ["Renovieren Sie Ihr Haus von A bis Z: die ideale Aufgabe für GG Floors&Construct. Haben Sie ein Haus gekauft, das komplett renoviert werden muss? Oder ist es nach all den Jahren an der Zeit, Ihr Zuhause gründlich zu sanieren? in enger Absprache von oben nach unten. Wir gehen kontinuierlich auf Ihre Wünsche und Rückmeldungen ein. Sie wünschen sich ein größeres Wohnzimmer, Zeit für Erweiterungen? Benötigen Sie mehr Platz in der Küche, um sich kulinarisch zu verwöhnen? Was auch immer der Grund ist, die Berater von GG Floors&Construct möchte Ihre Pläne hören.Träumen Sie von einer neuen Küche oder einem neuen Bad? GG Floors&Construct kann diesen Traum wahr werden lassen. Wir beraten Sie gerne zu Oberflächen oder Materialien und Sie entscheiden, wie alles umgesetzt wird."]
+          ],
+          [
+            "Neubau",
+            ["Bei der Realisierung eines Neubaus ist ein gutes und zuverlässiges Bauunternehmen unverzichtbar. GG-Floors&Construct hilft Ihnen gerne beim Bau Ihres Traumhauses. Wir haben viel Erfahrung in der Durchführung verschiedener Neubauprojekte. Sie sind daher are garantiert ein perfektes Ergebnis zu einem guten Preis.Der Bau eines Neubaus ist ein Großprojekt. Daher halten wir Sie stets über den Fortschritt auf dem Laufenden.Die Vorteile eines Neubaus.Sie können einen Neubau haben aus mehreren Gründen gebaut.Der Vorteil ist natürlich, dass Sie die volle Kontrolle über den Grundriss und das Erscheinungsbild des neuen Hauses haben.Dadurch haben Sie die Möglichkeit, Ihr Traumhaus zu verwirklichen.Zum Beispiel können Sie ein geräumiges Wohnzimmer bauen lassen oder Sie können einen Büroraum bauen und das Haus bearbeiten.Sie können auch zwei Badezimmer bauen lassen.Diese Optionen sind bei einem bestehenden Haus nicht leicht zu finden.Ein Neubau erfordert wenig Design. pflegen. Immerhin ist das Haus komplett neu, also ist das Haus in einwandfreiem Zustand. Das spart Wartungskosten in den kommenden Jahren. Ein weiterer Vorteil ist, dass Neubauten oft an Wert gewinnen. Das bedeutet, dass Sie das Haus in einigen Jahren möglicherweise zu einem günstigen Preis verkaufen können."]
+          ],
+        ]
       ],
       [
         "Verweise",
@@ -430,30 +448,38 @@ data = {
              ],
            ],
            [
-             "Les travaux de peinture"
-           ],
-           [
-             "Gyproc fonctionne"
-           ],
-           [
-             "Plâtrage"
-           ],
-           [
-             "Terrasses et allées"
-           ],
-           [
-             "travaux de toiture"
-           ],
-           [
-             "Façades"
-           ],
-           [
-             "Rénovation"
-           ],
-           [
-             "Nouvelle construction"
-           ],
-         ]
+            "Peintures",
+            ["Grâce à ses nombreuses années d'expérience, GG Floors&Construct s'est forgé une réputation d'entreprise très fiable et très solide. L'artisanat, la qualité et le service sont toujours au centre. En répondant rapidement et avec précision aux souhaits spécifiques des clients, GG Floors&Construct garantit un parfait GG Floors&Construct est le garant de tous les travaux de peinture pour plusieurs grandes entreprises de classe 8 depuis des années.Nous aimons les utiliser comme référence pour notre savoir-faire.et la même partie, qui est responsable des différentes activités au sein d'un projet.Pas un mur simple aura l'air repeint."],
+          ],
+          [
+            "Gyproc Works",
+            ["En plus des cloisons et murs de soutènement standards, vous pouvez faire appel à nous pour l'installation de solutions spécialisées. Par exemple, nous installons des murs avec un effet spécifique anti-feu, anti-bruit, anti-humidité et anti-moisissure. Nous propose également une gamme complète de plaques de plâtre respectueuses de l'environnement, idéales pour les projets de construction écologique.Le gyproc est un matériau qui convient aussi bien aux projets de construction neuve qu'aux projets de rénovation.En effet, le gyproc peut être utilisé de différentes manières.Vous pouvez facilement redessiner l'intérieur de votre maison ou rénover certaines zones. De plus, il existe également du gyproc spécial pour les zones humides telles que les salles de bain, les douches, ... Cela fait du gyproc la finition idéale pour les rénovations de salle de bain et de cuisine. rs&Construct est assuré d'un résultat magnifique et immédiatement prêt à peindre, car nous nous occupons également de la finition complète. Vous pouvez également compter sur notre expertise pour l'installation de portes intérieures. Nous veillons à ce que tout soit fini dans les moindres détails. La qualité et un bon service pour nos clients sont donc primordiaux."]
+          ],
+          [
+            "Plâtrage",
+            ["Construire ou rénover une rénovation bientôt ? Nos plâtriers sont prêts pour votre projet. Nous veillons à ce que vos murs et plafonds intérieurs soient soigneusement finis avec du plâtre d'intérieur. Et le premier pas vers un intérieur fini. Cela rend votre maison immédiatement beaucoup plus grande Nous pulvérisons du plâtre d'intérieur sur toutes les surfaces possibles, de la pierre de construction rapide, du béton et pour une adhérence parfaite la surface à enduire est traitée avec un adhésif. Un travail propre est important pour nous. Nous sommes particulièrement attentifs lors des travaux de rénovation! plâtrage fini dans votre À la maison, vous devez contacter GG-Floors&Construct. Dans les petits espaces, le plâtrage est fait à la main. Dans les grands espaces, il peut également être fait mécaniquement. En fonction de la taille de la cour et des espaces, il est déterminé quel technique est utilisée Un plâtrier expérimenté et bon maîtrise la connaissance des deux techniques."]
+          ],
+          [
+            "Terrasses et allées",
+            ["GG Floors&Construct s'occupe de tous les travaux de clinker et de carrelage, des terrasses aux allées de jardin et des allées aux escaliers et parkings. Cela peut être fait en pierre naturelle, pavés, pavés en terre cuite, pavés en béton... Vous pouvez contacter GG Floors&Construct pour les grands et les petits projets. L'exactitude et la précision sont de la plus haute importance pour GG Floors&Construct et son équipe. Avez-vous un plan entièrement développé ou souhaitez-vous explorer les possibilités ensemble, tout cela est parfaitement possible. GG Floors&Construct et son équipe sont actifs dans tout le pays."]
+          ],
+          [
+            "Travaux de toiture",
+            ["GG Floors&Construct, une équipe extrêmement passionnée pour votre rénovation de toiture. Qu'il s'agisse de la réparation de votre cheminée et de vos gouttières ou d'une rénovation de l'ensemble de votre toiture, vous pouvez toujours nous contacter pour des conseils professionnels et sans engagement. Au fil des années, nous avons Des centaines de toits rénovés dans les provinces du Limbourg, d'Anvers et du Brabant flamand Votre toit est peut-être l'élément le plus important pour une maison saine. Il vous protège du vent et des intempéries et détermine également l'apparence de votre maison. Problèmes avec votre toit plat existant ou Vous souhaitez rénover votre nouvelle toiture plate ou la faire imperméabiliser ? GG Floors&Construct est spécialisé dans la pose et le brûlage de Toiture sur toiture plate. La durée de vie de votre toiture plate dépend fortement de la qualité de la toiture et de la pose professionnelle. "]
+          ],
+          [
+            "Façades",
+            ["Parfois, votre maison a besoin d'une cure de rajeunissement. Avec une rénovation de façade, vous obtenez des résultats étonnants GG Floors&Construct rénove la façade de votre maison dans les moindres détails. Cela va du sablage de la façade, du remplacement et/ou du nettoyage des joints au nettoyage complet de la façade. En outre, la mise à jour ou le renouvellement du plâtre, la finition de la façade avec de la peinture, l'application de traitements résistant à l'humidité, le remplacement ou l'ajustement de la maçonnerie de façade. Votre maison aura immédiatement un aspect complètement différent après une telle rénovation de façade. En plus des rénovations de façades, nous pouvons également vous proposer des travaux de maçonnerie."]
+          ],
+          [
+            "Rénovation",
+            ["Rénover votre maison de A à Z : la mission idéale pour GG Floors&Construct. Vous avez acheté une maison à rénover entièrement ? Ou est-il temps après toutes ces années de refaire en profondeur votre maison ? GG Floors&Construct rénove votre de haut en bas en étroite consultation.Nous répondons en permanence à vos souhaits et à vos commentaires.Voulez-vous un salon plus grand, le temps de l'agrandissement ?Avez-vous besoin de plus d'espace dans la cuisine pour vous adonner à des délices culinaires ? GG Floors&Construct aimerait connaître vos projets. Vous rêvez d'une nouvelle cuisine ou d'une nouvelle salle de bain ? GG Floors&Construct peut réaliser ce rêve. Nous sommes heureux de vous conseiller sur les finitions ou les matériaux et vous décidez comment tout sera exécuté. "]
+          ],
+          [
+            "Nouvelle construction",
+            ["Lors de la réalisation d'une maison neuve, une bonne entreprise de construction fiable est indispensable. GG-Floors&Construct est heureux de vous aider à construire la maison de vos rêves. Nous avons beaucoup d'expérience dans la réalisation de divers projets de nouvelle construction. Vous êtes donc l'assurance d'un résultat parfait à un bon prix.Faire construire une maison neuve est un projet d'envergure.Nous vous tiendrons donc toujours au courant de l'avancement.Les avantages d'une maison neuve.Vous pouvez avoir une maison neuve construit pour plusieurs raisons.L'avantage est bien sûr que vous avez un contrôle total sur la disposition et l'apparence de la nouvelle maison.Cela vous donne la possibilité de réaliser la maison de vos rêves.Par exemple, vous pouvez choisir de faire construire un salon spacieux ou vous pouvez construire un espace de bureau pour traiter la maison.Vous pouvez également choisir d'avoir deux salles de bains.Ces options ne sont pas faciles à trouver avec une maison existante.Une maison neuve nécessite peu de conception. maintenir. Après tout, la maison est entièrement neuve, donc la maison est en parfait état. Cela permettra de réduire les coûts d'entretien dans les années à venir. Un autre avantage est que les maisons neuves prennent souvent de la valeur. Cela signifie que dans quelques années, vous pourrez peut-être vendre la maison à un prix avantageux."]
+          ],
+        ]
       ],
       [
         "Les références",
