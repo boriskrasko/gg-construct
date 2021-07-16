@@ -14,28 +14,28 @@ data = {
         [
           [
             "Vloerder",
-            ["Wanneer u kiest voor GG Floors&Construct , dan kiest u voor kwaliteit, prima vakmanschap en een mooi verzorgde afwerking. GG Floors&Construct is immers gespecialiseerd in alle vloerwerken en weet perfect op welke manier vlot, professioneel en perfect al uw vloeren en wanden te betegelen. Kies de tegels, kleuren en afwerking en GG Floors&Construct realiseert de kamer(s) van uw dromen. Wij plaatsten alle soorten duurzame en decoratieve tegels voor vloeren en wanden, zowel voor leefruimtes als voor keukens, badkamers en bergruimtes, waaronder: Natuursteen, Keramiek, Mozaïek, Exclusieve tegels, parket, Laminaat, Linoleum, … Geen enkele vloer heeft nog geheimen voor ons."],
+            ["Wanneer u kiest voor GG Floors&Construct, dan kiest u voor kwaliteit, prima vakmanschap en een mooi verzorgde afwerking. GG Floors&Construct is immers gespecialiseerd in alle vloerwerken en weet perfect op welke manier vlot, professioneel en perfect al uw vloeren en wanden te betegelen. Kies de tegels, kleuren en afwerking en GG Floors&Construct realiseert de kamer(s) van uw dromen. Wij plaatsten alle soorten duurzame en decoratieve tegels voor vloeren en wanden, zowel voor leefruimtes als voor keukens, badkamers en bergruimtes, waaronder: Natuursteen, Keramiek, Mozaïek, Exclusieve tegels, parket, Laminaat, Linoleum, … Geen enkele vloer heeft nog geheimen voor ons."],
             [
-              ["Vinyl",
-                ["Vinyl is een algemene benaming voor een (soepel en veerkrachtige) kunststof vloerbedekking van hard materiaal. In de volksmond is het soms beter gekend als Novilon. Soms wordt vinyl verward met linoleum, doe dit zeker niet want er zijn zeker verschillen. Je zal dit zelf kunnen lezen op deze website. Vinyl is een synthetisch materiaal, terwijl linoleum puur natuur is. Omwille van het natuurlijk karakter van linoleum is deze minder bestand tegen water. Wordt de linoleumvloer té nat, dan zal dit materiaal blazen trekken, wat bij vinyl niet het geval is. Kunststof vloeren zijn werkelijk overal terug te vinden: woonkamer, slaapkamer, maar ook in ziekenhuizen of kantoren en winkels, … Ze zijn makkelijk te plaatsen, onderhoudsvriendelijk en goed voor het budget. Het is dus niet verwonderlijk dat dit soort vloer populair is. Vinyl is verkrijgbaar in diktes van 1 tot 3.5 millimeter en in breedtes van 1 tot 5 meter. De algemene regel luidt: Hoe meer de vloer belast wordt, hoe dikker en sterker de kwaliteit van het vinyl moet zijn. Soorten vinyl vloeren, het zijn er in feite teveel om allemaal op te sommen."],
+              ["Natuursteen",
+                ["Natuursteen is in de bouwkunde en civiele techniek een gesteente, dat in de natuur wordt aangetroffen en dat na een eventuele bewerking, geschikt is als bouwmateriaal. Natuursteen treft men aan in vele variëteiten. Tegenwoordig wordt gesteente uit de hele wereld naar Nederland en België gehaald. Als specialist weten wij om met de nodige voorzichtigheid met dit natuurlijk product om te gaan. Respect voor de materialen is belangrijk voor de betere plaatsing."]
               ],
-              ["Tapijt",
-                ["Tapijten komen in vele vormen voor. Tapijt is verkrijgbaar in rollen, stroken en tegelvormen. Ook wordt er vaak gesproken over perzische of oosterse tapijten, maar wat wil dat nu allemaal zeggen? Wij gingen op zoek naar antwoorden. Er zijn verschillende soorten tapijten, afhankelijk van de gebruikte productietechnieken of structuur van het tapijt. De drie meest gebruikte technieken bij tapijt zijn: Tuften, weven en knopen. De structuur van een tapijt bestaat meestal uit drie delen: de rug (onderste deel), daarop het tuft- of draagdoek en daarop de pool Tappijttegels hebben veel van de voordelen van de gewone tapijten: ze zijn comfortabel, voelen warm en zacht aan, ze zijn tevens geluidsdempend en warmte-isolerend en de kans op slippen is ook minimaal. Bijkomende voordelen zijn dan ook dat een aparte tegel kan vervangen worden, maar ook dat je zelf creativiteit kan inbrengen bij de legging van tapijttegels."]
+              ["Keramiek",
+                ["Keramiek is een materiaal dat noch een metaal noch een polymeer is. Voorbeelden van keramieken zijn bijvoorbeeld aardewerk, steengoed en porselein, maar daarnaast valt ook te denken aan glas, diamanten, supergeleiders en implantaten. Keramiek ontstaat door verhitting (in bijvoorbeeld een oven), soms in combinatie met druk, waarbij minimaal twee elementen aanwezig zijn. Een van deze elementen is non-metallisch en de ander mag zowel metallisch als niet-metallisch zijn. De juiste kennis van de verschillende materialen is belangrijk om de correcte toepassing te kennen e de regels van de plaatsing per materiaal goed toe te passen."]
               ],
-              ["Linoleum", 
-                ["Linoleum is een slijtvaste vloerbedekking die enkele millimeters dik is. Linoleum is een natuurproduct met een grote indrukvastheid en zonder verende eigenschappen. Het voornaamste bestanddeel is lijnzaadolie en aanvullend erop kurk of houtmeel, en hars op een rug van jute. Linoleum en marmoleum zijn termen die door elkaar worden gebruikt. Linoleum is het eigenlijke product, terwijl marmoleum een merknaam is. Marmoleum is een variant op linoleum met een marmer-achtige textuur. Linoleum kent een vrij slechte reputatie. Ze worden vaak gebruikt in ziekenhuizen en lijken voor velen een vrij ouderwets product te zijn. De laatste jaren is daar enorm snel verandering in gekomen: Er zijn veel motieven beschikbaar en alles ziet er veel moderner uit waardoor linoleum zelfs een trendy product is geworden. Linoleum is verkrijgbaar in banen, stroken en tegels. Afhankelijk van uw keuze, zal dit de werkwijze van de plaatsing van linoleum beïnvloeden. Linoleum met een kliksysteem kan u perfect zelf leggen, maar andere soorten laat je best leggen door een professional. Linoleum lassen. Dit is het moeilijkste deel bij de plaatsing van linoleum. Net hierom wordt meestal een vakman ingeschakeld voor de plaatsing van een linoleumvloer. Om de voegen van de aansluitende banen van het linoleum te lassen is een voegentrekguts nodig, en een lasföhn voor het smelten van de lasdraad. Voor het lassen moeten de linoleumkanten afgesneden worden en goed tegen elkaar worden geplakt. De lijm heeft ongeveer een volle dag nodig om te drogen. Met een speciale guts wordt de naad opengehaald en nadien dient u deze schoon te zuigen. De lasdraad moet gesmolten worden bij een temperatuur van 350° a 400 °C."]
+              ["Mozaïek",
+                ["Mozaïek is een kunstvorm waarbij een grote afbeelding wordt vervaardigd uit een groot aantal kleine gekleurde steentjes (tesserae), die in een vloer of wand worden gemetseld. Met glas is het mogelijk een glas in lood-mozaïek te maken. In de Griekse en Romeinse tijd werden in luxe villa's mozaïeken gemaakt, waarop afbeeldingen van keizers, goden of taferelen van alledag te zien waren. Op diverse plaatsen in Europa zijn mozaïeken teruggevonden die tot op de dag van vandaag goed bewaard zijn gebleven. <br>Vanuit de middeleeuwen is onder meer de cosmatentechniek bekend, waarbij op geraffineerde wijze geometrische figuren werden ingelegd. <br>We zijn dus meer dan alleen tegels patsers, we voelen ons soms echte kunstenaars en u mag er dan dag dagelijks van genieten."]
               ],
-              ["PVC",
-                ["Pvc vloeren zijn eigenlijk voornamelijk bekend bij bedrijven. Ze worden in bedrijfspanden veel gebruikt in bijvoorbeeld de kantine en andere bedrijfsruimtes omdat deze vloeren zeer sterk en makkelijk in onderhoud zijn, ook in ziekenhuizen zult u deze vloeren vanwege de zeer goede hygiene veel tegenkomen. Toch hebben pvc vloeren de laatste paar jaar ook in de particuliere sector een enorme opmars gemaakt. Veel mensen denken bij de naam pvc vloer aan een vinyl vloer (kamer breed), echter zijn pvc vloeren, ondanks dat ze van zo goed als hetzelfde materiaal worden gemaakt, vele malen sterker en zwaarder dan de alom bekende vinyl vloeren. Vinyl vloeren zijn van oorsprong vrij zacht en indrukbaar terwijl pvc vloeren voorzien zijn van een harde, niet indrukbare toplaag."]
+              ["Exclusieve tegels",
+                ["Exclusieve tegels alle stijlen tegels van o.a. BottegaNove, Siminetti en Mutina. Tegels met structuren, een bepaalde finish of in een specifieke kleur. Naast de invulling van tegels in de badkamer, verzorgt GG-Floors&Construct ook tegels voor keukens, woonkamers en zwembaden. Wij staan voor u klaar om u te voorzien van een passend advies, voor iedere woonruimte."]
               ],
-              ["LVT", 
-                ["Zijn een ongelooflijk populaire vloeroptie in zowel huishoudelijke als commerciële gebouwen. Het is bekend voor het imiteren van hout en tegels met onberispelijke resultaten. Terwijl LVT op zichzelf een ding van schoonheid is, kiezen veel mensen ervoor om hun uiterlijk te verbeteren met behulp van featurestroken. We hebben deze complete gids samengesteld om u te helpen het indrukwekkende verschil te zien dat LVT-functiestroken kunnen maken voor uw gloednieuwe vloer!"]
+              ["Parket",
+                ["Massief parket bestaat uit houten planken die na het leggen geschuurd en daarna gelakt of geolied moeten worden. Massief parket is officieel minimaal 6 mm dik; tussen 6 en 10 mm worden de planken, in een lijmbed gelegd, doorheen de plank vernageld op een houten ondervloer. Dit dient echter niet geadverteerd te worden als een massief houten vloer maar duidelijk te worden beschreven als een massief houten parketvloer om misleiding te voorkomen. De dikkere varianten van 14 tot 22 mm kunnen ook blind vernageld worden. Er bestaan ook dunnere gespecialiseerde parketten met tand en groef die blind vernageld kunnen worden. De planken vanaf 20 mm dikte kunnen zelfdragend geplaatst worden, bijvoorbeeld op balken met een tussenafstand van 40-50 cm. Het verlijmd plaatsen van massief parket op cementachtige ondergrond zonder houten tussenvloer wordt afgeraden. Het geheel wordt in het werk opgeschuurd en afgewerkt wat een langere werftijd vereist."]
               ],
-              ["Rubber", 
-                ["Krijgen de vloeren in uw bedrijfspand heel wat te verduren op een gemiddelde werkdag? Chemische stoffen of oliën bijvoorbeeld? Vorkheftrucs over uw magazijnvloer? Dan is rubber vloerbedekking precies wat u zoekt. Deze vloer is praktisch onverwoestbaar en voldoet aan de hoogste milieu- en veiligheidseisen. Daarom vindt u het materiaal veel in trappenhuizen en andere ruimtes van ziekenhuizen, scholen of kinderdagverblijven. Onverwoestbaar betekent niet onooglijk. Integendeel, rubber vloerbedekking biedt eindeloos veel speelruimte bij de inrichting van uw pand. Het materiaal is beschikbaar in alle kleuren van de regenboog en in tal van designs."]
+              ["Laminaat",
+                ["Laminaat. Het uitzicht van laminaat wordt bepaald door de tekening die als decorlaag gebruikt wordt. Toch is het oppervlak van laminaat bijna niet te onderscheiden van echt parket. Bovendien is laminaat onderhoudsvriendelijker dan parket en kan je laminaat makkelijk zelf plaatsen dankzij het handige kliksysteem, ook in combinatie met vloerverwarming."]
               ],
-              ["Egaliseren", 
-                ["Een vloer egaliseren is een precies klusje. Doe je het fout, dan eindig je met een hobbellandschap waar je eigenlijk niets meer mee kunt. Als beginner kun je beter eerst wat kluservaring opdoen voordat je begint met het egaliseren van een vloer. sEen vloer egaliseren is een beetje een ondergeschoven kindje als we het hebben over het leggen van een nieuwe vloer. Dat is vreemd, want een vloer egaliseren is bijna het belangrijkste onderdeel voor het leggen van vloeren in elke praktijk.....Alleen wat houdt het in? Wanneer moet dat? Wat zijn de voor- en nadelen die verbonden zijn aan het egaliseren van de vloer. En kan ik zelf een vloer egaliseren of moet ik dat uit handen geven?"]
+              ["Linoleum",
+                ["Linoleum is een slijtvaste vloerbedekking van enkele millimeters dik. Het is een natuurproduct met een grote indrukvastheid. De naam komt van de Latijnse woorden Linum (vlas) en Oleum (olie), en het voornaamste bestanddeel is dan ook lijnzaadolie (afkomstig uit vlas, Linum usitatissimum) en als aanvulling daarop kurk of houtmeel en hars op een rug van jute."]
               ],
             ],
           ],
@@ -146,17 +146,31 @@ data = {
       [
         "Activities",
         [
-           [
-             "Floor Covering",
-             [""],
-             [
-               ["Vinyl"],
-               ["Carpet"],
-               ["Linoleum"],
-               ["PVC"],
-               ["LVT"],
-               ["Rubber"],
-               ["Equalize"],
+          [
+            "Floor",
+            ["When you choose GG Floors&Construct, you choose quality, excellent craftsmanship and a well-maintained finish. After all, GG Floors&Construct is specialized in all floor works and knows perfectly how to tile all your floors and walls quickly, professionally and perfectly. Choose the tiles, colors and finish and GG Floors&Construct will realize the room(s) of your dreams.We installed all types of durable and decorative tiles for floors and walls, for living spaces as well as for kitchens, bathrooms and storage spaces, including: Natural stone, Ceramics, Mosaic, Exclusive tiles, parquet, Laminate, Linoleum, … No floor has any secrets for us anymore."],
+            [
+              ["Natural stone",
+                ["In architecture and civil engineering, natural stone is a rock that is found in nature and that, after possible processing, is suitable as a building material. Natural stone is found in many varieties. Today, rock is shipped from all over the world to the Netherlands and Belgium. As a specialist, we know how to handle this natural product with the necessary caution. Respect for the materials is important for better installation."]
+              ],
+              ["Ceramics",
+                ["Ceramics is a material that is neither a metal nor a polymer. Examples of ceramics are, for example, earthenware, stoneware and porcelain, but also glass, diamonds, superconductors and implants. Ceramics are created by heating (in an oven, for example). ), sometimes in combination with pressure, where at least two elements are present. One of these elements is non-metallic and the other may be either metallic or non-metallic. The correct knowledge of the different materials is important to know the correct application e to properly apply the rules of placement per material."]
+              ],
+              ["Mosaic",
+                ["Mosaic is an art form in which a large image is made from a large number of small colored stones (tesserae), which are bricked into a floor or wall. With glass it is possible to make a stained glass mosaic. In the Greek and In Roman times, mosaics were made in luxurious villas, depicting images of emperors, gods or everyday scenes.Mosques have been found in various places in Europe that have been well preserved to this day.<br>From the Middle Ages onwards Among other things, the cosmatesque technique is known, in which geometric figures were inlaid in a refined way.<br>So we are more than just tilers, we sometimes feel like real artists and you can enjoy it every day."]
+              ],
+              ["Exclusive tiles",
+                ["Exclusive tiles all styles of tiles from, among others, BottegaNove, Siminetti and Mutina. Tiles with structures, a certain finish or in a specific color. In addition to the use of tiles in the bathroom, GG-Floors&Construct also provides tiles for kitchens, living rooms and swimming pools. We are ready to provide you with appropriate advice, for every living space."]
+              ],
+              ["Parquet",
+                ["Solid parquet consists of wooden planks that have to be sanded after installation and then varnished or oiled. Officially, solid parquet is at least 6 mm thick; between 6 and 10 mm the planks, laid in a bed of glue, are nailed through the plank on a wooden subfloor. However, this should not be advertised as a solid wooden floor but clearly described as a solid wooden parquet floor to avoid deception. The thicker variants from 14 to 22 mm can also be blind nailed. There are also thinner specialized parquets with tongue and groove that can be blind nailed. The planks from 20 mm thick can be installed self-supporting, for example on beams with a spacing of 40-50 cm. The glued installation of solid parquet on a cement-like substrate without a wooden intermediate floor is not recommended. is sanded and finished in-situ, requiring a longer site time."]
+              ],
+              ["Laminate flooring",
+                ["Laminate. The appearance of laminate is determined by the drawing that is used as a decorative layer. Yet the surface of laminate is almost indistinguishable from real parquet. Laminate is also easier to maintain than parquet and you can easily install laminate yourself thanks to the handy click system , also in combination with underfloor heating."]
+              ],
+              ["Linoleum",
+                ["Linoleum is a wear-resistant floor covering a few millimeters thick. It is a natural product with great impression resistance. The name comes from the Latin words Linum (flax) and Oleum (oil), and the main component is therefore linseed oil (from flax , Linum usitatissimum) and if onfilling thereon with cork or wood flour and resin on a burlap backing."]
+               ],
              ],
            ],
            [
@@ -260,17 +274,31 @@ data = {
       [
         "Aktivitäten",
         [
-           [
-             "Bodenbelag",
-             [""],
-             [
-               ["Vinyl"],
-               ["Teppich"],
-               ["Linoleum"],
-               ["PVC"],
-               ["LVT"],
-               ["Gummi"],
-               ["Ausgleichen"],
+          [
+            "Fußboden",
+            ["Wenn Sie sich für GG Floors&Construct entscheiden, entscheiden Sie sich für Qualität, exzellente Verarbeitung und eine gepflegte Verarbeitung. Schließlich ist GG Floors&Construct auf alle Bodenarbeiten spezialisiert und weiß perfekt, wie Sie alle Ihre Böden und Wände schnell, professionell und perfekt verfliesen die Fliesen, Farben und Oberflächen und GG Floors&Construct realisiert den/die Raum(e) Ihrer Träume.Wir haben alle Arten von langlebigen und dekorativen Fliesen für Böden und Wände, für Wohnbereiche sowie für Küchen, Bäder und Lagerräume verlegt, darunter: Naturstein, Keramik, Mosaik, Exklusive Fliesen, Parkett, Laminat, Linoleum, … Kein Boden birgt für uns Geheimnisse."],
+            [
+              ["Naturstein",
+                ["Naturstein ist in der Architektur und im Bauwesen ein Gestein, das in der Natur vorkommt und das sich nach einer möglichen Verarbeitung als Baumaterial eignet. Naturstein kommt in vielen Variationen vor. Gestein wird heute aus der ganzen Welt verschifft in die Niederlande und Belgien. Als Spezialist wissen wir mit diesem Naturprodukt mit der nötigen Vorsicht umzugehen. Respekt vor den Materialien ist wichtig für eine bessere Verlegung."]
+              ],
+              ["Keramik",
+                ["Keramik ist ein Material, das weder ein Metall noch ein Polymer ist. Beispiele für Keramik sind beispielsweise Steingut, Steinzeug und Porzellan, aber auch Glas, Diamanten, Supraleiter und Implantate. Keramik entsteht durch Erhitzen (im Ofen z Beispiel). ), manchmal in Kombination mit Druck, wobei mindestens zwei Elemente vorhanden sind. Eines dieser Elemente ist nichtmetallisch und das andere kann entweder metallisch oder nichtmetallisch sein. Die richtige Kenntnis der verschiedenen Materialien ist wichtig die richtige Anwendung e um die Platzierungsregeln pro Material richtig anzuwenden."]
+              ],
+              ["Mosaik",
+                ["Mosaik ist eine Kunstform, bei der ein großes Bild aus einer Vielzahl kleiner farbiger Steine ​​(Tesserae) besteht, die in einen Boden oder eine Wand eingemauert werden. Mit Glas ist es möglich, ein Buntglasmosaik herzustellen. Im Griechischen und In der Römerzeit wurden in luxuriösen Villen Mosaiken angefertigt, die Bilder von Kaisern, Göttern oder Alltagsszenen darstellten.Moscheen wurden an verschiedenen Orten in Europa gefunden, die bis heute gut erhalten sind.<br>Unter anderem ab dem Mittelalter Sachen ist die Kosmaten-Technik bekannt, bei der geometrische Figuren raffiniert eingelegt wurden.<br>Wir sind also mehr als nur Fliesenleger, wir fühlen uns manchmal wie echte Künstler und man kann sich jeden Tag daran erfreuen."]
+              ],
+              ["Exklusive Kacheln",
+                ["Exklusive Fliesen alle Stile von Fliesen u.a. von BottegaNove, Siminetti und Mutina. Fliesen mit Strukturen, einem bestimmten Finish oder in einer bestimmten Farbe. Neben dem Einsatz von Fliesen im Bad bietet GG-Floors&Construct auch Fliesen für die Küche , Wohnzimmer und Schwimmbäder. Wir beraten Sie gerne, für jeden Wohnraum."]
+              ],
+              ["Parkett",
+                ["Massivparkett besteht aus Holzdielen, die nach der Verlegung geschliffen und anschließend lackiert oder geölt werden müssen. Offiziell ist Massivparkett mindestens 6 mm dick, zwischen 6 und 10 mm werden die im Leimbett verlegten Dielen durchgenagelt die Diele auf einem Holzunterboden. Dieser sollte jedoch nicht als Massivholzboden angepriesen sondern eindeutig als Massivholzparkettboden bezeichnet werden um Täuschung zu vermeiden. Die dickeren Varianten von 14 bis 22 mm können auch blind genagelt werden. Es gibt auch dünnere Spezialparkett mit Nut und Feder, die blind genagelt werden können Die Dielen können ab 20 mm Dicke selbsttragend verlegt werden, zum Beispiel auf Balken mit einem Abstand von 40-50 cm Die geklebte Verlegung von Massivparkett auf einem zementähnlichen Untergrund ohne Holzzwischenboden ist nicht zu empfehlen, wird vor Ort geschliffen und bearbeitet, was eine längere Baustellenzeit erfordert."]
+              ],
+              ["Laminatboden",
+                ["Laminat. Die Optik von Laminat wird durch die Zeichnung bestimmt, die als dekorative Schicht verwendet wird. Die Oberfläche von Laminat ist jedoch von echtem Parkett kaum zu unterscheiden. Laminat ist auch pflegeleichter als Parkett und Sie können Laminat dank einfach selbst verlegen zum handlichen Klicksystem, auch in Kombination mit Fußbodenheizung."]
+              ],
+              ["Linoleum",
+                ["Linoleum ist ein verschleißfester Bodenbelag von wenigen Millimetern Dicke. Es ist ein Naturprodukt mit hoher Eindruckfestigkeit. Der Name leitet sich von den lateinischen Wörtern Linum (Flachs) und Oleum (Öl) ab, daher ist der Hauptbestandteil Leinöl (aus Flachs , Linum usitatissimum) und wenn andarauf mit Kork- oder Holzmehl und Harz auf einer Sackleinenunterlage füllen."]
+               ],
              ],
            ],
            [
@@ -374,17 +402,31 @@ data = {
       [
         "Activités",
         [
-           [
-             "Revêtement de sol",
-             [""],
-             [
-               ["Vinyle"],
-               ["Tapis"],
-               ["Linoléum"],
-               ["PVC"],
-               ["LVT"],
-               ["Caoutchouc"],
-               ["Égaliser"],
+          [
+            "Revêtement de sol",
+            ["Quand vous choisissez GG Floors&Construct, vous choisissez la qualité, un excellent savoir-faire et une finition bien entretenue. Après tout, GG Floors&Construct est spécialisé dans tous les travaux de revêtement de sol et sait parfaitement comment carreler tous vos sols et murs rapidement, professionnellement et parfaitement. Choisissez les carreaux, les couleurs et la finition et GG Floors&Construct réaliseront la ou les pièces de vos rêves. Pierre naturelle, Céramique, Mosaïque, Carrelage exclusif, Parquet, Stratifié, Linoléum, … Aucun sol n'a de secret pour nous."],
+            [
+              ["Pierre naturelle",
+                ["En architecture et en génie civil, la pierre naturelle est une roche qui se trouve dans la nature et qui, après un éventuel traitement, convient comme matériau de construction. La pierre naturelle se trouve dans de nombreuses variétés. Aujourd'hui, la roche est expédiée du monde entier aux Pays-Bas et en Belgique. En tant que spécialiste, nous savons manipuler ce produit naturel avec la prudence nécessaire. Le respect des matériaux est important pour une meilleure installation."]
+              ],
+              ["Céramique",
+                ["La céramique est un matériau qui n'est ni un métal ni un polymère. Des exemples de céramiques sont par exemple la faïence, le grès et la porcelaine, mais aussi le verre, les diamants, les supraconducteurs et les implants. Les céramiques sont créées par chauffage (au four, par exemple). ), parfois en combinaison avec la pression, où au moins deux éléments sont présents. L'un de ces éléments est non métallique et l'autre peut être métallique ou non métallique. La bonne connaissance des différents matériaux est importante à connaître la bonne application e pour bien appliquer les règles de placement par matériau."]
+              ],
+              ["Mosaïque",
+                ["La mosaïque est une forme d'art dans laquelle une grande image est faite d'un grand nombre de petites pierres colorées (tesserae), qui sont maçonnées dans un sol ou un mur. Avec le verre, il est possible de faire une mosaïque de vitrail. En grec et À l'époque romaine, des mosaïques étaient réalisées dans des villas luxueuses, représentant des images d'empereurs, de dieux ou de scènes de tous les jours.Des mosquées ont été trouvées à divers endroits en Europe qui ont été bien conservées à ce jour.<br>À partir du Moyen Âge, entre autres choses, la technique cosmatesque est connue, dans laquelle des figures géométriques ont été incrustées de manière raffinée.<br>Nous sommes donc plus que de simples carreleurs, nous nous sentons parfois comme de vrais artistes et vous pouvez en profiter tous les jours."]
+              ],
+              ["Tuiles exclusives",
+                ["Carreaux exclusifs tous les styles de carreaux de BottegaNove, Siminetti et Mutina, entre autres. Carrelage avec des structures, une certaine finition ou dans une couleur spécifique. En plus de l'utilisation de carreaux dans la salle de bain, GG-Floors&Construct propose également des carreaux pour les cuisines , pièces à vivre et piscines. Nous sommes prêts à vous apporter des conseils adaptés, pour chaque espace de vie."]
+              ],
+              ["Parquet",
+                ["Le parquet massif est constitué de planches de bois qui doivent être poncées après pose puis vernies ou huilées. Officiellement, le parquet massif fait au moins 6 mm d'épaisseur ; entre 6 et 10 mm les planches, posées dans un lit de colle, sont clouées de part en part la planche sur un sous-plancher en bois. Cependant, cela ne doit pas être annoncé comme un parquet massif mais clairement décrit comme un parquet en bois massif pour éviter toute tromperie. Les variantes plus épaisses de 14 à 22 mm peuvent également être clouées à l'aveugle. Il existe également des parquets spécialisés avec rainure et languette qui peuvent être cloués à l'aveugle.Les planches à partir de 20 mm d'épaisseur peuvent être installées autoportantes, par exemple sur des poutres avec une distance de 40-50 cm.La pose collée de parquet massif sur un support semblable au ciment sans plancher intermédiaire en bois n'est pas recommandé. est poncé et fini sur place, ce qui nécessite un temps de chantier plus long."]
+              ],
+              ["Revêtstratifié",
+                ["Stratifié. L'aspect du stratifié est déterminé par le dessin qui est utilisé comme couche décorative. Cependant, la surface du stratifié est presque impossible à distinguer du vrai parquet. Le stratifié est également plus facile à entretenir que le parquet et vous pouvez facilement installer le stratifié vous-même grâce au système Click pratique, également en combinaison avec le chauffage par le sol."]
+              ],
+              ["Linoléum",
+                ["Le linoléum est un revêtement de sol résistant à l'usure de quelques millimètres d'épaisseur. C'est un produit naturel avec une grande résistance à l'impression. Le nom vient des mots latins Linum (lin) et Oleum (huile), et le composant principal est donc l'huile de lin (du lin , Linum usitatissimum) et si surremplissant dessus avec du liège ou de la farine de bois et de la résine sur un support en toile de jute."]
+               ],
              ],
            ],
            [
