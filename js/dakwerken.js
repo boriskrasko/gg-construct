@@ -8,17 +8,17 @@ let variants = {
     ],
     "en" :
     [
-      ["Plastering"],
+      ["Roofing"],
       ["<strong>GG Floors&Construct</strong>, a highly motivated team for your roof renovation. Whether it concerns the repair of your chimney and gutters or a renovation of your entire roof, you can always contact us for professional and non-binding advice. Over the years, we have renovated hundreds of roofs in the provinces of Limburg, Antwerp and Flemish Brabant. Your roof is perhaps the most important element for a healthy home. It protects you against wind and weather and also determines the appearance of your home. Problems with your existing flat roof or roof terrace? Do you want to renovate your new flat roof or have it made waterproof again? GG Floors&Construct is specialized in placing and burning Roofing on flat roofs. The lifespan of your flat roof strongly depends on the quality of the roofing and the professional installation."],
     ],
      "de" :
     [
-      ["Verputzen"],
+      ["Dachdeckerarbeiten"],
       ["<strong>GG Floors&Construct</strong>, ein hochmotiviertes Team für Ihre Dachsanierung. Ob es um die Reparatur Ihres Schornsteins und Ihrer Dachrinnen oder eine Sanierung Ihres gesamten Daches geht, Sie können uns jederzeit für eine professionelle und unverbindliche Beratung kontaktieren. Im Laufe der Jahre haben wir Hunderte von Dächern in den Provinzen Limburg, Antwerpen und Flämisch-Brabant saniert Ihr Dach ist vielleicht das wichtigste Element für ein gesundes Zuhause. Sie schützt Sie vor Wind und Wetter und bestimmt auch das Erscheinungsbild Ihres Hauses. Probleme mit Ihrem bestehenden Flachdach oder Ihrer Dachterrasse? Sie möchten Ihr neues Flachdach sanieren oder wieder wasserdicht machen lassen? GG Floors&Construct ist spezialisiert auf das Verlegen und Brennen von Dächern auf Flachdächern. Die Lebensdauer Ihres Flachdaches hängt stark von der Qualität der Dacheindeckung und der fachgerechten Montage ab."],
     ],
      "fr" :
     [
-      ["Plâtrage"],
+      ["Travaux de toiture"],
       ["<strong>GG Floors&Construct</strong>, une équipe très motivée pour la rénovation de votre toiture. Qu'il s'agisse de la réparation de votre cheminée et de vos gouttières ou d'une rénovation de l'ensemble de votre toiture, vous pouvez toujours nous contacter pour des conseils professionnels et sans engagement. Au fil des ans, nous avons rénové des centaines de toits dans les provinces du Limbourg, d'Anvers et du Brabant flamand.Votre toit est peut-être l'élément le plus important pour une maison saine. Il vous protège du vent et des intempéries et détermine également l'apparence de votre maison. Des problèmes avec votre toit plat ou votre toit-terrasse existant ? Vous souhaitez rénover votre nouvelle toiture plate ou la rendre étanche à nouveau ? GG Floors&Construct est spécialisé dans la pose et le brûlage de toitures sur toits plats. La durée de vie de votre toit plat dépend fortement de la qualité de la toiture et de l'installation professionnelle."],
     ],
   },

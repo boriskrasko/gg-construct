@@ -69,7 +69,7 @@ const getVariantContent = () => {
   let variantOfFloor = document.querySelectorAll('.list-of-services a');
   for (let i = 0; i < variantOfFloor.length; i++) {
     variantOfFloor[i].textContent = variants[variant][1][lang][3][i][0];
-    variantOfFloor[i].href = `${variants[variant][1].nl[3][i][0].replace(/ /g, '-').toLowerCase()}.html`;
+    variantOfFloor[i].href = `${variants[variant][1].nl[3][i][0].replace(/ /g, '-').replace('ï', 'i').toLowerCase()}.html`;
   }
 }
 

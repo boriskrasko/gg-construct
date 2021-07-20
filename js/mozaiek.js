@@ -1,6 +1,6 @@
 let variants = {
-  "mozaïek" : [
-    ["images/mozaïek.jpg"], {
+  "mozaiek" : [
+    ["images/mozaiek.jpg"], {
     "nl" :
     [
       ["Mozaïek"],
@@ -23,11 +23,7 @@ let variants = {
      ],
   },
   [
-    ["images/gallery/keramiek/img-sm-1.jpg"],
-    ["images/gallery/keramiek/img-sm-2.jpg"],
-    ["images/gallery/keramiek/img-sm-3.jpg"],
-    ["images/gallery/keramiek/img-sm-4.jpg"],
-    ["images/gallery/keramiek/img-sm-5.jpg"],
+    
   ]
   ],
 }
