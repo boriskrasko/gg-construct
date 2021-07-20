@@ -80,6 +80,8 @@ function getContactContent() {
   for (let i = 0; i < dataList.length; i++) {
     dataList[i].textContent = contact[lang][0][i + 1];
   }
+  let message = document.querySelector('.message');
+  message.setAttribute('placeholder', `${contact[lang][0][5]}`);
   let footnote = document.querySelector('.footnote');
   footnote.textContent = contact[lang][0][6];
 
