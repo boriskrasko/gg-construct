@@ -23,7 +23,8 @@ let variants = {
     ],
   },
   [
-    
+    ["images/gallery/pleisterwerken/img-sm-1.jpg"],
+    ["images/gallery/pleisterwerken/img-sm-2.jpg"],
   ]
   ],
 }
