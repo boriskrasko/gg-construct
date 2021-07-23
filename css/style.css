@@ -1503,10 +1503,15 @@ footer nav.footnav {
   height: 50px; 
   background: #ccc;
   cursor: default;
+  margin-top: 5px;
 }
 
 .icon-reveal span {
   font-size: 36px;
+}
+
+.icon-reveal img {
+  min-width: 24px;
 }
 
 .arrow-right {

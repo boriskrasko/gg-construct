@@ -1,5 +1,6 @@
 const companyName = `GG Floors & Construct`;
 let infoBlockContent = document.querySelectorAll('.info-block-content p');
+let infoBlockContentTitle = document.querySelector('.info-block-content h2');
 const typeInfoText = document.querySelector('.type-info-text');
 const typeTitle = document.querySelector('.type-title');
 typeTitle.textContent = companyName;
@@ -9,6 +10,7 @@ let startscreen = document.querySelector('.startscreen');
 let serviseCardLink = document.querySelectorAll('.servise-cards a');
 let articleHeadingTitle = document.querySelectorAll('.article-heading h2');
 let activitiesListItem = document.querySelectorAll('.activities-list a');
+let more = document.querySelector('.link-to-floors a');
 
 
 function getContent() {
@@ -29,8 +31,12 @@ function getContent() {
     activitiesListItem[i].textContent = data[lang][0][2][1][i][0];
     activitiesListItem[i].href = `${data.nl[0][2][1][i][0].replace(/ /g, '-').toLowerCase()}.html`;
   }
-  activitiesListItem[0].textContent += ` (${data[lang][0][2][1][0][1][0][0].toString().replace(/,/g, ', ').toLowerCase()}, ... )`;
+  activitiesListItem[0].textContent += `(${data[lang][0][2][1][0][1][0][0].toString().replace(/,/g, ', ').toLowerCase()}, ... )`;
   articleHeadingTitle[0].textContent = data[lang][0][2][0];
+  infoBlockContentTitle.textContent = data[lang][0][2][1][0][0];
+  infoBlockContent[2].innerHTML =  data[lang][0][2][1][0][1];
+  more.textContent = data[lang][7];
+
 }
 
 window.addEventListener('hashchange', () => {
