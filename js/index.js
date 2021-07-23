@@ -10,6 +10,7 @@ let startscreen = document.querySelector('.startscreen');
 let serviseCardLink = document.querySelectorAll('.servise-cards a');
 let articleHeadingTitle = document.querySelectorAll('.article-heading h2');
 let activitiesListItem = document.querySelectorAll('.activities-list a');
+let more = document.querySelector('.link-to-floors a');
 
 
 function getContent() {
@@ -34,6 +35,7 @@ function getContent() {
   articleHeadingTitle[0].textContent = data[lang][0][2][0];
   infoBlockContentTitle.textContent = data[lang][0][2][1][0][0];
   infoBlockContent[2].innerHTML =  data[lang][0][2][1][0][1];
+  more.textContent = data[lang][7];
 
 }
 
