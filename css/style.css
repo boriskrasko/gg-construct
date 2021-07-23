@@ -1503,7 +1503,7 @@ footer nav.footnav {
   height: 50px; 
   background: #ccc;
   cursor: default;
-  margin: 5px;
+  margin-top: 5px;
 }
 
 .icon-reveal span {
