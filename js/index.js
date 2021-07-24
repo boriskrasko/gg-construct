@@ -11,6 +11,10 @@ let serviseCardLink = document.querySelectorAll('.servise-cards a');
 let articleHeadingTitle = document.querySelectorAll('.article-heading h2');
 let activitiesListItem = document.querySelectorAll('.activities-list a');
 let more = document.querySelector('.link-to-floors a');
+let parallaxTitle = document.querySelector('.parallax-content h2');
+let parallaxContent = document.querySelector('.parallax-content p');
+let parallaxBtnSpan = document.querySelector('.parallax-content span');
+
 
 
 function getContent() {
@@ -36,6 +40,9 @@ function getContent() {
   infoBlockContentTitle.textContent = data[lang][0][2][1][0][0];
   infoBlockContent[2].innerHTML =  data[lang][0][2][1][0][1];
   more.textContent = data[lang][7];
+  parallaxTitle.textContent = data[lang][14][0];
+  parallaxContent.textContent = data[lang][14][1];
+  parallaxBtnSpan.textContent = data[lang][14][2];
 
 }
 

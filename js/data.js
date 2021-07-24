@@ -133,7 +133,12 @@ data = {
     ],
     [
       "Dien uw aanvraag in"
-    ]
+    ],
+    [
+      "VLOERBEDEKKING LEGGEN", 
+      "Ons advies: laat je vloer leggen door onze vakmannen. Zeker als het gaat om pvc-vloeren of marmoleum. Die vloeren kan je zelf niet goed leggen. Weet jij namelijk of je vloer egaal is? En zo niet, hoe ga je ‘m dan egaal krijgen? En weleens aan gedacht dat je met een visgraatmotief pvc-vloer vanuit het midden begint en niet aan de zijkant? Nou, onze vakmannen weten dat toevallig wel. Daar zijn ze vakmannen voor",
+      "GRATIS OFFERTE AANVRAGEN",
+    ],
   ],
   "en": [
     [
@@ -269,7 +274,12 @@ data = {
     ],
     [
       "Submit your application"
-    ]
+    ],
+    [
+       "LAYING FLOOR COVERING",
+       "Our advice: have your floor laid by our professionals. Especially when it comes to PVC floors or marmoleum. You cannot lay those floors properly yourself. Do you know whether your floor is level? And if not, how do you go about installing it? then get it even? And have you ever thought that with a herringbone pattern PVC floor you start from the middle and not at the side? Well, our craftsmen happen to know that. That's what they're professionals for",
+       "REQUEST A FREE QUOTE",
+     ],
   ],
   "de": [
     [
@@ -405,7 +415,12 @@ data = {
     ],
     [
       "Reichen Sie Ihre Bewerbung ein"
-    ]
+    ],
+    [
+       "BODENBELAG VERLEGEN",
+       "Unser Tipp: Lassen Sie Ihren Boden von unseren Profis verlegen. Vor allem, wenn es um PVC-Böden oder Marmoleum geht. Richtig verlegen können Sie diese Böden nicht selbst. Wissen Sie, ob Ihr Boden eben ist? Und wenn nicht, wie verlegen Sie ihn ? dann eben? Und haben Sie schon einmal daran gedacht, dass Sie bei einem PVC-Boden mit Fischgrätmuster in der Mitte beginnen und nicht seitlich? Das wissen unsere Handwerker zufällig. Dafür sind sie Profis",
+       "FORDERN SIE EIN KOSTENLOSES ANGEBOT AN",
+     ],
   ],
   "fr": [
     [
@@ -541,6 +556,11 @@ data = {
     ],
     [
       "Soumettez votre candidature"
-    ]
+    ],
+    [
+       "FLIERENDEKKING Lizze",
+       "Us advys: lit jo flier lizze troch ús professionals. Benammen as it giet om PVC-flierren of marmoleum. Jo kinne dy flierren sels net goed lizze. Wite jo oft jo flier nivo is? En sa net, hoe geane jo te wurkjen ? dan krijst it sels? En hawwe jo ea tocht dat jo mei in PVC-flier fan harsebenpatroan begjinne fanôf it midden en net oan 'e kant? No, ús ambachtslju wite dat tafallich. Dat is wêr't se professionals foar binne ",
+       "FERGESE OFFER freegje",
+     ],
   ]
 }

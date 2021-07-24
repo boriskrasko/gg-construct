@@ -1121,10 +1121,9 @@ footer nav.footnav {
   overflow: hidden;
   width: 50%;
   min-height: 240px;
-  max-height: 500px;
+  max-height: 840px;
   padding: 20px 0;
   background-position: center;
-  /*background-color: var(--light-blue);*/
   background-size: cover;
 }
 
@@ -1533,7 +1532,7 @@ body:not(.device-touch) .button.button-reveal a {
 
 .button.button-reveal:hover i {
   top: 0;
-  left: 0;
+  left: -6px;
   height: 100%;
 }
 
@@ -2080,6 +2079,9 @@ body:not(.device-touch) .button.button-reveal a {
   .info-block-image,
   .info-block {
     padding: 5px !important;
+  }
+  .info-block-image {
+    max-height: 440px;
   }
   .arrow-btn {
     position: absolute;
