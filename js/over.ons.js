@@ -1,31 +1,55 @@
 let variants = {
   "over-ons" : [
     ["images/scaffolding-workers.jpg"], { 
-    "en" :
-    [
-      ["Who we are"],
-      ["GGVfloor covering company is a young but very professional specialist in floor coverings (floor covering installations), places for hotels, shops and offices and much more... Our close relationship with the manufacturer allows us to quickly and accurately obtain information for designers and architects . With our small but effective team, we ensure the right design choice, fast sample delivery, fast delivery of materials. GGFloor covering company we do everything we can to make your project successful."],
-    ],
     "nl" :
     [
       ["Over ons"],
-      ["GGVloerbekleding bedrijf is een jonge maar zeer professionele specialist in vloerbedekking (plaatsen vloerbekleding), plaatsen voor hotels, winkels en kantoren en veel meer... Onze hechte relatie met de fabrikant stelt ons in staat om snel en nauwkeurig informatie te verkrijgen voor ontwerpers en architecten. Met ons kleine, maar effectieve team zorgen we voor de juiste ontwerpkeuze, snelle levering van monsters, het snel leveren van materialen. GGVloerbekleding bedrijf doen we er alles aan om uw project succesvol te maken."],
+      ["<strong>GG Floors&Construct</strong> bouwt aan een duurzame partnerschip.<br>Al meer dan <strong>15 jaar</strong> ervaring in vloerbekledingen, maar ook daken hebben voor ons geen geheimen meer.<br>Onze specialiteit blijft nog steeds allerhande vloeren, harde als zachte. Van grote renovaties tot kleinere herstellingen alsook volledige nieuwbouw woningen.<br> Door een nauwe samenwerking met de opdrachtgevers, medewerkers en partners gaan we voor de hoogst haalbare topkwaliteit. Telkens weer in een open en respectvolle sfeer.<br><strong>GG Flors&Construct</strong> brengt uw bouwproject tot een goed einde. Zo maken we het leven van de klant makkelijk doordat wij het totaalconcept kunnen aanbieden.<br>Ons grootste kapitaal, zijn onze vakmannen, hun veiligheid en welzijn is voor GG Floors&Construct topprioriteit, want alleen zo kan je ook topkwaliteit afleveren op de werf. Heeft u bouw of verbouwplannen:"],
+      ["We doen het samen met u. Volg ons ook op de social media voor de verschillende realisaties:"],
+      ],
+    "en" :
+    [
+      ["Who we are"],
+      ["<strong>GG Floors&Construct</strong> is building a sustainable partnership.<br>More than <strong>15 years</strong> of experience in floor coverings, but roofs no longer hold any secrets for us.<br>Our specialty is still all kinds of floors, hard and soft.<br>From major renovations to smaller repairs as well as completely new homes.<br>Through close collaboration with clients, employees and partners, we aim for the highest achievable top quality. Again and again in an open and respectful atmosphere.<br><strong>GG Flors&Construct</strong> brings your construction project to a successful conclusion.<br>In this way we make the customer's life easy because we can offer the total concept.<br>Our greatest capital is our craftsmen, their safety and well-being is top priority for GG Floors&Construct, because this is the only way you can deliver top quality on site.<br>Do you have construction or renovation plans:"],
+      ["We do it together with you. Follow us on social media for the different realizations:"],
     ],
      "de" :
     [
       ["Über uns"],
-      ["Die GGVfloor Belagsfirma ist ein junger, aber sehr professioneller Spezialist für Bodenbeläge (Bodenbelagsverlegungen), Räumlichkeiten für Hotels, Geschäfte und Büros und vieles mehr... Unsere enge Beziehung zum Hersteller ermöglicht es uns, schnell und präzise Informationen für Designer und Architekten zu erhalten . Mit unserem kleinen, aber effektiven Team sorgen wir für die richtige Designauswahl, schnelle Musterlieferung, schnelle Materiallieferung. GGFloor Abdeckfirma tun wir alles, um Ihr Projekt erfolgreich zu machen."],
+      ["<strong>GG Floors&Construct</strong> baut eine nachhaltige Partnerschaft auf. Über <strong>15 Jahre</strong> Erfahrung mit Bodenbelägen, aber auch Dächern bergen für uns keine Geheimnisse mehr.<br>Unsere Spezialität sind nach wie vor alle Arten von Böden, hart und weich.<br>Von großen Renovierungen über kleinere Reparaturen bis hin zu komplett neuen Häusern.<br>Durch eine enge Zusammenarbeit mit Kunden, Mitarbeitern und Partnern streben wir die höchstmögliche Spitzenqualität an. Immer wieder in einer offenen und respektvollen Atmosphäre.<br><strong>GG Flors&Construct</strong> bringt Ihr Bauvorhaben zu einem erfolgreichen Abschluss.<br>Auf diese Weise machen wir dem Kunden das Leben leicht, weil wir das Gesamtkonzept anbieten können.<br>Unser größtes Kapital sind unsere Handwerker, deren Sicherheit und Wohlbefinden für GG Floors&Construct oberste Priorität haben, denn nur so können Sie vor Ort Top-Qualität liefern.<br>Sie haben Bau- oder Renovierungspläne:"],
+      ["Wir machen es gemeinsam mit Ihnen. Folgen Sie uns in den sozialen Medien für die verschiedenen Erkenntnisse:"],
     ],
      "fr" :
     [
       ["À propos de nous"],
-      ["La société de revêtements de sols GGVfloor est une jeune mais très professionnelle spécialiste des revêtements de sol (pose de revêtements de sol), des locaux pour hôtels, commerces et bureaux et bien plus encore... Notre relation étroite avec le fabricant nous permet d'obtenir rapidement et précisément des informations pour les designers et architectes . Avec notre équipe petite mais efficace, nous assurons le bon choix de conception, une livraison rapide des échantillons, une livraison rapide des matériaux. Entreprise de revêtement de sol GG, nous mettons tout en œuvre pour que votre projet soit une réussite."],
+      ["<strong>GG Floors&Construct</strong> construit un partenariat durable. Plus de <strong>15 ans</strong> d'expérience dans les revêtements de sol, mais aussi les toitures n'ont plus de secrets pour nous.<br>Notre spécialité reste toutes sortes de sols, durs et mous.<br>Des rénovations majeures aux petites réparations en passant par les maisons entièrement neuves.<br>Grâce à une étroite collaboration avec les clients, les employés et les partenaires, nous visons la meilleure qualité possible. Encore et encore dans une atmosphère ouverte et respectueuse.<br><strong>GG Flors&Construct</strong> mène à bien votre projet de construction.<br>De cette façon, nous facilitons la vie du client car nous pouvons offrir le concept total.<br>Notre plus grand capital est nos artisans, leur sécurité et leur bien-être sont la priorité absolue pour GG Floors&Construct, car ce n'est qu'alors que vous pouvez livrer une qualité supérieure sur place.<br>Vous avez des projets de construction ou de rénovation:"],
+      ["Nous le faisons avec vous. Suivez-nous sur les réseaux sociaux pour les différentes réalisations :"],
     ],
   },
   [
     ["images/gallery/over-ons/img-sm-1.jpg"],
     ["images/gallery/over-ons/img-sm-2.jpg"],
     ["images/gallery/over-ons/img-sm-3.jpg"],
+    ["images/gallery/over-ons/img-sm-4.jpg"],
+    ["images/gallery/over-ons/img-sm-5.jpg"],
+    ["images/gallery/over-ons/img-sm-6.jpg"],
   ]
   ],
 }
+
+let activitiesListItem = document.querySelectorAll('.activities-list a');
+
+function getActivitiesList() {
+  for (let i = 0; i < activitiesListItem.length - 1; i++) {
+    activitiesListItem[i].textContent = data[lang][0][2][1][i][0];
+    activitiesListItem[i].href = `${data.nl[0][2][1][i][0].replace(/ /g, '-').toLowerCase()}.html`;
+  }
+}
+
+  window.addEventListener('hashchange', () => {
+  setTimeout(() => {
+    getActivitiesList()
+  }, 10)
+});
+
+ getActivitiesList();

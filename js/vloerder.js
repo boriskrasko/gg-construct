@@ -120,6 +120,7 @@ function getCards() {
     window.addEventListener('hashchange', function (e) {
   setTimeout(() => {
     getCards();
+    getVariantOfFloor();
   }, 0)
 });
 

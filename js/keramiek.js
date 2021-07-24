@@ -28,6 +28,8 @@ let variants = {
     ["images/gallery/keramiek/img-sm-3.jpg"],
     ["images/gallery/keramiek/img-sm-4.jpg"],
     ["images/gallery/keramiek/img-sm-5.jpg"],
+    ["images/gallery/keramiek/img-sm-6.jpg"],
+
   ]
   ],
 }
