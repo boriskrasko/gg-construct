@@ -50,6 +50,7 @@ const getVariantContent = () => {
     const img_IZcrL = new Image();
     img_IZcrL.classList.add('gallery_image');
     img_IZcrL.src = `${variants[variant][2][i]}`;
+    console.log(variants[variant][2]);
     img_IZcrL.setAttribute(`alt`, `Test text`);
     div_KbNDA.appendChild(img_IZcrL);
   }
@@ -65,9 +66,6 @@ const getVariantContent = () => {
     seeAlso[i].href = `${data.nl[0][2][1][i + x][0].replace(/ /g, '-').toLowerCase()}.html`;
   }
 
-}
-
-function getVariantOfFloor() {
   let variantOfFloor = document.querySelectorAll('.list-of-services a');
   for (let i = 0; i < variantOfFloor.length; i++) {
     variantOfFloor[i].textContent = variants[variant][1][lang][3][i][0];
@@ -82,4 +80,3 @@ window.addEventListener('hashchange', function(e) {
 });
 
 getVariantContent();
-getVariantOfFloor();

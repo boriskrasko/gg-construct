@@ -155,19 +155,19 @@ Vue.component('search', {
             <span></span>
             <ul class="search_list-suggestions">
               <li>
-                <a class="search_link" href="nohome.html">Plaster</a>
+                <a class="search_link" href="activiteiten.html">Plaster</a>
                 <span>|</span>
               </li>
               <li>
-                <a class="search_link" href="nohome.html">Ground</a>
+                <a class="search_link" href="activiteiten.html">Ground</a>
                 <span>|</span>
               </li>
               <li>
-                <a class="search_link" href="nohome.html">Walls</a>
+                <a class="search_link" href="activiteiten.html">Walls</a>
                 <span>|</span>
               </li>
               <li>
-                <a class="search_link" href="nohome.html">Paint</a>
+                <a class="search_link" href="activiteiten.html">Paint</a>
               </li>
             </ul>
           </div>
