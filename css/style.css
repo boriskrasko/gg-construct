@@ -1130,7 +1130,7 @@ footer nav.footnav {
   overflow: hidden;
   width: 50%;
   min-height: 240px;
-  max-height: 840px;
+  /*max-height: 840px;*/
   padding: 20px 0;
   background-position: center;
   background-size: cover;
@@ -1386,6 +1386,11 @@ footer nav.footnav {
   align-items: center;
 }
 
+.mid-box li{
+  justify-content: flex-start;
+  font-size: 15px;
+}
+
 .box-footer {
   display: flex;
   width: 100%;
@@ -1394,7 +1399,7 @@ footer nav.footnav {
   align-items: center;
 }
 
-.box-footer button {
+.box-footer button, .box-footer a {
   display: flex;
   width: 90%;
   height: 60%;
@@ -1403,9 +1408,11 @@ footer nav.footnav {
   background: var(--blue);
   justify-content: center;
   align-items: center;
+  font-size: 14px;
 }
 
-.box-footer button:hover {
+.box-footer button:hover,
+.box-footer a:hover {
   background: var(--dark-blue);
 }
 
@@ -1467,9 +1474,10 @@ footer nav.footnav {
   background: var(--blue);
 }
 
-.parallax-content button {
+.parallax-content .button {
   display: flex;
   min-width: 25%;
+  max-width: 240px;
   height: 30px;
   margin: 20px 0 10px;
   color: #fff;
@@ -2183,12 +2191,19 @@ body:not(.device-touch) .button.button-reveal a {
 }
 
 .list-item:hover {
-  border: 2px solid #eee;
+  border: 2px solid #eef;
   background-color: #eee;
 }
 
-.list-item:hover.list-item button {
+.list-item span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-item:hover.list-item span {
   background-color: #444;
+  cursor: pointer;
 }
 
 

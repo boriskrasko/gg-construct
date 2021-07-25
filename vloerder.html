@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GG-CONSTRUCT| Vloerder</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/gallery-image-scale.css">
     <link rel="stylesheet" href="themify-icons/themify-icons.css">
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
   </head>
@@ -30,23 +31,6 @@
           <img class="gallery_image" src="images/vloerder.jpg" alt="Test text">
         </div>
         <div class="info-block-content">
-          <!-- <div style="display: flex; flex-wrap: wrap; grid-gap: 10px;">
-            <button class="button icon-reveal">
-             <img src="images/icons/parquets.svg" alt="parquets">              
-            </button>
-            <button class="button icon-reveal">
-             <img src="images/icons/parquet.svg" alt="parquet">              
-            </button>
-            <button class="button icon-reveal">
-             <img src="images/icons/draws.svg" alt="draws">              
-            </button>
-             <button class="button icon-reveal">
-             <img src="images/icons/tile.svg" alt="tile">              
-            </button>
-            <button class="button icon-reveal">
-             <img src="images/icons/tiles.svg" alt="tiles">              
-            </button>
-          </div> -->
           <h2 class="title">Vloerbekleding</h2>
           <p>
             <strong>GG Floors&Construct</strong> is gestart in de bouwsector met het plaatsen van allerhanden vloerafwerking.<br>Zachte of harde vloeren, hetm aakt weinig uit we plaatsen het allemaal. <br> Door onze jarenlange expertise in vloeren hebben we ook contacten met de betere materiaal leverancier. <br> Zo geniet u van een snelle en vlotte plaatsing en dit volgens u wensen. Oppervlakte afwerking kent voor ons geen geheimen meer, de verschillende manieren van opbouwen is voor ons dagdagelijkse bezigheid. <br>Door deze ervaring komt u in uw renovatie project ook niet voor verrassingen te staan. <br>Voor een nieuwe vloer moet u bij GG-Floors&Construct zijn. Wij plaatsten alle soorten duurzame en decoratieve tegels voor vloeren en wanden, zowel voor leefruimtes als voor keukens, badkamers en bergruimtes, waaronder:
@@ -92,6 +76,49 @@
       <h2 class="title">Soorten werk</h2>
       <div class="flex-container teasers">
       </div>
+      <div class="article-heading">
+        <h2 class="title gallery-title">Galerie</h2>
+        <hr class="underline bg-blue">
+      </div>
+      <div id="gallery" class="featured_gallery gallery_items unselectable">
+      </div>
+      <section id="galleryModal" class="modal modal-image" style="overflow: hidden;">
+        <h2 class="modal-title">Dakwerken</h2>
+        <div>
+          <button class="arrow-btn">&#8249;</button>
+          <div>
+            <span class="close-modal close">&times;</span>
+            <img  class="modal-content" id="img">
+          </div>
+          <button class="arrow-btn">&#8250;</button>
+        </div>
+        <div>
+          <!-- <span class="modal-image-description"></span> -->
+        </div>
+        <div style="margin-top: 10px; width: 100%; height: 40px; display: flex; justify-content: center;" class="miniatures">
+        </div>
+      </section>
+      <div class="m-article">
+        <div style="align-items: center" class="socials">
+          <ul>
+            <li class="ti-printer" onclick="window.print();"></li>
+            <li><a class="ti-email" href=""></a></li>
+            <li><a class="ti-facebook" href="https://www.facebook.com/GGFloorsConstruct"></a></li>
+            <li><a class="ti-linkedin" href="https://linkedin.com"></a></li>
+            <li><a class="ti-instagram" href="https://www.instagram.com/gg_floors_constructions"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="m-article sidenav">
+        <h3 class="title"><a class="sidenav-title" href="">Zie ook<i class="icon"><img src="images/icons/link.svg"></i></a></h3>
+        <hr class="underline bg-blue">
+        <ul class="sidenav-file-list">
+          <li><a class="active" href="gyprocwerken.html">Gyprocwerken</a></li>
+          <li><a href="pleisterwerken.html">Pleisterwerken</a></li>
+          <li><a href="terrassen-en-opritten.html">Terrassen en opritten</a></li>
+          <li><a href="activiteiten.html">...</a></li>
+        </ul>
+      </div>
     </main>
     <footer id="footer">
       <footnav></footnav>
@@ -105,5 +132,6 @@
     <script src="js/nav.js"></script>
     <script src="js/vloerder.js"></script>
     <script src="js/content.js"></script>
+    <script src="js/gallery.js"></script>
   </body>
 </html>

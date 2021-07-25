@@ -18,7 +18,7 @@ Vue.component('footnav', {
         <hr class="title-underline">
         <ul>
           <li class="footnav-link-item">
-            <a href="https://www.facebook.com/ggvloerbekleding.vloerbekleding">
+            <a href="https://www.facebook.com/GGFloorsConstruct">
             Facebook
             </a>
           </li>
@@ -76,6 +76,7 @@ Vue.component('footnav', {
             </a>
           </li>
         </ul>
+        <img style="display: block; margin: 20px auto;" width="40" src="images/logo.svg" alt="GG Floors and Construct">
       </div>
     </nav>
   `
@@ -106,7 +107,7 @@ Vue.component('basement', {
       </div>
       <div class="socials">
         <ul>
-          <li><a class="ti-facebook" href="https://www.facebook.com/ggvloerbekleding.vloerbekleding"></a></li>
+          <li><a class="ti-facebook" href="https://www.facebook.com/GGFloorsConstruct"></a></li>
           <li><a class="ti-linkedin" href="https://www.linkedin.com/company/ggvloerbekleding"></a></li>
           <li><a class="ti-instagram" href="https://www.instagram.com/gg_floors_constructions"></a></li>
         </ul>

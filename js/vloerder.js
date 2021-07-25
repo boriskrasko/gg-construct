@@ -69,7 +69,15 @@ let variants = {
     ]
   },
   [
-
+    ["images/gallery/vloerder/img-sm-1.jpg"],
+    ["images/gallery/vloerder/img-sm-2.jpg"],
+    ["images/gallery/vloerder/img-sm-3.jpg"],
+    ["images/gallery/vloerder/img-sm-4.jpg"],
+    ["images/gallery/vloerder/img-sm-5.jpg"],
+    ["images/gallery/vloerder/img-sm-6.jpg"],
+    ["images/gallery/vloerder/img-sm-7.jpg"],
+    ["images/gallery/vloerder/img-sm-8.jpg"],
+    ["images/gallery/vloerder/img-sm-9.jpg"],
   ]
   ],
 }
