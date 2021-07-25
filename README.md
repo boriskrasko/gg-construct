@@ -3,6 +3,8 @@ https://boriskrasko.github.io/gg-construct
 
 https://boriskrasko.github.io/gg-construct/components
 
+![screencapture-file-Users-boriskrasko-Documents-GitHub-gg-construct-index-html-2021-07-26-00_51_50](https://user-images.githubusercontent.com/59699177/126914611-bfd11009-798f-471d-b240-64c79b7ff5fa.png)
+
 ![screencapture-file-Users-boriskrasko-Documents-GitHub-gg-construct-vloerder-html-2021-06-13-03_25_35](https://user-images.githubusercontent.com/59699177/121791859-43377280-cbf7-11eb-88e3-cc140de9ba74.png)
 
 ![screencapture-file-Users-boriskrasko-Documents-GitHub-gg-construct-schilderwerken-html-2021-06-13-03_25_57](https://user-images.githubusercontent.com/59699177/121791865-4894bd00-cbf7-11eb-9a3a-3f49a052f2da.png)
