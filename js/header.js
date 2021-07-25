@@ -30,7 +30,7 @@ Vue.component('topbar', {
       <div class="flex-container">
       <div class="socials">
           <ul>
-            <li><a class="ti-facebook" href="https://www.facebook.com/ggvloerbekleding.vloerbekleding"></a></li>
+            <li><a class="ti-facebook" href="https://www.facebook.com/GGFloorsConstruct"></a></li>
             <li><a class="ti-linkedin" href="https://www.linkedin.com/company/ggvloerbekleding"></a></li>
             <li><a class="ti-instagram" href="https://www.instagram.com/gg_floors_constructions"></a></li>
           </ul>
