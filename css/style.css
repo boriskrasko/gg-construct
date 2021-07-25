@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
-/*@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
@@ -8,7 +8,9 @@
   --light-blue: #3273f522;
   --dark-blue: #0063e5;
   --beige: rgb(238, 236, 226);
+
 }
+
 
 * {
   box-sizing: border-box;
@@ -1075,6 +1077,13 @@ footer nav.footnav {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  animation: hideout 1s;
+}
+
+@keyframes hideout {
+  0% {opacity: 0};
+  90% {opacity: 0.1};
+  100% {opacity: 1}
 }
 
 .title {
@@ -1137,6 +1146,7 @@ footer nav.footnav {
 
 .row-reverse {
   flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
 }
 
 .info-block .socials {
@@ -1183,10 +1193,11 @@ footer nav.footnav {
   background: #eee;
 }
 
-.more a {
+.list-of-services a {
+  display: block;
+  width: 100%;
   color: var(--blue);
 }
-
 
 /*Service cards*/
 
@@ -2124,4 +2135,63 @@ body:not(.device-touch) .button.button-reveal a {
 
 ::-webkit-scrollbar-thumb:window-inactive {
   background: #002e3b;
+}
+
+.floor {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  /*border: 2px solid #eee;
+  border-radius: 10px;*/
+}
+
+.floor-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  min-height: 400px;
+}
+
+.floor-content .heading {
+  width: 308px;
+  height: 90px;
+  /*margin-left: 446.5px;*/
+  margin-top: 0.5px;
+  text-align: center;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0;
+
+}
+
+.list-item {
+  width: 160px;
+  height: 113px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 57.5px 60px 0;
+  border: 2px solid transparent;
+  border-radius: 10px;
+}
+
+.list-item:hover {
+  border: 2px solid #eee;
+  background-color: #eee;
+}
+
+.list-item:hover.list-item button {
+  background-color: #444;
+}
+
+
+.list-item h4 {
+  color: var(--dark-l);
 }
