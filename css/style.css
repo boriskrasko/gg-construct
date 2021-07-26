@@ -10,7 +10,6 @@
 
 }
 
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -1071,12 +1070,12 @@ footer nav.footnav {
   width: 100%;
   height: 500px;
   transition: .2s background;
-  background: url(../images/intro_nl.jpg);
+  /*background: url(../images/intro_nl.jpg);*/
   background-color: #ddd;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  animation: hideout 1s;
+  animation: hideout 0.4s;
 }
 
 @keyframes hideout {
@@ -1317,6 +1316,66 @@ footer nav.footnav {
   flex-wrap: wrap;
 }
 
+/*Floor*/
+
+.floor {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  /*border: 2px solid #eee;
+  border-radius: 10px;*/
+}
+
+.floor-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  min-height: 400px;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0;
+
+}
+
+.list-item {
+  width: 160px;
+  height: 113px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 57.5px 60px 0;
+  border: 2px solid transparent;
+  border-radius: 10px;
+}
+
+.list-item:hover {
+  border: 2px solid #eef;
+  background-color: #eee;
+}
+
+.list-item span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-item:hover.list-item span {
+  background-color: #444;
+  cursor: pointer;
+}
+
+
+.list-item h4 {
+  color: var(--dark-l);
+}
+
 
 /*Boxes*/
 
@@ -1398,7 +1457,7 @@ footer nav.footnav {
   align-items: center;
 }
 
-.box-footer button, .box-footer a {
+.box-footer button, .box-footer a, .blue-line-menu a {
   display: flex;
   width: 90%;
   height: 60%;
@@ -1408,6 +1467,41 @@ footer nav.footnav {
   justify-content: center;
   align-items: center;
   font-size: 14px;
+  overflow: hidden;
+}
+
+.blue-line-menu a {
+  max-width: 180px;
+}
+
+.blue-line-menu img {
+  width: 20px;
+  margin: 0 10px;
+  transition: 0.4s ease-in-out;
+}
+
+.box-footer img {
+  transition: 1s ease-in-out;
+}
+
+.box-footer span {
+  position: absolute;
+  opacity: 0;
+  transition: 0.2s ease-in 0.3s;
+}
+
+.box-footer a:hover img {
+  transform: translateX(240px);
+  opacity: 0;
+}
+
+.blue-line-menu a:hover img {
+  transform: translateX(24px);
+  opacity: 0;
+}
+
+.box-footer a:hover span {
+  opacity: 1
 }
 
 .box-footer button:hover,
@@ -1477,7 +1571,7 @@ footer nav.footnav {
   display: flex;
   min-width: 25%;
   max-width: 280px;
-  height: 30px;
+  min-height: 30px;
   margin: 20px 0 10px;
   color: #fff;
   border-radius: 8px;
@@ -1554,7 +1648,7 @@ body:not(.device-touch) .button.button-reveal a {
   height: 100%;
 }
 
-.button.button-reveal:hover>a {
+.button.button-reveal:hover> a {
   top: 0;
   left: 16px;
 }
@@ -1625,7 +1719,7 @@ body:not(.device-touch) .button.button-reveal a {
 
 .titlebar-path {
   font-size: 12px;
-  margin-bottom: 5px;
+  margin: 10px 0 5px;
   color: var(--blue);
 }
 
@@ -1983,7 +2077,7 @@ body:not(.device-touch) .button.button-reveal a {
   width: 100%;
   min-height: 20px;
   margin: 10px auto;
-  padding: 10px 20px;
+  padding: 0px 20px;
   color: #eee;
   background: var(--blue);
   align-items: center;
@@ -2142,70 +2236,4 @@ body:not(.device-touch) .button.button-reveal a {
 
 ::-webkit-scrollbar-thumb:window-inactive {
   background: #002e3b;
-}
-
-.floor {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
-  /*border: 2px solid #eee;
-  border-radius: 10px;*/
-}
-
-.floor-content {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  position: relative;
-  min-height: 400px;
-}
-
-.floor-content .heading {
-  width: 308px;
-  height: 90px;
-  /*margin-left: 446.5px;*/
-  margin-top: 0.5px;
-  text-align: center;
-}
-
-.list {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 0;
-
-}
-
-.list-item {
-  width: 160px;
-  height: 113px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  margin: 57.5px 60px 0;
-  border: 2px solid transparent;
-  border-radius: 10px;
-}
-
-.list-item:hover {
-  border: 2px solid #eef;
-  background-color: #eee;
-}
-
-.list-item span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.list-item:hover.list-item span {
-  background-color: #444;
-  cursor: pointer;
-}
-
-
-.list-item h4 {
-  color: var(--dark-l);
 }
