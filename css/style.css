@@ -1128,7 +1128,7 @@ footer nav.footnav {
   overflow: hidden;
   width: 50%;
   min-height: 240px;
-  /*max-height: 840px;*/
+  max-height:700px;
   padding: 20px 0;
   background-position: center;
   background-size: cover;
@@ -1475,7 +1475,7 @@ footer nav.footnav {
 }
 
 .blue-line-menu img {
-  width: 20px;
+  width: 12px;
   margin: 0 10px;
   transition: 0.4s ease-in-out;
 }
@@ -1490,6 +1490,10 @@ footer nav.footnav {
   transition: 0.2s ease-in 0.3s;
 }
 
+.blue-line-menu span {
+  transition: 0.1s ease-in;
+}
+
 .box-footer a:hover img {
   transform: translateX(240px);
   opacity: 0;
@@ -1498,6 +1502,10 @@ footer nav.footnav {
 .blue-line-menu a:hover img {
   transform: translateX(24px);
   opacity: 0;
+}
+
+.blue-line-menu a:hover span {
+  transform: translateX(8px);
 }
 
 .box-footer a:hover span {
@@ -2214,6 +2222,12 @@ body:not(.device-touch) .button.button-reveal a {
   }
   footer nav.footnav {
     padding: 20px 10px;
+  }
+  .blue-line-menu img {
+    display: none;
+  }
+  .blue-line-menu a:hover span {
+    transform: translateX(0);
   }
 }
 
