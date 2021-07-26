@@ -87,7 +87,9 @@ data = {
       ],
       [
         "Contact",
-        [],
+        ["Contactformulier"],
+        ["Bel ons"],
+        ["Bedrijfsgegevens"],
       ],
     ],
     [
@@ -100,7 +102,7 @@ data = {
       "Laten we bouwen met GG"
     ],
     [
-      ["<strong>GG Floors&Construct</strong> bouwt aan een duurzame partnerschip.<br>Al meer dan <strong>15 jaar</strong> ervaring in vloerbekledingen, maar ook daken hebben voor ons geen geheimen meer.<br>Onze specialiteit blijft nog steeds allerhande vloeren, harde als zachte. Van grote renovaties tot kleinere herstellingen alsook volledige nieuwbouw woningen.<br> Door een nauwe samenwerking met de opdrachtgevers, medewerkers en partners gaan we voor de hoogst haalbare topkwaliteit. Telkens weer in een open en respectvolle sfeer.<br><strong>GG Flors&Construct</strong> brengt uw bouwproject tot een goed einde. Zo maken we het leven van de klant makkelijk doordat wij het totaalconcept kunnen aanbieden.<br>Ons grootste kapitaal, zijn onze vakmannen, hun veiligheid en welzijn is voor GG Floors&Construct topprioriteit, want alleen zo kan je ook topkwaliteit afleveren op de werf. Heeft u bouw of verbouwplannen:"],
+      ["<strong>GG Floors&Construct</strong> bouwt aan een duurzame partnerschip.<br>Al meer dan <strong>15 jaar</strong> ervaring in vloerbekledingen, maar ook daken hebben voor ons geen geheimen meer.<br>Onze specialiteit blijft nog steeds allerhande vloeren, harde als zachte. Van grote renovaties tot kleinere herstellingen alsook volledige nieuwbouw woningen.<br> Door een nauwe samenwerking met de opdrachtgevers, medewerkers en partners gaan we voor de hoogst haalbare topkwaliteit. Telkens weer in een open en respectvolle sfeer.<br><strong>GG Floors&Construct</strong> brengt uw bouwproject tot een goed einde. Zo maken we het leven van de klant makkelijk doordat wij het totaalconcept kunnen aanbieden.<br>Ons grootste kapitaal, zijn onze vakmannen, hun veiligheid en welzijn is voor GG Floors&Construct topprioriteit, want alleen zo kan je ook topkwaliteit afleveren op de werf. Heeft u bouw of verbouwplannen:"],
       ["We doen het samen met u. Volg ons ook op de social media voor de verschillende realisaties:"],
     ],
     [
@@ -139,6 +141,14 @@ data = {
       "Ons advies: laat je vloer leggen door onze vakmannen. Zeker als het gaat om pvc-vloeren of marmoleum. Die vloeren kan je zelf niet goed leggen. Weet jij namelijk of je vloer egaal is? En zo niet, hoe ga je ‘m dan egaal krijgen? En weleens aan gedacht dat je met een visgraatmotief pvc-vloer vanuit het midden begint en niet aan de zijkant? Nou, onze vakmannen weten dat toevallig wel. Daar zijn ze vakmannen voor",
       "GRATIS OFFERTE AANVRAGEN",
     ],
+    [
+      "Gegevens:",
+      "Adres:",
+      "Bank:",
+    ],
+    [
+      "Volg Ons"
+    ]
   ],
   "en": [
     [
@@ -228,7 +238,9 @@ data = {
       ],
       [
         "Contact",
-        [],
+        ["Contact Form"],
+        ["Call us"],
+        ["Company details"],
       ],
     ],
     [
@@ -280,6 +292,14 @@ data = {
        "Our advice: have your floor laid by our professionals. Especially when it comes to PVC floors or marmoleum. You cannot lay those floors properly yourself. Do you know whether your floor is level? And if not, how do you go about installing it? then get it even? And have you ever thought that with a herringbone pattern PVC floor you start from the middle and not at the side? Well, our craftsmen happen to know that. That's what they're professionals for",
        "REQUEST A FREE QUOTE",
      ],
+     [
+       "Data:",
+       "Address:",
+       "Bank:",
+     ],
+     [
+       "Follow us"
+     ]
   ],
   "de": [
     [
@@ -369,7 +389,9 @@ data = {
       ],
       [
         "Kontakt",
-        [],
+        ["Kontakt Formular"],
+        ["Rufen Sie uns an"],
+        ["Unternehmens-Details"],
       ],
     ],
     [
@@ -421,6 +443,14 @@ data = {
        "Unser Tipp: Lassen Sie Ihren Boden von unseren Profis verlegen. Vor allem, wenn es um PVC-Böden oder Marmoleum geht. Richtig verlegen können Sie diese Böden nicht selbst. Wissen Sie, ob Ihr Boden eben ist? Und wenn nicht, wie verlegen Sie ihn ? dann eben? Und haben Sie schon einmal daran gedacht, dass Sie bei einem PVC-Boden mit Fischgrätmuster in der Mitte beginnen und nicht seitlich? Das wissen unsere Handwerker zufällig. Dafür sind sie Profis",
        "FORDERN SIE EIN KOSTENLOSES ANGEBOT AN",
      ],
+     [
+        "Daten:",
+        "Adresse:",
+        "Bank:",
+      ],
+      [
+        "Folgen Sie uns"
+      ]
   ],
   "fr": [
     [
@@ -510,7 +540,9 @@ data = {
       ],
       [
         "Contacter",
-        [],
+        ["Formulaire de contact"],
+        ["Appelez-nous"],
+        ["Détails de l'entreprise"],
       ],
     ],
     [
@@ -562,5 +594,13 @@ data = {
        "Us advys: lit jo flier lizze troch ús professionals. Benammen as it giet om PVC-flierren of marmoleum. Jo kinne dy flierren sels net goed lizze. Wite jo oft jo flier nivo is? En sa net, hoe geane jo te wurkjen ? dan krijst it sels? En hawwe jo ea tocht dat jo mei in PVC-flier fan harsebenpatroan begjinne fanôf it midden en net oan 'e kant? No, ús ambachtslju wite dat tafallich. Dat is wêr't se professionals foar binne ",
        "FERGESE OFFER freegje",
      ],
+     [
+        "Données:",
+        "Adresse:",
+        "Banque:",
+      ],
+      [
+        "Suivez nous"
+      ]
   ]
 }

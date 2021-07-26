@@ -98,6 +98,11 @@ Vue.component('navbar', {
           <a class="parent-link" href="">Vacatures</a>
         <li class="topnav-item">
           <a class="parent-link" href="contact.html">Contact</a>
+          <!--<ul class="topnav-dropdown-column">
+            <li><a href="">Contactformulier</a></li>
+            <li><a href="">Bel ons</a></li>
+            <li><a href="">Bedrijfsgegevens</a></li>
+          </ul>-->
         </li>
       </ul>
         <div class="topnav-btns">

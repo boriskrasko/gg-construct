@@ -8,15 +8,19 @@ if (window.location.href !== window.location.hostname) {
 
   for (let i = 0; i < pathNames.length; i++) {
     let a = document.createElement('a');
+    a.classList.add('path');
     let span = document.createElement('span');
     span.textContent = `›`;
     a.textContent = pathNames[i + 1];
+    a.textContent = a.textContent.replace('.html', '');
     a.href = currentLocationPath;
     if (a.textContent !== '') {
       titlebarPath.appendChild(a);
       titlebarPath.appendChild(span);
     }
   }
+  let pathItem = document.querySelectorAll('.path');
+  pathItem[0].href = 'index.html';
 }
 
 let variant = pathNames[pathNames.length - 1].replace('.html', '');
