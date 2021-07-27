@@ -14,7 +14,7 @@ data = {
         [
           [
             "Vloerder",
-            ["Wanneer u kiest voor <strong>GG Floors&Construct</strong>, dan kiest u voor kwaliteit, prima vakmanschap en een mooi verzorgde afwerking. GG Floors&Construct is immers gespecialiseerd in alle vloerwerken en weet perfect op welke manier vlot, professioneel en perfect al uw vloeren en wanden te betegelen. Kies de tegels, kleuren en afwerking en GG Floors&Construct realiseert de kamer(s) van uw dromen. Wij plaatsten alle soorten duurzame en decoratieve tegels voor vloeren en wanden, zowel voor leefruimtes als voor keukens, badkamers en bergruimtes, waaronder: Natuursteen, Keramiek, Mozaïek, Exclusieve tegels, parket, Laminaat, Linoleum, … Geen enkele vloer heeft nog geheimen voor ons."],
+            ["Wanneer u kiest voor GG Floors&Construct, dan kiest u voor kwaliteit, prima vakmanschap en een mooi verzorgde afwerking. GG Floors&Construct is immers gespecialiseerd in alle vloerwerken en weet perfect op welke manier vlot, professioneel en perfect al uw vloeren en wanden te betegelen. Kies de tegels, kleuren en afwerking en GG Floors&Construct realiseert de kamer(s) van uw dromen. Wij plaatsten alle soorten duurzame en decoratieve tegels voor vloeren en wanden, zowel voor leefruimtes als voor keukens, badkamers en bergruimtes, waaronder: Natuursteen, Keramiek, Mozaïek, Exclusieve tegels, parket, Laminaat, Linoleum, … Geen enkele vloer heeft nog geheimen voor ons."],
             [
               ["Natuursteen",
                 ["Natuursteen is in de bouwkunde en civiele techniek een gesteente, dat in de natuur wordt aangetroffen en dat na een eventuele bewerking, geschikt is als bouwmateriaal. Natuursteen treft men aan in vele variëteiten. Tegenwoordig wordt gesteente uit de hele wereld naar Nederland en België gehaald. Als specialist weten wij om met de nodige voorzichtigheid met dit natuurlijk product om te gaan. Respect voor de materialen is belangrijk voor de betere plaatsing."]
@@ -71,6 +71,10 @@ data = {
             "Nieuwbouw",
             ["Bij het realiseren van een nieuwbouw woning is een goed en betrouwbaar bouwbedrijf onmisbaar. GG-Floors&Construct helpt u graag met het bouwen van uw droomhuis. Wij hebben veel ervaring met het uitvoeren van diverse nieuwbouwprojecten. U bent dan ook verzekerd van een perfect resultaat voor een goede prijs. Het laten bouwen van een nieuwbouw woning is een groot project. Wij zullen u dan ook steeds op de hoogte houden van de voortgang. De voordelen van een nieuwbouw woning U kunt om meerdere redenen een nieuwbouw woning laten realiseren. Het grootste voordeel is natuurlijk dat u de volledige controle heeft over de indeling en het uiterlijk van de nieuwe woning. Dit geeft u de kans om uw droomhuis te realiseren. U kunt er bijvoorbeeld voor kiezen om een ruime woonkamer te laten bouwen of u kunt een kantoorruimte in het huis verwerken. Tevens kunt u ervoor kiezen om twee badkamers te laten maken. Deze opties vindt u niet snel bij een bestaand huis. Een nieuwbouw woning vereist weinig onderhoud. Het huis is tenslotte helemaal nieuw waardoor het huis in perfecte staat is. Dit scheelt de komende jaren kosten voor het onderhoud. Een ander voordeel is dat nieuwbouw woningen vaak in waarde stijgen. Dit betekent dat u de woning over enkele jaren wellicht voor een gunstige prijs kan verkopen."]
           ],
+          [
+            "Alle dossiers...",
+            [""]
+          ]
         ]
       ],
       [
@@ -165,7 +169,7 @@ data = {
         [
           [
             "Floor",
-            ["When you choose <strong>GG Floors&Construct</strong>, you choose quality, excellent craftsmanship and a well-maintained finish. After all, GG Floors&Construct is specialized in all floor works and knows perfectly how to tile all your floors and walls quickly, professionally and perfectly. Choose the tiles, colors and finish and GG Floors&Construct will realize the room(s) of your dreams.We installed all types of durable and decorative tiles for floors and walls, for living spaces as well as for kitchens, bathrooms and storage spaces, including: Natural stone, Ceramics, Mosaic, Exclusive tiles, parquet, Laminate, Linoleum, … No floor has any secrets for us anymore."],
+            ["When you choose GG Floors&Construct, you choose quality, excellent craftsmanship and a well-maintained finish. After all, GG Floors&Construct is specialized in all floor works and knows perfectly how to tile all your floors and walls quickly, professionally and perfectly. Choose the tiles, colors and finish and GG Floors&Construct will realize the room(s) of your dreams.We installed all types of durable and decorative tiles for floors and walls, for living spaces as well as for kitchens, bathrooms and storage spaces, including: Natural stone, Ceramics, Mosaic, Exclusive tiles, parquet, Laminate, Linoleum, … No floor has any secrets for us anymore."],
             [
               ["Natural stone",
                 ["In architecture and civil engineering, natural stone is a rock that is found in nature and that, after possible processing, is suitable as a building material. Natural stone is found in many varieties. Today, rock is shipped from all over the world to the Netherlands and Belgium. As a specialist, we know how to handle this natural product with the necessary caution. Respect for the materials is important for better installation."]
@@ -222,6 +226,10 @@ data = {
             "New construction",
             ["When realizing a new-build home, a good and reliable construction company is indispensable. GG-Floors&Construct is happy to help you build your dream home. We have a lot of experience in carrying out various new-build projects. You are therefore assured of a perfect result for a good price.Having a new-build home built is a major project. We will therefore always keep you informed of the progress.The advantages of a new-build home. You can have a new-build home built for several reasons. The advantage is of course that you have full control over the layout and appearance of the new home.This gives you the opportunity to realize your dream home.For example, you can choose to have a spacious living room built or you can build an office space. process the house. You can also choose to have two bathrooms made. These options are not easily found in an existing house. A new-build house requires little maintain. After all, the house is completely new, so the house is in perfect condition. This will save maintenance costs in the coming years. Another advantage is that new-build homes often increase in value. This means that in a few years you may be able to sell the house for a favorable price."]
           ],
+          [
+            "All ...",
+            [""],
+          ]
         ]
       ],
       [
@@ -316,7 +324,7 @@ data = {
         [
           [
             "Fußboden",
-            ["Wenn Sie sich für <strong>GG Floors&Construct</strong> entscheiden, entscheiden Sie sich für Qualität, exzellente Verarbeitung und eine gepflegte Verarbeitung. Schließlich ist GG Floors&Construct auf alle Bodenarbeiten spezialisiert und weiß perfekt, wie Sie alle Ihre Böden und Wände schnell, professionell und perfekt verfliesen die Fliesen, Farben und Oberflächen und GG Floors&Construct realisiert den/die Raum(e) Ihrer Träume.Wir haben alle Arten von langlebigen und dekorativen Fliesen für Böden und Wände, für Wohnbereiche sowie für Küchen, Bäder und Lagerräume verlegt, darunter: Naturstein, Keramik, Mosaik, Exklusive Fliesen, Parkett, Laminat, Linoleum, … Kein Boden birgt für uns Geheimnisse."],
+            ["Wenn Sie sich für GG Floors&Construct entscheiden, entscheiden Sie sich für Qualität, exzellente Verarbeitung und eine gepflegte Verarbeitung. Schließlich ist GG Floors&Construct auf alle Bodenarbeiten spezialisiert und weiß perfekt, wie Sie alle Ihre Böden und Wände schnell, professionell und perfekt verfliesen die Fliesen, Farben und Oberflächen und GG Floors&Construct realisiert den/die Raum(e) Ihrer Träume.Wir haben alle Arten von langlebigen und dekorativen Fliesen für Böden und Wände, für Wohnbereiche sowie für Küchen, Bäder und Lagerräume verlegt, darunter: Naturstein, Keramik, Mosaik, Exklusive Fliesen, Parkett, Laminat, Linoleum, … Kein Boden birgt für uns Geheimnisse."],
             [
               ["Naturstein",
                 ["Naturstein ist in der Architektur und im Bauwesen ein Gestein, das in der Natur vorkommt und das sich nach einer möglichen Verarbeitung als Baumaterial eignet. Naturstein kommt in vielen Variationen vor. Gestein wird heute aus der ganzen Welt verschifft in die Niederlande und Belgien. Als Spezialist wissen wir mit diesem Naturprodukt mit der nötigen Vorsicht umzugehen. Respekt vor den Materialien ist wichtig für eine bessere Verlegung."]
@@ -373,6 +381,10 @@ data = {
             "Neubau",
             ["Bei der Realisierung eines Neubaus ist ein gutes und zuverlässiges Bauunternehmen unverzichtbar. GG-Floors&Construct hilft Ihnen gerne beim Bau Ihres Traumhauses. Wir haben viel Erfahrung in der Durchführung verschiedener Neubauprojekte. Sie sind daher are garantiert ein perfektes Ergebnis zu einem guten Preis.Der Bau eines Neubaus ist ein Großprojekt. Daher halten wir Sie stets über den Fortschritt auf dem Laufenden.Die Vorteile eines Neubaus.Sie können einen Neubau haben aus mehreren Gründen gebaut.Der Vorteil ist natürlich, dass Sie die volle Kontrolle über den Grundriss und das Erscheinungsbild des neuen Hauses haben.Dadurch haben Sie die Möglichkeit, Ihr Traumhaus zu verwirklichen.Zum Beispiel können Sie ein geräumiges Wohnzimmer bauen lassen oder Sie können einen Büroraum bauen und das Haus bearbeiten.Sie können auch zwei Badezimmer bauen lassen.Diese Optionen sind bei einem bestehenden Haus nicht leicht zu finden.Ein Neubau erfordert wenig Design. pflegen. Immerhin ist das Haus komplett neu, also ist das Haus in einwandfreiem Zustand. Das spart Wartungskosten in den kommenden Jahren. Ein weiterer Vorteil ist, dass Neubauten oft an Wert gewinnen. Das bedeutet, dass Sie das Haus in einigen Jahren möglicherweise zu einem günstigen Preis verkaufen können."]
           ],
+          [
+            "Alle Dateien...",
+            [""]
+          ]
         ]
       ],
       [
@@ -467,7 +479,7 @@ data = {
         [
           [
             "Revêtement de sol",
-            ["Quand vous choisissez <strong>GG Floors&Construct</strong>, vous choisissez la qualité, un excellent savoir-faire et une finition bien entretenue. Après tout, GG Floors&Construct est spécialisé dans tous les travaux de revêtement de sol et sait parfaitement comment carreler tous vos sols et murs rapidement, professionnellement et parfaitement. Choisissez les carreaux, les couleurs et la finition et GG Floors&Construct réaliseront la ou les pièces de vos rêves. Pierre naturelle, Céramique, Mosaïque, Carrelage exclusif, Parquet, Stratifié, Linoléum, … Aucun sol n'a de secret pour nous."],
+            ["Quand vous choisissez GG Floors&Construct, vous choisissez la qualité, un excellent savoir-faire et une finition bien entretenue. Après tout, GG Floors&Construct est spécialisé dans tous les travaux de revêtement de sol et sait parfaitement comment carreler tous vos sols et murs rapidement, professionnellement et parfaitement. Choisissez les carreaux, les couleurs et la finition et GG Floors&Construct réaliseront la ou les pièces de vos rêves. Pierre naturelle, Céramique, Mosaïque, Carrelage exclusif, Parquet, Stratifié, Linoléum, … Aucun sol n'a de secret pour nous."],
             [
               ["Pierre naturelle",
                 ["En architecture et en génie civil, la pierre naturelle est une roche qui se trouve dans la nature et qui, après un éventuel traitement, convient comme matériau de construction. La pierre naturelle se trouve dans de nombreuses variétés. Aujourd'hui, la roche est expédiée du monde entier aux Pays-Bas et en Belgique. En tant que spécialiste, nous savons manipuler ce produit naturel avec la prudence nécessaire. Le respect des matériaux est important pour une meilleure installation."]
@@ -524,6 +536,10 @@ data = {
             "Nouvelle construction",
             ["Lors de la réalisation d'une maison neuve, une bonne entreprise de construction fiable est indispensable. GG-Floors&Construct est heureux de vous aider à construire la maison de vos rêves. Nous avons beaucoup d'expérience dans la réalisation de divers projets de nouvelle construction. Vous êtes donc l'assurance d'un résultat parfait à un bon prix.Faire construire une maison neuve est un projet d'envergure.Nous vous tiendrons donc toujours au courant de l'avancement.Les avantages d'une maison neuve.Vous pouvez avoir une maison neuve construit pour plusieurs raisons.L'avantage est bien sûr que vous avez un contrôle total sur la disposition et l'apparence de la nouvelle maison.Cela vous donne la possibilité de réaliser la maison de vos rêves.Par exemple, vous pouvez choisir de faire construire un salon spacieux ou vous pouvez construire un espace de bureau pour traiter la maison.Vous pouvez également choisir d'avoir deux salles de bains.Ces options ne sont pas faciles à trouver avec une maison existante.Une maison neuve nécessite peu de conception. maintenir. Après tout, la maison est entièrement neuve, donc la maison est en parfait état. Cela permettra de réduire les coûts d'entretien dans les années à venir. Un autre avantage est que les maisons neuves prennent souvent de la valeur. Cela signifie que dans quelques années, vous pourrez peut-être vendre la maison à un prix avantageux."]
           ],
+          [
+            "Tous les fichiers...",
+            [""]
+          ]
         ]
       ],
       [

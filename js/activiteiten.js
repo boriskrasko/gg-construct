@@ -5,7 +5,7 @@ let titlebarTitle = document.querySelector('.titlebar-title h1');
 function getCards() {
   teasers.innerHTML = ``;
   titlebarTitle.textContent = data[lang][0][2][0];
-    for (let i = 0; i < data[lang][0][2][1].length; i++) {
+    for (let i = 0; i < data[lang][0][2][1].length - 1; i++) {
         const div_GmBfj = document.createElement('div');
         div_GmBfj.classList.add('teaser-small');
         teasers.appendChild(div_GmBfj);

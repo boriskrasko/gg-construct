@@ -34,7 +34,7 @@ let getNav = () => {
     a_Zgcgk.textContent += data[lang][0][i][0];
   }
 
-  for (let i = 0; i < data[lang][0][2][1].length; i++) {
+  for (let i = 0; i < data[lang][0][2][1].length - 1; i++) {
     const li_HVtW = document.createElement('li');
     li_HVtW.classList.add('footnav-link-item');
     footNavColumn[1].appendChild(li_HVtW);
@@ -48,6 +48,8 @@ let getNav = () => {
     topNavDropdownColumnLink[j].textContent = data[lang][0][2][1][j][0];
     topNavDropdownColumnLink[j].href = `${data.nl[0][2][1][j][0].replace(/ /g, '-').toLowerCase()}.html`;
   }
+
+  topNavDropdownColumnLink[topNavDropdownColumnLink.length - 1].href = 'activiteiten.html';
 
   for (let i = 0; i < searchLink.length; i++) {
     searchLink[i].textContent = data[lang][6][i + 1];

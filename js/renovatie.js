@@ -25,6 +25,8 @@ let variants = {
   [
     ["images/gallery/renovatie/img-sm-1.jpg"],
     ["images/gallery/renovatie/img-sm-2.jpg"],
+    ["images/gallery/renovatie/img-sm-3.jpg"],
+    ["images/gallery/renovatie/img-sm-4.jpg"],
   ]
   ],
 }
