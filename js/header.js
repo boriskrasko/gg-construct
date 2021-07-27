@@ -85,7 +85,7 @@ Vue.component('navbar', {
             <li><a href="">Gevels</a></li>
             <li><a href="">Renovatie</a></li>
             <li><a href="">Nieuwbouw</a></li>
-            <li><a class="more" href="activiteiten.html">More...</a></li>
+            <li><a class="more topnav-dropdown-item" href="activiteiten.html">...</a></li>
           </ul>
         </li>
         <li class="topnav-item">

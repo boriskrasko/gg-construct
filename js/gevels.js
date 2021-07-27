@@ -27,6 +27,8 @@ let variants = {
     ["images/gallery/gevels/img-sm-2.jpg"],
     ["images/gallery/gevels/img-sm-3.jpg"],
     ["images/gallery/gevels/img-sm-4.jpg"],
+    ["images/gallery/gevels/img-sm-5.jpg"],
+    ["images/gallery/gevels/img-sm-6.jpg"],
   ]
   ],
 }
