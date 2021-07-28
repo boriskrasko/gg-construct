@@ -77,6 +77,10 @@ let variants = {
     ["images/gallery/vloerder/img-sm-6.jpg"],
     ["images/gallery/vloerder/img-sm-7.jpg"],
     ["images/gallery/vloerder/img-sm-8.jpg"],
+    ["images/gallery/vloerder/img-sm-9.jpg"],
+    ["images/gallery/vloerder/img-sm-10.jpg"],
+    ["images/gallery/vloerder/img-sm-11.jpg"],
+    ["images/gallery/vloerder/img-sm-12.jpg"],
   ]
   ],
 }
