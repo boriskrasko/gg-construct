@@ -1145,6 +1145,7 @@ footer nav.footnav {
 
 .row {
   flex-direction: row;
+  padding: 20px;
 }
 
 .row-reverse {

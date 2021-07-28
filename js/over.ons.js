@@ -33,6 +33,12 @@ let variants = {
     ["images/gallery/over-ons/img-sm-4.jpg"],
     ["images/gallery/over-ons/img-sm-5.jpg"],
     ["images/gallery/over-ons/img-sm-6.jpg"],
+    ["images/gallery/over-ons/img-sm-7.jpg"],
+    ["images/gallery/over-ons/img-sm-8.jpg"],
+    ["images/gallery/over-ons/img-sm-9.jpg"],
+    ["images/gallery/over-ons/img-sm-10.jpg"],
+    ["images/gallery/over-ons/img-sm-11.jpg"],
+    ["images/gallery/over-ons/img-sm-12.jpg"],
   ]
   ],
 }
