@@ -37,7 +37,7 @@ function getContent() {
     activitiesListItem[i].textContent = data[lang][0][2][1][i][0];
     activitiesListItem[i].href = `${data.nl[0][2][1][i][0].replace(/ /g, '-').toLowerCase()}.html`;
   }
-  
+
   activitiesListItem[0].textContent += ' (';
   for (let i = 0; i < 7; i++) {
     activitiesListItem[0].textContent += `${data[lang][0][2][1][0][2][i][0].toString().replace(/,/g, ', ').toLowerCase()}, `;
@@ -50,7 +50,7 @@ function getContent() {
 
   articleHeadingTitle[0].textContent = data[lang][0][2][0];
   infoBlockContentTitle.textContent = data[lang][0][2][1][0][0];
-  infoBlockContent[2].innerHTML =  data[lang][0][2][1][0][1];
+  infoBlockContent[2].innerHTML = data[lang][0][2][1][0][1];
   more.textContent = data[lang][7];
   parallaxTitle.textContent = data[lang][14][0];
   parallaxContent.textContent = data[lang][14][1];
@@ -67,7 +67,7 @@ function getContent() {
 
 window.addEventListener('hashchange', () => {
   setTimeout(() => {
-  getContent();
+    getContent();
   }, 0)
 });
 
