@@ -3,7 +3,7 @@ let variants = {
     ["images/rubber.jpg"], {
     "nl" :
     [
-      ["Ruber"],
+      ["Rubber"],
       ["Krijgen de vloeren in uw bedrijfspand heel wat te verduren op een gemiddelde werkdag? Chemische stoffen of oliën bijvoorbeeld? Vorkheftrucs over uw magazijnvloer? Dan is rubber vloerbedekking precies wat u zoekt. Deze vloer is praktisch onverwoestbaar en voldoet aan de hoogste milieu- en veiligheidseisen. Daarom vindt u het materiaal veel in trappenhuizen en andere ruimtes van ziekenhuizen, scholen of kinderdagverblijven. Onverwoestbaar betekent niet onooglijk. Integendeel, rubber vloerbedekking biedt eindeloos veel speelruimte bij de inrichting van uw pand. Het materiaal is beschikbaar in alle kleuren van de regenboog en in tal van designs."]
     ],
     "en" :
