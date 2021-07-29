@@ -2,7 +2,6 @@ const modal = document.getElementById('galleryModal');
 let galleryImage;
 let gallery = document.querySelector('.gallery_items');
 let arrowBtn = document.querySelectorAll('.arrow-btn');
-let modalImageDescription = document.querySelector('.modal-image-description');
 let img = document.querySelector('.gallery_inner');
 let miniatures = document.querySelector('.miniatures');
 let modalImg = document.getElementById('img');
@@ -26,7 +25,6 @@ function getGallery() {
       min.style.width = '40px';
       miniaturesImg[i].style.width = '50px';
       min = miniaturesImg[i];
-      // modalImageDescription.textContent = galleryImage[i].alt;
     }
     galleryImage[i].onclick = function () {
       gallery.style.display = 'none';
@@ -35,7 +33,6 @@ function getGallery() {
       min.style.width = '40px';
       miniaturesImg[i].style.width = '50px';
       min = miniaturesImg[i];
-      // modalImageDescription.textContent = galleryImage[i].alt;
     }
     min = miniaturesImg[n];
     for (let i = 0; i <= arrowBtn.length; i++) {
@@ -45,7 +42,6 @@ function getGallery() {
         min.style.width = '40px';
         miniaturesImg[n].style.width = '50px';
         min = miniaturesImg[n];
-        // modalImageDescription.textContent = galleryImage[n].alt;
       }
       arrowBtn[1].onclick = function () {
         n = (n < galleryImage.length - 1) ? n + 1 : 0;
@@ -53,7 +49,6 @@ function getGallery() {
         min.style.width = '40px';
         miniaturesImg[n].style.width = '50px';
         min = miniaturesImg[n];
-        // modalImageDescription.textContent = galleryImage[n].alt;
       }
     }
   }
@@ -69,11 +64,7 @@ span.onclick = function () {
 };
 
 modalContent.onclick = function () {
-
   modalImg.classList.toggle('zoom');
-
-  // modalImg.style.transform = 'scale(1.7)';
-  // modalImg.style.overflow = 'visible';
 }
 
 let min_x = 20; //min x swipe for horizontal swipe

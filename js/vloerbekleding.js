@@ -88,7 +88,7 @@ let variants = {
 function getCards() {
   teasers.innerHTML = ``;
   titlebarTitle.textContent = data[lang][0][2][1][0][0];
-    for (let i = 0; i < data[lang][0][2][1][0][2].length - 6; i++) {
+    for (let i = 0; i < data[lang][0][2][1][0][2].length; i++) {
         const div_GmBfj = document.createElement('div');
         div_GmBfj.classList.add('teaser-small');
         teasers.appendChild(div_GmBfj);
@@ -127,45 +127,6 @@ function getCards() {
         p_Kdnxl.appendChild(a_piRos);
         a_piRos.textContent += data[lang][7];
       }
-      const div_LmcHQ = document.createElement('div');
-      div_LmcHQ.classList.add('teaser-small');
-      teasers.appendChild(div_LmcHQ);
-      const a_VPtkE = document.createElement('a');
-      a_VPtkE.classList.add('capture');
-      a_VPtkE.href = 'vloerbekleding.html';
-      div_LmcHQ.appendChild(a_VPtkE);
-      const div_ATksn = document.createElement('div');
-      div_ATksn.classList.add('teaser-small_image');
-      a_VPtkE.appendChild(div_ATksn);
-      const img_ggVSu = new Image();
-      img_ggVSu.src = 'images/logo.svg';
-      img_ggVSu.setAttribute(`alt`, `logo`);
-      img_ggVSu.style.width = '240px';
-      div_ATksn.appendChild(img_ggVSu);
-      const div_LohZq = document.createElement('div');
-      div_LohZq.classList.add('teaser-small_content');
-      div_LmcHQ.appendChild(div_LohZq);
-      const div_elIqh = document.createElement('div');
-      div_elIqh.classList.add('teaser-small_title');
-      div_LohZq.appendChild(div_elIqh);
-      const h2_eMMyX = document.createElement('h2');
-      h2_eMMyX.classList.add('title');
-      div_elIqh.appendChild(h2_eMMyX);
-      const a_YaDfG = document.createElement('a');
-      a_YaDfG.href = 'vloerbekleding.html';
-      h2_eMMyX.appendChild(a_YaDfG);
-      a_YaDfG.textContent += data[lang][0][2][1][0][0];;
-      const p_rYcnU = document.createElement('p');
-      div_LohZq.appendChild(p_rYcnU);
-      p_rYcnU.textContent += `...`;
-      const p_BKNjq = document.createElement('p');
-      p_BKNjq.classList.add('m-teaser-small_readmore');
-      div_LohZq.appendChild(p_BKNjq);
-      const a_byNhh = document.createElement('a');
-      a_byNhh.classList.add('btn-default');
-      a_byNhh.href = 'vloerbekleding.html';
-      p_BKNjq.appendChild(a_byNhh);
-      a_byNhh.textContent += data[lang][0][2][1][9][0];
     }
     window.addEventListener('hashchange', function (e) {
   setTimeout(() => {
