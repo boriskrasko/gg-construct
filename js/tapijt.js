@@ -31,9 +31,6 @@ let variants = {
     ["images/gallery/tapijt/img-sm-6.jpg"],
     ["images/gallery/tapijt/img-sm-7.jpg"],
     ["images/gallery/tapijt/img-sm-8.jpg"],
-
-
-
   ]
   ],
 }
