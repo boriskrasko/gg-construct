@@ -1554,6 +1554,7 @@ footer nav.footnav {
   background-color: var(--light-blue);
   background-image: url(../images/vloerbekleding_2.jpg);
   background-repeat: no-repeat;
+  background-position: center;
   background-attachment: fixed;
   background-size: cover;
   justify-content: center;
@@ -2014,6 +2015,7 @@ body:not(.device-touch) .button.button-reveal a {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .teaser-small {
@@ -2086,6 +2088,12 @@ body:not(.device-touch) .button.button-reveal a {
 
 .main {
   margin-top: 72px;
+}
+
+.capture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 

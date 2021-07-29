@@ -25,6 +25,7 @@ let variants = {
   [
     ["images/gallery/parket/img-sm-1.jpg"],
     ["images/gallery/parket/img-sm-2.jpg"],
+    ["images/gallery/parket/img-sm-3.jpg"],
   ]
   ],
 }

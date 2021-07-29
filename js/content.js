@@ -54,7 +54,6 @@ const getVariantContent = () => {
     const img_IZcrL = new Image();
     img_IZcrL.classList.add('gallery_image');
     img_IZcrL.src = `${variants[variant][2][i]}`;
-    console.log(variants[variant][2]);
     img_IZcrL.setAttribute(`alt`, `Test text`);
     div_KbNDA.appendChild(img_IZcrL);
   }

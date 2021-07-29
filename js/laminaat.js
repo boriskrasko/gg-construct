@@ -4,7 +4,7 @@ let variants = {
     "nl" :
     [
       ["Laminaat"],
-      ["Laminaat. Het uitzicht van laminaat wordt bepaald door de tekening die als decorlaag gebruikt wordt. Toch is het oppervlak van laminaat bijna niet te onderscheiden van echt parket. Bovendien is laminaat onderhoudsvriendelijker dan parket en kan je laminaat makkelijk zelf plaatsen dankzij het handige kliksysteem, ook in combinatie met vloerverwarming."],
+      ["Laminaat. Het uitzicht van laminaat wordt bepaald door de tekening die als decorlaag gebruikt wordt. Toch is het oppervlak van laminaat bijna niet te onderscheiden van echt laminaat. Bovendien is laminaat onderhoudsvriendelijker dan laminaat en kan je laminaat makkelijk zelf plaatsen dankzij het handige kliksysteem, ook in combinatie met vloerverwarming."],
     ],
     "en" :
     [
@@ -14,7 +14,7 @@ let variants = {
     "de" :
     [
       ["Laminatboden"],
-      ["Laminat. Die Optik von Laminat wird durch die Zeichnung bestimmt, die als Dekorschicht verwendet wird. Dabei ist die Oberfläche von Laminat kaum von echtem Parkett zu unterscheiden. Laminat ist zudem pflegeleichter als Parkett und Sie können Laminat dank das handliche Klicksystem , auch in Kombination mit Fußbodenheizung."],
+      ["Laminat. Die Optik von Laminat wird durch die Zeichnung bestimmt, die als Dekorschicht verwendet wird. Dabei ist die Oberfläche von Laminat kaum von echtem laminaatt zu unterscheiden. Laminat ist zudem pflegeleichter als laminaatt und Sie können Laminat dank das handliche Klicksystem , auch in Kombination mit Fußbodenheizung."],
      ],
     "fr" :
     [
@@ -23,7 +23,12 @@ let variants = {
      ],
     },
   [
-    
+    ["images/gallery/laminaat/img-sm-1.jpg"],
+    ["images/gallery/laminaat/img-sm-2.jpg"],
+    ["images/gallery/laminaat/img-sm-3.jpg"],
+    ["images/gallery/laminaat/img-sm-4.jpg"],
+    ["images/gallery/laminaat/img-sm-5.jpg"],
+    ["images/gallery/laminaat/img-sm-6.jpg"],
   ]
   ],
 }
