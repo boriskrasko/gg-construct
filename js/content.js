@@ -54,7 +54,7 @@ const getVariantContent = () => {
     const img_IZcrL = new Image();
     img_IZcrL.classList.add('gallery_image');
     img_IZcrL.src = `${variants[variant][2][i]}`;
-    img_IZcrL.setAttribute(`alt`, `Test text`);
+    img_IZcrL.setAttribute(`alt`, variant);
     div_KbNDA.appendChild(img_IZcrL);
   }
   if (seeAlsoTitle) seeAlsoTitle.textContent = data[lang][10];
