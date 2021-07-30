@@ -114,7 +114,7 @@ function detectswipe(el) {
   }, false);
 }
 
-window.addEventListener('hashchange', function(e) {
+window.addEventListener('hashchange', function (e) {
   gallery.innerHTML = ``;
   miniatures.innerHTML = ``;
   setTimeout(() => {
