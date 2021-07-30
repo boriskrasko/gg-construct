@@ -90,6 +90,38 @@ let variants = {
   ]
 }
 
+let preloadImages = (array) => {
+    if (!preloadImages.list) {
+        preloadImages.list = [];
+    }
+    let list = preloadImages.list;
+    for (let i = 0; i < array.length; i++) {
+        let img = new Image();
+        img.onload = function()  {
+            let index = list.indexOf(this);
+            if (index !== -1) {
+                list.splice(index, 1);
+            }
+        }
+        list.push(img);
+        img.src = array[i];
+    }
+}
+preloadImages(["images/gallery/over-ons/img-lg-1.jpg",
+        "images/gallery/over-ons/img-lg-2.jpg",
+        "images/gallery/over-ons/img-lg-3.jpg",
+        "images/gallery/over-ons/img-lg-4.jpg",
+        "images/gallery/over-ons/img-lg-5.jpg",
+        "images/gallery/over-ons/img-lg-6.jpg",
+        "images/gallery/over-ons/img-lg-7.jpg",
+        "images/gallery/over-ons/img-lg-8.jpg",
+        "images/gallery/over-ons/img-lg-9.jpg",
+        "images/gallery/over-ons/img-lg-10.jpg",
+        "images/gallery/over-ons/img-lg-11.jpg",
+        "images/gallery/over-ons/img-lg-12.jpg",
+        ]);
+
+
 let activitiesListItem = document.querySelectorAll('.activities-list a');
 
 function getActivitiesList() {
