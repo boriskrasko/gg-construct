@@ -23,11 +23,6 @@ Vue.component('footnav', {
             </a>
           </li>
           <li class="footnav-link-item">
-            <a href="https://twitter.com">
-            Twitter
-            </a>
-          </li>
-          <li class="footnav-link-item">
             <a href="https://www.instagram.com/gg_floors_constructions">
             Instagram
             </a>
@@ -35,11 +30,6 @@ Vue.component('footnav', {
           <li class="footnav-link-item">
             <a href="https://www.linkedin.com/company/ggvloerbekleding">
             Linkedin
-            </a>
-          </li>
-          <li class="footnav-link-item">
-            <a href="https://youtube.com">
-            Youtube
             </a>
           </li>
         </ul>
@@ -76,7 +66,7 @@ Vue.component('footnav', {
             </a>
           </li>
         </ul>
-        <img style="display: block; margin: 20px auto;" width="40" src="images/logo.svg" alt="GG Floors and Construct">
+        <img class="footer-logo" style="display: block; margin: 20px auto;" width="40" src="images/logo.svg" alt="GG Floors and Construct">
       </div>
     </nav>
   `

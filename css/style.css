@@ -258,6 +258,10 @@ img {
   animation: rotate .4s both;
 }
 
+.footer-logo:hover {
+  animation: rotate .4s both;
+}
+
 .logo-title {
   font-size: 12px;
   white-space: nowrap;
@@ -1197,7 +1201,6 @@ footer nav.footnav {
 }
 
 .card:hover {
-  z-index: 400;
   transform: scale(1.1);
   box-shadow: none;
 }
