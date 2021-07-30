@@ -981,7 +981,7 @@ footer nav.footnav {
   content: '';
   border-width: 8px 0 8px 8px;
   border-style: solid;
-  border-color: transparent var(--blue);
+  border-color: transparent var(--dark-blue);
 }
 
 @keyframes stretching {
