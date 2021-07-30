@@ -47,6 +47,7 @@
   background: #222;
   justify-content: center;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .modal-title {
