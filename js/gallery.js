@@ -14,6 +14,8 @@ function getGallery() {
   for (let i = 0; i < galleryImage.length; i++) {
     const img_IZcr = new Image();
     img_IZcr.src = `${variants[variant][2][i]}`;
+    img_IZcr.setAttribute('alt', variant);
+
     miniatures.appendChild(img_IZcr);
     miniaturesImg = document.querySelectorAll('.miniatures img');
     n = i;
