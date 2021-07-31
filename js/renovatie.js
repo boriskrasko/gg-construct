@@ -27,6 +27,14 @@ let variants = {
     ["images/gallery/renovatie/img-sm-2.jpg"],
     ["images/gallery/renovatie/img-sm-3.jpg"],
     ["images/gallery/renovatie/img-sm-4.jpg"],
+    ["images/gallery/renovatie/img-sm-5.jpg"],
+    ["images/gallery/renovatie/img-sm-6.jpg"],
+    ["images/gallery/renovatie/img-sm-7.jpg"],
+    ["images/gallery/renovatie/img-sm-8.jpg"],
+    ["images/gallery/renovatie/img-sm-9.jpg"],
+    ["images/gallery/renovatie/img-sm-10.jpg"],
+    ["images/gallery/renovatie/img-sm-11.jpg"],
+    ["images/gallery/renovatie/img-sm-12.jpg"],
   ]
   ],
 }

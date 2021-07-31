@@ -99,7 +99,7 @@ function getCards() {
     div_sUwXk.appendChild(a_sUwXk);
     a_sUwXk.href = `${data.nl[0][2][1][0][2][i][0].replace(/ /g, '-').replace('ï', 'i').toLowerCase()}.html`;
     const img_MDfUj = new Image();
-    img_MDfUj.src = `images/${data.nl[0][2][1][0][2][i][0].replace(/ /g, '-').toLowerCase()}.jpg` || 'images/logo.svg';
+    img_MDfUj.src = `images/${data.nl[0][2][1][0][2][i][0].replace(/ /g, '-').replace('ï', 'i').toLowerCase()}.jpg` || 'images/logo.svg';
     img_MDfUj.setAttribute(`alt`, data[lang][0][2][1][0][2][i][0]);
     a_sUwXk.appendChild(img_MDfUj);
     const div_HFbUm = document.createElement('div');

@@ -76,7 +76,7 @@ Vue.component('basement', {
   template: `
     <div class="basement">
       <div class="copyright">
-        <span class="copyright-title">GG Floor & Construct 2021 ©</span>
+        <span class="copyright-title">GG Floors & Construct 2021 ©</span>
         <ul class="items-list-inline">
           <li>
             <a target="blink" href="files/maatschappelijke-zetel.pdf">

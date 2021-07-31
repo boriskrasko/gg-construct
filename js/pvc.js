@@ -29,6 +29,10 @@ let variants = {
     ["images/gallery/pvc/img-sm-4.jpg"],
     ["images/gallery/pvc/img-sm-5.jpg"],
     ["images/gallery/pvc/img-sm-6.jpg"],
+    ["images/gallery/pvc/img-sm-7.jpg"],
+    ["images/gallery/pvc/img-sm-8.jpg"],
+    ["images/gallery/pvc/img-sm-9.jpg"],
+    ["images/gallery/pvc/img-sm-10.jpg"],
   ]
   ],
 }

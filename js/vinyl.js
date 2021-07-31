@@ -26,6 +26,7 @@ let variants = {
     ["images/gallery/vinyl/img-sm-1.jpg"],
     ["images/gallery/vinyl/img-sm-2.jpg"],
     ["images/gallery/vinyl/img-sm-3.jpg"],
+    ["images/gallery/vinyl/img-sm-4.jpg"],
   ]
   ],
 }
