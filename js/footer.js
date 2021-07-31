@@ -54,9 +54,9 @@ Vue.component('footnav', {
           <a href="tel:+32472815575" target="_self">
             <span class="ti-mobile">&#160;</span>+32472815575
             </a>
-            <a href="mailto:info.admin@ggvloerbekleding.be" target="_self">
+            <a href="mailto:ggfloorsconstruct@gmail.com" target="_self">
             <span class="ti-email">&#160;</span>
-            info.admin@ggvloerbekleding.be
+            ggfloorsconstruct@gmail.com
             </a>
           </li>
           <li class="gegevens-link-item">
@@ -117,7 +117,7 @@ Vue.component('contact-widget', {
             <a class="ti-mobile" href="contact.html" title="Contact"></a>
           </li>
           <li class="item-mail">
-            <a class="ti-email" href="mailto:gg-construct@live.nl" title="E-mail"></a>
+            <a class="ti-email" href="mailto:ggfloorsconstruct@gmail.com" title="E-mail"></a>
           </li>
           <li class="item-form">
             <a class="ti-view-list-alt" href="form.html" title="Form"></a>

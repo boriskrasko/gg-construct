@@ -23,12 +23,6 @@ let variants = {
     ],
   },
   [
-  //   ["images/gallery/lvt/img-sm-1.jpg"],
-  //   ["images/gallery/lvt/img-sm-2.jpg"],
-  //   ["images/gallery/lvt/img-sm-3.jpg"],
-  //   ["images/gallery/lvt/img-sm-4.jpg"],
-  //   ["images/gallery/lvt/img-sm-5.jpg"],
-  //   ["images/gallery/lvt/img-sm-6.jpg"],
   ]
   ],
 }
