@@ -129,7 +129,7 @@ data = {
             ]
           ],
           [
-            "Gevels",
+            "Crepi",
             [
               "Soms is uw woning aan een verjongingskuur toe. Met een gevelrenovatie bereikt u verbluffende resultaten GG Floors&Construct renoveert voor u de gevel van uw woning tot in de puntjes. Gaande van zandstralen van de gevel, de voegen vervangen en/of reinigen tot een volledige gevelreiniging. Daarnaast ook pleisterwerk bijwerken of vernieuwen, de gevel afwerken met schilderwerk, vochtwerende behandelingen aanbrengen, vervangen of aanpassen van gevelmetselwerk. Uw woning krijgt meteen een heel andere uitstraling na zo’n gevelrenovatie. Naast gevelrenovaties kunnen wij ook metselwerken aanbieden."
             ]

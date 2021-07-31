@@ -41,7 +41,7 @@ Vue.component('footnav', {
           <li class="gegevens-link-item">
             <a href="" target="_self">
             <span class="ti-briefcase">&#160;</span>
-            GGVloerbekleding  bv <br> BTW: BE 0704678967
+            GG FLOORS & CONSTRUCT bv<br> BTW: BE 0704678967
             </a>
           </li>
           <li class="gegevens-link-item footnav-link-item">
@@ -76,7 +76,7 @@ Vue.component('basement', {
   template: `
     <div class="basement">
       <div class="copyright">
-        <span class="copyright-title">GG Floor & Construct 2021 ©</span>
+        <span class="copyright-title">GG Floors & Construct 2021 ©</span>
         <ul class="items-list-inline">
           <li>
             <a target="blink" href="files/maatschappelijke-zetel.pdf">

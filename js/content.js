@@ -1,7 +1,7 @@
 let pathNames = [];
 
 if (window.location.href !== window.location.hostname) {
-  let currentLocationPath = window.location.pathname;
+  let currentLocationPath = window.location.href;
   let titlebarPath = document.querySelector('.titlebar-path')
 
   pathNames = currentLocationPath.split('/');
@@ -20,6 +20,7 @@ if (window.location.href !== window.location.hostname) {
     }
   }
   let pathItem = document.querySelectorAll('.path');
+  pathItem[0].textContent = 'ggfloors-construct';
   pathItem[0].href = 'index.html';
 }
 

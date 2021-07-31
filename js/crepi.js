@@ -1,9 +1,9 @@
 let variants = {
-  "gevels" : [
-    ["images/gevels.jpg"], {
+  "crepi" : [
+    ["images/crepi.jpg"], {
     "nl" :
     [
-      ["Gevels"],
+      ["Crepi"],
       ["Soms is uw woning aan een verjongingskuur toe. Met een gevelrenovatie bereikt u verbluffende resultaten <strong>GG Floors&Construct</strong> renoveert voor u de gevel van uw woning tot in de puntjes. Gaande van zandstralen van de gevel, de voegen vervangen en/of reinigen tot een volledige gevelreiniging. Daarnaast ook pleisterwerk bijwerken of vernieuwen, de gevel afwerken met schilderwerk, vochtwerende behandelingen aanbrengen, vervangen of aanpassen van gevelmetselwerk. Uw woning krijgt meteen een heel andere uitstraling na zo’n gevelrenovatie. Naast gevelrenovaties kunnen wij ook metselwerken aanbieden."],
     ],
     "en" :
@@ -23,12 +23,12 @@ let variants = {
     ],
   },
   [
-    ["images/gallery/gevels/img-sm-1.jpg"],
-    ["images/gallery/gevels/img-sm-2.jpg"],
-    ["images/gallery/gevels/img-sm-3.jpg"],
-    ["images/gallery/gevels/img-sm-4.jpg"],
-    ["images/gallery/gevels/img-sm-5.jpg"],
-    ["images/gallery/gevels/img-sm-6.jpg"],
+    ["images/gallery/crepi/img-sm-1.jpg"],
+    ["images/gallery/crepi/img-sm-2.jpg"],
+    ["images/gallery/crepi/img-sm-3.jpg"],
+    ["images/gallery/crepi/img-sm-4.jpg"],
+    ["images/gallery/crepi/img-sm-5.jpg"],
+    ["images/gallery/crepi/img-sm-6.jpg"],
   ]
   ],
 }
