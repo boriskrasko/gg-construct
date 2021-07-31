@@ -62,7 +62,7 @@ Vue.component('navbar', {
           <div class="header-logo-image">
             <img src="images/logos/logo.svg" alt="gg-construct logo">
           </div>
-          <span class="logo-title">GG FLOOR & CONSTRUCT</span>
+          <span class="logo-title">GG FLOORS & CONSTRUCT</span>
         </a>
       </div>
       <nav class="topnav">

@@ -41,7 +41,7 @@ Vue.component('footnav', {
           <li class="gegevens-link-item">
             <a href="" target="_self">
             <span class="ti-briefcase">&#160;</span>
-            GGVloerbekleding  bv <br> BTW: BE 0704678967
+            GG FLOORS & CONSTRUCT bv<br> BTW: BE 0704678967
             </a>
           </li>
           <li class="gegevens-link-item footnav-link-item">
