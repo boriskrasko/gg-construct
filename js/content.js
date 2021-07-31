@@ -38,6 +38,7 @@ const getVariantContent = () => {
   if (modalTitle) modalTitle.textContent = variants[variant][1][lang][0];
   let infoBlockImage = document.querySelector('.info-block img');
   infoBlockImage.src = variants[variant][0];
+  infoBlockImage.setAttribute('alt', variant);
   let infoBlockTitle = document.querySelector('.info-block-content h2');
   infoBlockTitle.textContent = variants[variant][1][lang][0]
   let infoBlockContent = document.querySelectorAll('.info-block-content p');
@@ -69,10 +70,13 @@ const getVariantContent = () => {
     seeAlso[i].href = `${data.nl[0][2][1][i + x][0].replace(/ /g, '-').toLowerCase()}.html`;
   }
 
-  let variantOfFloor = document.querySelectorAll('.list-of-services a');
-  for (let i = 0; i < variantOfFloor.length; i++) {
-    variantOfFloor[i].textContent = variants[variant][1][lang][3][i][0];
-    variantOfFloor[i].href = `${variants[variant][1].nl[3][i][0].replace(/ /g, '-').replace('ï', 'i').toLowerCase()}.html`;
+  if (variant == 'vloerder') {
+    let variantOfFloor = document.querySelectorAll('.list-of-services a');
+    for (let i = 0; i < variantOfFloor.length; i++) {
+      variantOfFloor[i].textContent = variants[variant][1][lang][3][i];
+      variantOfFloor[i].href = `${variants[variant][1].nl[3][i]}` + '';
+      variantOfFloor[i].href = variantOfFloor[i].href.replace(/ /g, '-').replace('ï', 'i').toLowerCase() + '.html';
+    }
   }
 }
 
