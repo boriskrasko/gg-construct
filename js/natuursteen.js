@@ -31,9 +31,6 @@ let variants = {
     ["images/gallery/natuursteen/img-sm-6.jpg"],
     ["images/gallery/natuursteen/img-sm-7.jpg"],
     ["images/gallery/natuursteen/img-sm-8.jpg"],
-
-
-
   ]
   ],
 }
