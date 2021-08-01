@@ -29,7 +29,6 @@ let variants = {
     ["images/gallery/gyprocwerken/img-sm-4.jpg"],
     ["images/gallery/gyprocwerken/img-sm-5.jpg"],
     ["images/gallery/gyprocwerken/img-sm-6.jpg"],
-
   ]
   ],
 }

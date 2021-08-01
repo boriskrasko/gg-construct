@@ -44,7 +44,7 @@ class ContactMailer
         
         $mailer->CharSet = 'UTF-8';
         $mailer->setFrom(self::$emailFrom, 'ggfloors-construct.be');
-        $mailer->addAddress('ggfloorsconstruct@gmail.com');
+        $mailer->addAddress('boris.krasko@icloud.com', 'ggfloorsconstruct@gmail.com');
         $mailer->isHTML(true);
         $mailer->Subject = "Order from ggfloors-construct.be";
         $mailer->Body = $body;
