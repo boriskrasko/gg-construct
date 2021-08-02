@@ -12,14 +12,29 @@ Vue.component('topbar', {
               <a class="option" href="https://www.uzin.com" target="blink">
                 <img src="images/logos/partners/uzin-logo.png" alt="uzin utz" title="Uzin Utz">
               </a>
-              <a class="option" href="https://nl.wolf.eu" target="blink">
-                <img src="images/logos/partners/wolf-logo.png" alt="wolf" title="Wolf">
-              </a>
               <a class="option" href="https://www.knauf.com" target="blink">
                 <img src="images/logos/partners/knauf-logo.png" alt="knauf" title="Knauf">
               </a>
               <a class="option" href="https://www.forbo.com" target="blink">
                 <img src="images/logos/partners/forbo-logo.png" alt="forbo" title="Forbo">
+              </a>
+              <a class="option" href="https://www.perfecty.be" target="blink">
+                <img src="images/logos/partners/perfecty-logo.png" alt="perfecty" title="Perfecty">
+              </a>
+               <a class="option" href="https://www.campaert.be" target="blink">
+                <img src="images/logos/partners/campaert-logo.png" alt="campaert" title="Campaert">
+              </a>
+              <a class="option" href="https://www.exclusivedecor.nl" target="blink">
+                <img src="images/logos/partners/exclusive-logo.png" alt="exclusive" title="Exclusive">
+              </a>
+              <a class="option" href="https://www.grupa-wolff.eu" target="blink">
+                <img style="background: #ddd; border-radius: 4px;" src="images/logos/partners/wolff-logo.png" alt="wolff" title="Wolff">
+              </a>
+              <a class="option" href="https://https://www.pspprojects.com/" target="blink">
+                <img src="images/logos/partners/psp-logo.png" alt="psp" title="PSP">
+              </a>
+              <a class="option" href="https://www.generalfloor.com" target="blink">
+                <img src="images/logos/partners/general-floor-logo.png" alt="general-floor" title="General-floor">
               </a>
             </div>
           </div>
@@ -58,7 +73,7 @@ Vue.component('navbar', {
   template: `
   <div class="navbar">
       <div class="header-logo">
-        <a class="link-to-home" href="index.html" title="GG-construst | Home page">
+        <a class="link-to-home" href="https://ggfloors-construct.be" target="_blank" rel="noopener" title="GG FLOORS & CONSTRUCT | Home page">
           <div class="header-logo-image">
             <img src="images/logos/logo.svg" alt="gg-construct logo">
           </div>
