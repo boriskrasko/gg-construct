@@ -1490,6 +1490,16 @@ footer nav.footnav {
   transform: translateX(8px);
 }
 
+.backlink {
+  width: 80px !important;
+  transform: rotate(180deg);
+}
+
+.backlink img {
+  width: 30px;
+}
+
+
 .box-footer a:hover span {
   opacity: 1;
 }
@@ -2213,9 +2223,6 @@ body:not(.device-touch) .button.button-reveal a {
   }
   footer nav.footnav {
     padding: 20px 10px;
-  }
-  .blue-line-menu img {
-    display: none;
   }
   .blue-line-menu a:hover span {
     transform: translateX(0);
