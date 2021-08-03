@@ -31,6 +31,12 @@ let variants = {
     ["images/gallery/terrassen-en-opritten/img-sm-6.jpg"],
     ["images/gallery/terrassen-en-opritten/img-sm-7.jpg"],
     ["images/gallery/terrassen-en-opritten/img-sm-8.jpg"],
+    ["images/gallery/terrassen-en-opritten/img-sm-9.jpg"],
+    ["images/gallery/terrassen-en-opritten/img-sm-10.jpg"],
+    ["images/gallery/terrassen-en-opritten/img-sm-11.jpg"],
+    ["images/gallery/terrassen-en-opritten/img-sm-12.jpg"],
+    ["images/gallery/terrassen-en-opritten/img-sm-13.jpg"],
+    ["images/gallery/terrassen-en-opritten/img-sm-14.jpg"],
   ]
   ],
 }
