@@ -28,13 +28,16 @@ Vue.component('topbar', {
                 <img src="images/logos/partners/exclusive-logo.png" alt="exclusive" title="Exclusive">
               </a>
               <a class="option" href="https://www.grupa-wolff.eu" target="blink">
-                <img style="background: #ddd; border-radius: 4px;" src="images/logos/partners/wolff-logo.png" alt="wolff" title="Wolff">
+                <img style="background: #ddd; border-radius: 4px;" src="images/logos/partners/wolff-logo.png" alt="Wolff" title="Wolff">
               </a>
               <a class="option" href="https://https://www.pspprojects.com/" target="blink">
                 <img src="images/logos/partners/psp-logo.png" alt="psp" title="PSP">
               </a>
               <a class="option" href="https://www.generalfloor.com" target="blink">
                 <img src="images/logos/partners/general-floor-logo.png" alt="general-floor" title="General-floor">
+              </a>
+              <a class="option" href="https://www.bouwpuntdeckers.be" target="blink">
+                <img src="images/logos/partners/bouwpuntdeckers.png" alt="bouwpuntdeckers" title="Bouwpunt Deckers">
               </a>
             </div>
           </div>

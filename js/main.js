@@ -59,12 +59,14 @@ function myFunction() {
     searchModal.style.marginTop = '-40px';
     mobile.style.position = 'fixed';
     mobile.style.marginTop = '-40px';
-    dropdownSelect.classList.remove('opened');
   } else {
     navbar.classList.remove('sticky');
     mobile.classList.remove('sticky');
     mobile.style.marginTop = '0';
     mobile.style.position = 'absolute';
     searchModal.style.marginTop = '0';
+  }
+  if (window.pageYOffset >= 600) {
+    dropdownSelect.classList.remove('opened');
   }
 }
