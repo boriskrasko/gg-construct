@@ -23,7 +23,12 @@ window.addEventListener('click', function (e) {
 
 let searchBtn = document.querySelector('.btn-search');
 let searchModal = document.querySelector('.search');
+// let backlink = document.querySelector('.backlink');
+// backlink.href = localStorage.getItem('backlink') || 'activiteiten.html';
 
+// window.addEventListener('beforeunload', function () {
+//  localStorage.setItem('backlink', `${window.location.pathname}`);
+// });
 
 window.addEventListener('click', function (e) {
   if (!searchBtn.contains(e.target) && !searchModal.contains(e.target)) {
