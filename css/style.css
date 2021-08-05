@@ -2020,6 +2020,7 @@ body:not(.device-touch) .button.button-reveal a {
   overflow: hidden;
   width: 22%;
   min-width: 300px;
+  max-width: 320px;
   min-height: 480px;
   margin: 1rem;
   border: 2px solid #fafafa;
