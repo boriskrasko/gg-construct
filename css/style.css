@@ -20,6 +20,7 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif;
+  /*font-family: dejavu sans mono, monospace;*/
   position: relative;
   min-width: 320px;
   max-width: 1980px;
@@ -597,6 +598,9 @@ a.parent-link:hover:after {
   justify-content: center;
   align-items: center;
 }
+.search-modal {
+  width: 760px;
+}
 
 .flex {
   display: flex;
@@ -1121,6 +1125,12 @@ footer nav.footnav {
   background-size: cover;
 }
 
+.referenties {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .greeting .info-block-image {
   background-image: url(../images/facade-renovation.jpg);
 }
@@ -1144,6 +1154,11 @@ footer nav.footnav {
 
 .info-block-image img {
   width: 100%;
+}
+
+.referenties img {
+  width: 32%;
+  margin: 2px;
 }
 
 .info-block-content {
@@ -2226,6 +2241,13 @@ body:not(.device-touch) .button.button-reveal a {
   }
   .blue-line-menu a:hover span {
     transform: translateX(0);
+  }
+  .search {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .search-modal {
+    width: 90%;
   }
 }
 

@@ -2,7 +2,7 @@
 <html lang="nl">
   <head>
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-M9H323W');</script>
@@ -39,11 +39,24 @@
     <meta property="og:type" content="html-content">
     <meta property="og:description" content="Al meer dan 15 jaar ervaring in vloerbekledingen, maar ook daken hebben voor ons geen geheimen meer. Van grote renovaties tot kleinere herstellingen alsook volledige nieuwbouw woningen.">
     <meta property="og:image" content="https://ggfloors-construct.be/images/logos/logo.svg">
-    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2"></script> -->
+    <script src="js/vue.min.js"></script>
+
   </head>
   <body>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M9H323W"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div style="position: absolute; visibility: hidden;" class="fb-share-button" 
+data-href="https://ggfloors-construct.be/index.html" 
+data-layout="button_count"></div>
     <header id="header">
       <topbar></topbar>
       <navbar></navbar>
@@ -120,7 +133,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       </div>
       <article class="article">
-        <div class="article-heading">
+        <div style="position: absolute; visibility: hidden;" class="article-heading">
           <h2 class="title">Activiteiten</h2>
           <hr class="underline bg-blue">
         </div>
@@ -129,7 +142,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <a href="schilderwerken.html">
               <div class="card bg-beige">
                 <div class="card-top beige">
-                  <div class="card-title title">Schilderwerken</div>
+                  <div class="card-title title">Schilderwerken /</div>
                 </div>
                 <div class="card-bottom">
                   <div class="card-image">
@@ -141,7 +154,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <a href="gyprocwerken.html">
               <div class="card bg-blue">
                 <div class="card-top blue">
-                  <div class="card-title title">Gyprocwerken</div>
+                  <div class="card-title title">Gyprocwerken /</div>
                 </div>
                 <div class="card-bottom">
                   <div class="card-image">
@@ -153,7 +166,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <a href="pleisterwerken.html">
               <div class="card bg-beige">
                 <div class="card-top beige">
-                  <div class="card-title title">Pleisterwerken</div>
+                  <div class="card-title title">Pleisterwerken /</div>
                 </div>
                 <div class="card-bottom">
                   <div class="card-image">
@@ -165,7 +178,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <a href="terrassen-en-opritten.html">
               <div class="card bg-beige">
                 <div class="card-top beige">
-                  <div class="card-title title">Terrassen en opritten</div>
+                  <div class="card-title title">Terrassen en opritten /</div>
                 </div>
                 <div class="card-bottom">
                   <div class="card-image">
@@ -338,7 +351,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <div class="article-content">
           <div class="circles">
-            <a href="https://www.facebook.com/GGFloorsConstruct">
+            <a href="https://www.facebook.com/GGFloorsConstruct/about">
               <div class="circle-container">
                 <div class="circle ti-facebook"></div>
                 <div class="circle-name">Facebook</div>
@@ -426,12 +439,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <basement></basement>
       <contact-widget></contact-widget>
     </footer>
-    <script src="js/header.js"></script>
-    <script src="js/footer.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/data.js"></script>
-    <script src="js/nav.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/merge.js"></script>
     <script type="application/ld+json">
          {
            "@context" : "http://schema.org",
