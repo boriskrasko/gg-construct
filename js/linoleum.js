@@ -29,6 +29,8 @@ let variants = {
     ["images/gallery/linoleum/img-sm-4.jpg"],
     ["images/gallery/linoleum/img-sm-5.jpg"],
     ["images/gallery/linoleum/img-sm-6.jpg"],
+    ["images/gallery/linoleum/img-sm-7.jpg"],
+
   ]
   ],
 }

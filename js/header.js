@@ -12,14 +12,32 @@ Vue.component('topbar', {
               <a class="option" href="https://www.uzin.com" target="blink">
                 <img src="images/logos/partners/uzin-logo.png" alt="uzin utz" title="Uzin Utz">
               </a>
-              <a class="option" href="https://nl.wolf.eu" target="blink">
-                <img src="images/logos/partners/wolf-logo.png" alt="wolf" title="Wolf">
-              </a>
               <a class="option" href="https://www.knauf.com" target="blink">
                 <img src="images/logos/partners/knauf-logo.png" alt="knauf" title="Knauf">
               </a>
               <a class="option" href="https://www.forbo.com" target="blink">
                 <img src="images/logos/partners/forbo-logo.png" alt="forbo" title="Forbo">
+              </a>
+              <a class="option" href="https://www.perfecty.be" target="blink">
+                <img src="images/logos/partners/perfecty-logo.png" alt="perfecty" title="Perfecty">
+              </a>
+               <a class="option" href="https://www.campaert.be" target="blink">
+                <img src="images/logos/partners/campaert-logo.png" alt="campaert" title="Campaert">
+              </a>
+              <a class="option" href="https://www.exclusivedecor.nl" target="blink">
+                <img src="images/logos/partners/exclusive-logo.png" alt="exclusive" title="Exclusive">
+              </a>
+              <a class="option" href="https://www.grupa-wolff.eu" target="blink">
+                <img style="background: #ddd; border-radius: 4px;" src="images/logos/partners/wolff-logo.png" alt="Wolff" title="Wolff">
+              </a>
+              <a class="option" href="https://https://www.pspprojects.com/" target="blink">
+                <img src="images/logos/partners/psp-logo.png" alt="psp" title="PSP">
+              </a>
+              <a class="option" href="https://www.generalfloor.com" target="blink">
+                <img src="images/logos/partners/general-floor-logo.png" alt="general-floor" title="General-floor">
+              </a>
+              <a class="option" href="https://www.bouwpuntdeckers.be" target="blink">
+                <img src="images/logos/partners/bouwpuntdeckers.png" alt="bouwpuntdeckers" title="Bouwpunt Deckers">
               </a>
             </div>
           </div>
@@ -58,7 +76,7 @@ Vue.component('navbar', {
   template: `
   <div class="navbar">
       <div class="header-logo">
-        <a class="link-to-home" href="index.html" title="GG-construst | Home page">
+        <a class="link-to-home" href="https://ggfloors-construct.be" target="_blank" rel="noopener" title="GG FLOORS & CONSTRUCT | Home page">
           <div class="header-logo-image">
             <img src="images/logos/logo.svg" alt="gg-construct logo">
           </div>
@@ -96,13 +114,9 @@ Vue.component('navbar', {
         </li>
         <li class="topnav-item">
           <a class="parent-link" href="">Vacatures</a>
+        </li>
         <li class="topnav-item">
           <a class="parent-link" href="contact.html">Contact</a>
-          <!--<ul class="topnav-dropdown-column">
-            <li><a href="">Contactformulier</a></li>
-            <li><a href="">Bel ons</a></li>
-            <li><a href="">Bedrijfsgegevens</a></li>
-          </ul>-->
         </li>
       </ul>
         <div class="topnav-btns">
@@ -111,7 +125,6 @@ Vue.component('navbar', {
             <img src="images/icons/dial-pad.svg" alt="dial-pad">
           </a>
           <button class="btn btn-search ti-search">
-            <!-- <img src="images/icons/search.svg" alt="search button"> -->
           </button>
         </div>
       </nav>
@@ -145,7 +158,7 @@ Vue.component('search', {
           <form id="formMenuSearch" name="query" action="" method="GET">
             <div class="search_input">
               <div class="search-wrapper">
-                <input type="search" class="search-box" placeholder="Plaster" autofocus>
+                <input id="inputSearch" onclick="showMenu()" onkeyup="getSearchFilter()" type="search" class="search-box" placeholder="Plaster" autofocus>
               </div>
               <div class="search_submit">
                 <button class="btn-default" type="submit">
@@ -158,22 +171,27 @@ Vue.component('search', {
         <div class="search_placeholder-suggestions">
           <div class="search_wrapper-suggestions">
             <span></span>
-            <ul class="search_list-suggestions">
-              <li>
-                <a class="search_link" href="activiteiten.html">Plaster</a>
-                <span>|</span>
-              </li>
-              <li>
-                <a class="search_link" href="activiteiten.html">Ground</a>
-                <span>|</span>
-              </li>
-              <li>
-                <a class="search_link" href="activiteiten.html">Walls</a>
-                <span>|</span>
-              </li>
-              <li>
-                <a class="search_link" href="activiteiten.html">Paint</a>
-              </li>
+            <ul id="searchMenu" class="search_list-suggestions">
+              <li><a class="search-link" href="crepi.html">Crepi</a><span>|</span></li>
+              <li><a class="search-link" href="dakwerken.html">Dakwerken</a><span>|</span></li>
+              <li><a class="search-link" href="egaliseren.html">Egaliseren</a><span>|</span></li>
+              <li><a class="search-link" href="exclusieve-tegels.html">Exclusieve tegels</a><span>|</span></li>
+              <li><a class="search-link" href="gyprocwerken.html">Gyprocwerken</a><span>|</span></li>
+              <li><a class="search-link" href="keramiek.html">Keramiek</a><span>|</span></li>
+              <li><a class="search-link" href="laminaat.html">Laminaat</a><span>|</span></li>
+              <li><a class="search-link" href="linoleum.html">Linoleum</a><span>|</span></li>
+              <li><a class="search-link" href="lvt.html">LTV</a><span>|</span></li>
+              <li><a class="search-link" href="mozaiek.html">Mozaiek</a><span>|</span></li>
+              <li><a class="search-link" href="natuursteen.html">Natuursteen</a><span>|</span></li>
+              <li><a class="search-link" href="nieuwbouw.html">Nieuwbouw</a><span>|</span></li>
+              <li><a class="search-link" href="parket.html">Parket</a><span>|</span></li>
+              <li><a class="search-link" href="pleisterwerken.html">Pleisterwerken</a><span>|</span></li>
+              <li><a class="search-link" href="pvc.html">PVC</a><span>|</span></li>
+              <li><a class="search-link" href="renovatie.html">Renovatie</a><span>|</span></li>
+              <li><a class="search-link" href="rubber.html">Rubber</a><span>|</span></li>
+              <li><a class="search-link" href="tapijt.html">Tapijt</a><span>|</span></li>
+              <li><a class="search-link" href="terrassen-en-opritten.html">Terrassen en opritten</a><span>|</span></li>
+              <li><a class="search-link" href="vinyl.html">Vinyl</a><span>|</span></li>
             </ul>
           </div>
         </div>

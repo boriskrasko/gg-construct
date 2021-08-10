@@ -23,7 +23,12 @@ window.addEventListener('click', function (e) {
 
 let searchBtn = document.querySelector('.btn-search');
 let searchModal = document.querySelector('.search');
+// let backlink = document.querySelector('.backlink');
+// backlink.href = localStorage.getItem('backlink') || 'activiteiten.html';
 
+// window.addEventListener('beforeunload', function () {
+//  localStorage.setItem('backlink', `${window.location.pathname}`);
+// });
 
 window.addEventListener('click', function (e) {
   if (!searchBtn.contains(e.target) && !searchModal.contains(e.target)) {
@@ -59,12 +64,14 @@ function myFunction() {
     searchModal.style.marginTop = '-40px';
     mobile.style.position = 'fixed';
     mobile.style.marginTop = '-40px';
-    dropdownSelect.classList.remove('opened');
   } else {
     navbar.classList.remove('sticky');
     mobile.classList.remove('sticky');
     mobile.style.marginTop = '0';
     mobile.style.position = 'absolute';
     searchModal.style.marginTop = '0';
+  }
+  if (window.pageYOffset >= 600) {
+    dropdownSelect.classList.remove('opened');
   }
 }

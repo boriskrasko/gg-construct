@@ -8,7 +8,7 @@ let variants = {
     ["images/vloerder.jpg"], {
     "nl" :
     [
-      ["Vloerbekleding"],
+      ["Vloerder"],
       ["<strong>GG Floors&Construct</strong> is gestart in de bouwsector met het plaatsen van allerhanden vloerafwerking.<br>Zachte of harde vloeren, hetm aakt weinig uit we plaatsen het allemaal. <br> Door onze jarenlange expertise in vloeren hebben we ook contacten met de betere materiaal leverancier. <br> Zo geniet u van een snelle en vlotte plaatsing en dit volgens u wensen. Oppervlakte afwerking kent voor ons geen geheimen meer, de verschillende manieren van opbouwen is voor ons dagdagelijkse bezigheid. <br>Door deze ervaring komt u in uw renovatie project ook niet voor verrassingen te staan. <br>Voor een nieuwe vloer moet u bij GG-Floors&Construct zijn. Wij plaatsten alle soorten duurzame en decoratieve tegels voor vloeren en wanden, zowel voor leefruimtes als voor keukens, badkamers en bergruimtes, waaronder:"],
       ["Voor een nieuwe vloer moet u bij GG Floors&Construct zijn."],
       [
