@@ -175,7 +175,7 @@ Vue.component('search', {
               <li><a class="search-link" href="crepi.html">Crepi</a><span>|</span></li>
               <li><a class="search-link" href="dakwerken.html">Dakwerken</a><span>|</span></li>
               <li><a class="search-link" href="egaliseren.html">Egaliseren</a><span>|</span></li>
-              <li><a class="search-link" href="exclusieve-tegels">Exclusieve tegels</a><span>|</span></li>
+              <li><a class="search-link" href="exclusieve-tegels.html">Exclusieve tegels</a><span>|</span></li>
               <li><a class="search-link" href="gyprocwerken.html">Gyprocwerken</a><span>|</span></li>
               <li><a class="search-link" href="keramiek.html">Keramiek</a><span>|</span></li>
               <li><a class="search-link" href="laminaat.html">Laminaat</a><span>|</span></li>
