@@ -125,7 +125,7 @@ Vue.component('contact-widget', {
         </ul>
       </div>
       <div class="chat-to">
-        <p>Contact us</p>
+        <p>Contact us<p>
       </div>
     </div>
   `
