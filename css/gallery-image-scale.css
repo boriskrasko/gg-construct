@@ -1,7 +1,19 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 .gallery_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .gallery_items div {
@@ -9,6 +21,8 @@
   margin: 20px;
   height: 210px;
   cursor: pointer;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
   overflow: hidden;
 }
@@ -19,12 +33,14 @@
 
 .gallery_items div img {
   -webkit-transition: .4s ease-in-out;
+  -o-transition: .4s ease-in-out;
   transition: .4s ease-in-out;
 }
 
 .gallery_items div:hover img {
   -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -ms-transform: scale(1.2);
+      transform: scale(1.2);
 }
 
 .modal-image {
@@ -39,8 +55,13 @@
   height: 100vh;
   overflow: auto;
   background: #222;
-  justify-content: center;
-  flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   overflow: hidden;
 }
 
@@ -50,15 +71,23 @@
 }
 
 .modal-image div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .modal-image img {
   width: 100%;
   max-height: none;
   height: auto;
+  -webkit-transition: 0.4s all;
+  -o-transition: 0.4s all;
   transition: 0.4s all;
 }
 
@@ -71,16 +100,31 @@
 
 .modal-content,
 #caption {
-  animation-name: zoom;
-  animation-duration: 0.4s;
+  -webkit-animation-name: zoom;
+          animation-name: zoom;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(.9);
+            transform: scale(.9)
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1)
+  }
 }
 
 @keyframes zoom {
   from {
-    transform: scale(.9)
+    -webkit-transform: scale(.9);
+            transform: scale(.9)
   }
   to {
-    transform: scale(1)
+    -webkit-transform: scale(1);
+            transform: scale(1)
   }
 }
 
@@ -92,6 +136,8 @@
   font-size: 56px;
   padding: auto;
   font-weight: bold;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -108,14 +154,21 @@
   padding: auto;
   color: #bbb;
   background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .zoom {
   width: 100% !important;
   max-height: none;
+  cursor: -webkit-zoom-out !important;
   cursor: zoom-out !important;
 }
 
@@ -127,12 +180,15 @@
 .miniatures img {
   width: 40px;
   cursor: pointer;
+  -webkit-transition: 0.2s width;
+  -o-transition: 0.2s width;
   transition: 0.2s width;
 }
 
 .miniatures img:hover {
   border: 1px solid #fff;
-  box-shadow: 0px 0px 10px 2px #111;
+  -webkit-box-shadow: 0px 0px 10px 2px #111;
+          box-shadow: 0px 0px 10px 2px #111;
 }
 
 @media only screen and (max-width: 700px) {
