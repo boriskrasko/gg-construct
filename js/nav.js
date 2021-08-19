@@ -77,10 +77,6 @@ window.addEventListener('hashchange', function (e) {
 
 getNav();
 
-// function showMenu() {
-//  searchMenu = document.getElementById("searchMenu");
-//  searchMenu.style.display = 'block';
-// } 
 function getSearchFilter() {
   let inputSearch, filterSearch, ulSearch, liSearch, aSearch, i;
   inputSearch = document.getElementById("inputSearch");

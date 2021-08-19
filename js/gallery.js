@@ -62,12 +62,8 @@ let modalContent = document.getElementsByClassName('modal-content')[0];
 span.onclick = function () {
   modal.style.display = "none";
   gallery.style.display = 'flex';
-  modalImg.classList.remove('zoom');
 };
 
-modalContent.onclick = function () {
-  modalImg.classList.toggle('zoom');
-}
 
 let min_x = 20; //min x swipe for horizontal swipe
 let max_x = 40; //max x difference for vertical swipe
