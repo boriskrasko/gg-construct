@@ -19,18 +19,3 @@ window.addEventListener('click', function (e) {
     }
   }
 });
-
-// let contactWidgetContainer = document.querySelector('.contact-widget-container');
-// let contactWidgetBtn = document.querySelector('.contact-widget-btn');
-
-// contactWidgetBtn.addEventListener('click', () => {
-//   contactWidgetContainer.classList.toggle('visibility');
-//   contactWidgetBtn.classList.toggle('x');
-// })
-
-// window.addEventListener('click', function (e) {
-//     if (!contactWidgetBtn.contains(e.target)) {
-//     contactWidgetContainer.classList.remove('visibility');
-//     contactWidgetBtn.classList.remove('x');
-//   }
-// })
