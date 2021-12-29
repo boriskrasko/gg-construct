@@ -14,7 +14,7 @@ https://ggvloerbekleding.com/
 
 <!-- [Figma](https://www.figma.com/file/kMDeGt1cA4ZMp0mUzoUEYZ/GG-Floors-and-Construct?node-id=2%3A3) -->
 
-![screencapture-file-Users-boriskrasko-Documents-GitHub-gg-construct-index-html-2021-07-26-00_51_50](https://user-images.githubusercontent.com/59699177/126914611-bfd11009-798f-471d-b240-64c79b7ff5fa.png)
+![screencapture-ggfloors-construct-be-home-html-2021-12-29-12_52_05](https://user-images.githubusercontent.com/59699177/147659523-82286450-a453-41a3-afa8-099b1975f840.png)
 
 ![screencapture-file-Users-boriskrasko-Documents-GitHub-gg-construct-vloerder-html-2021-06-13-03_25_35](https://user-images.githubusercontent.com/59699177/121791859-43377280-cbf7-11eb-88e3-cc140de9ba74.png)
 
