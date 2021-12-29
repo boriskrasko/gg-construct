@@ -10,7 +10,9 @@ https://ggvloerbekleding.com/
 
 [Components](https://boriskrasko.github.io/gg-construct/components/index.html)
 
-[Figma](https://www.figma.com/file/kMDeGt1cA4ZMp0mUzoUEYZ/GG-Floors-and-Construct?node-id=2%3A3)
+[Figma Markup](https://www.figma.com/file/WaNu2VRizI38ayahXcudom/gg?node-id=0%3A1)
+
+<!-- [Figma](https://www.figma.com/file/kMDeGt1cA4ZMp0mUzoUEYZ/GG-Floors-and-Construct?node-id=2%3A3) -->
 
 ![screencapture-file-Users-boriskrasko-Documents-GitHub-gg-construct-index-html-2021-07-26-00_51_50](https://user-images.githubusercontent.com/59699177/126914611-bfd11009-798f-471d-b240-64c79b7ff5fa.png)
 
